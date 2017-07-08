@@ -6,7 +6,7 @@
 [![bitHound Code](https://img.shields.io/bithound/code/github/joshferrell/hapi-maily.svg?style=flat-square)](https://www.bithound.io/github/joshferrell/hapi-maily)
 [![Docker Pulls](https://img.shields.io/docker/pulls/jferrell/hapi-maily.svg?style=flat-square)](https://hub.docker.com/r/jferrell/hapi-maily/)
 
-![Ready for use](https://img.shields.io/badge/ready%20for%20use-no-red.svg?style=flat-square)
+[![Ready for use](https://img.shields.io/badge/ready%20for%20use-no-red.svg?style=flat-square)](https://github.com/joshferrell/hapi-maily/milestone/1)
 
 An email service that generates html email templates using [mjml](https://mjml.io/), then sends the emails to the requested user.
 
