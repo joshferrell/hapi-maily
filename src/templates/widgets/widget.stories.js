@@ -13,7 +13,8 @@ import {
     Button,
     FieldValue,
     Footer,
-    Header
+    Header,
+    PreHeader
 } from './index';
 
 const colors = {
@@ -92,5 +93,14 @@ storiesOf('Widgets', module)
             renderMJML()(
                 <Header title={text('Header Title', 'Example Title')} />
             )
+        )
+    )
+    .addWithInfo('PreHeader',
+        `Email preheader that displays text before the rendered content
+        that should be placed as the first thing in rendered email.
+        See [preview / placeholder text](https://litmus.com/blog/the-ultimate-guide-to-preview-text-support)
+        guide for more information.`,
+        () => (
+            <PreHeader value="test" />
         )
     );
