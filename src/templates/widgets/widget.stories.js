@@ -14,7 +14,8 @@ import {
     FieldValue,
     Footer,
     Header,
-    PreHeader
+    PreHeader,
+    ViewAction
 } from './index';
 
 const colors = {
@@ -101,6 +102,17 @@ storiesOf('Widgets', module)
         See [preview / placeholder text](https://litmus.com/blog/the-ultimate-guide-to-preview-text-support)
         guide for more information.`,
         () => (
-            <PreHeader value="test" />
+            renderMJML()(
+                <PreHeader value="test" />
+            )
+        )
+    )
+    .addWithInfo('email preheader',
+        `GMail button that is included in the inbox that submits some action.
+        [Read More](https://developers.google.com/gmail/markup/reference/go-to-action#view_action)`,
+        () => (
+            renderMJML()(
+                <ViewAction url="http://google.com" name="Submit Search" description="Simple description about action" />
+            )
         )
     );
