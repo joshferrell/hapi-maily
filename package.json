@@ -18,7 +18,9 @@
     "coverage": "jest --coverage",
     "build": "babel src -d lib --copy-files",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "deploy:local": "docker-compose up",
+    "deploy:remote": "docker build -t email-server . && docker tag email-server jferrell/hapi-maily && docker push jferrell/hapi-maily"
   },
   "devDependencies": {
     "@storybook/addon-info": "^3.1.6",
