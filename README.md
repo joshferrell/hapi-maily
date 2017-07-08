@@ -3,6 +3,7 @@
 [![Join the chat at https://gitter.im/hapi-maily/Lobby](https://img.shields.io/gitter/room/nwjs/nw.js.svg?style=flat-square)](https://gitter.im/hapi-maily/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://img.shields.io/travis/joshferrell/swagger-portal-server/master.svg?style=flat-square)](https://travis-ci.org/joshferrell/swagger-portal-server)
 [![Coverage Status](https://img.shields.io/coveralls/joshferrell/hapi-maily/master.svg?style=flat-square)](https://coveralls.io/github/joshferrell/hapi-maily?branch=master)
+![Ready for use](https://img.shields.io/badge/ready%20for%20use-no%20%3A(-red.svg?style=flat-square)
 
 An email service that generates html email templates using [mjml](https://mjml.io/), then sends the emails to the requested user.
 
