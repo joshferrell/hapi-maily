@@ -40,6 +40,7 @@ export const createSwaggerPlugin = isDevEnvironment => ({
     register: require('hapi-swagger'),
     options: {
         swaggerUI: isDevEnvironment,
+        host: process.env.SERVER_URL,
         info: {
             title: 'Email Service Documentation',
             description: 'This application is used to generate email templates for sending and send the emails to requested users.',
@@ -53,7 +54,6 @@ export const createSwaggerPlugin = isDevEnvironment => ({
             }
         },
         grouping: 'tags',
-        schemes: isDevEnvironment ? ['http'] : ['https'],
-        host: `${process.env.SERVER_HOST}:${process.env.SERVER_PORT}`
+        schemes: isDevEnvironment ? ['http'] : ['https']
     }
 });
