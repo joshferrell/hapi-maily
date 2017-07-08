@@ -57,3 +57,7 @@ The standard is keeping coverage above or at yellow status.
 ### `yarn deploy`
 Builds a local docker container that can be accessed based on the environment
 variables locally.
+
+## Build Your Own Components
+
+To build your own components, check out the [documentation for mjml](https://mjml.io/documentation/)
