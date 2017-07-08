@@ -1,5 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`healthcheck methods healthcheck handler health dependency status handler should throw 500 if a fatal error occurs 1`] = `
+Array [
+  [Error: Internal Server Error],
+]
+`;
+
 exports[`healthcheck methods healthcheck routes should return an array of routes for health check 1`] = `
 Array [
   Object {
