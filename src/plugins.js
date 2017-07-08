@@ -1,4 +1,6 @@
 import bunyan from 'bunyan';
+import dotenv from 'dotenv-safe';
+dotenv.load();
 
 require('pkginfo')(module, 'version', 'author');
 

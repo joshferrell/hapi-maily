@@ -1,9 +1,12 @@
 import Boom from 'boom';
-import { checkSmtpStatus } from './health.service';
+import { checkSMTPStatus } from './health.service';
 
 export const healthStatus = (request, reply) => reply({
     status: 'OK'
 });
 
-export const createDependencyHandler = (checkMailServer = checkSmtpStatus) => (request, reply) =>
-    reply(Boom.notImplemented());
+export const createDependencyHandler = (checkMailServer = checkSMTPStatus) =>
+    (request, reply) => {
+        checkMailServer();
+        return reply(Boom.notImplemented());
+    };

@@ -7,7 +7,6 @@ dotenv.load();
 
 import { log, good, createSwaggerPlugin } from './plugins';
 
-import documentationRoutes from './documentation/documentation.routes';
 import healthRoutes from './health/health.routes';
 
 const swagger = createSwaggerPlugin(process.env.SERVER_DEVELOPMENT === 'true');
@@ -25,8 +24,7 @@ server.register([good, swagger, inert, vision], (error) => {
     }
 
     server.route([
-        ...healthRoutes,
-        ...documentationRoutes
+        ...healthRoutes
     ]);
 
     server.start((err) => {
