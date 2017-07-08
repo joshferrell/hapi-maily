@@ -54,7 +54,6 @@ export const createSwaggerPlugin = isDevEnvironment => ({
             }
         },
         grouping: 'tags',
-        schemes: isDevEnvironment ? ['http'] : ['https'],
-        host: `${process.env.SERVER_HOST}:${process.env.SERVER_PORT}`
+        schemes: isDevEnvironment ? ['http'] : ['https']
     }
 });
