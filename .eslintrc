@@ -1,0 +1,23 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true,
+        "mocha": true,
+        "jest": true
+    },
+    "extends": "airbnb",
+    "parser": "babel-eslint",
+    "rules": {
+        "indent": [2, 4],
+        "react/jsx-indent": [2, 4],
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "comma-dangle": ["error", "never"],
+        "jsx-a11y/no-redundant-roles": 2,
+        "react/jsx-indent-props": [1, 2],
+        "no-confusing-arrow": ["error", {"allowParens": true}],
+        "import/no-duplicates": 0,
+        "import/prefer-default-export": 1,
+        "linebreak-style": 0
+    }
+}
