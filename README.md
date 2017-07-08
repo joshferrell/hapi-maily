@@ -57,7 +57,7 @@ This application follows the airbnb linting styleguide with minor changes.
 Runs the jest coverage command, checks the current code coverage of the application.
 The standard is keeping coverage above or at yellow status.
 
-### `yarn deploy`
+### `yarn deploy:local`
 Builds a local docker container that can be accessed based on the environment
 variables locally.
 

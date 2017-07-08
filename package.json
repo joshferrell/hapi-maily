@@ -16,9 +16,11 @@
     "start": "SERVER_DEVELOPMENT=true nodemon src/server.js --exec babel-node | bunyan",
     "lint": "eslint ./src/**/*.js",
     "coverage": "jest --coverage",
-    "build": "build src -d lib --copy-files",
+    "build": "babel src -d lib --copy-files",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "deploy:local": "docker-compose up",
+    "deploy:remote": "docker build -t email-server . && docker tag email-server jferrell/hapi-maily && docker push jferrell/hapi-maily"
   },
   "devDependencies": {
     "@storybook/addon-info": "^3.1.6",

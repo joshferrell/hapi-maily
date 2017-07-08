@@ -62,3 +62,6 @@ package-lock.json
 
 # wallaby config
 wallaby.conf.js
+
+# built babel directory
+lib
