@@ -3,6 +3,9 @@
 [![Join the chat at https://gitter.im/hapi-maily/Lobby](https://img.shields.io/gitter/room/nwjs/nw.js.svg?style=flat-square)](https://gitter.im/hapi-maily/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://img.shields.io/travis/joshferrell/hapi-maily/master.svg?style=flat-square)](https://travis-ci.org/joshferrell/hapi-maily)
 [![Coverage Status](https://img.shields.io/coveralls/joshferrell/hapi-maily/master.svg?style=flat-square)](https://coveralls.io/github/joshferrell/hapi-maily?branch=master)
+[![bitHound Code](https://img.shields.io/bithound/code/github/joshferrell/hapi-maily.svg?style=flat-square)](https://www.bithound.io/github/joshferrell/hapi-maily)
+[![Docker Pulls](https://img.shields.io/docker/pulls/jferrell/hapi-maily.svg?style=flat-square)](https://hub.docker.com/r/jferrell/hapi-maily/)
+
 ![Ready for use](https://img.shields.io/badge/ready%20for%20use-no-red.svg?style=flat-square)
 
 An email service that generates html email templates using [mjml](https://mjml.io/), then sends the emails to the requested user.
@@ -57,3 +60,7 @@ The standard is keeping coverage above or at yellow status.
 ### `yarn deploy`
 Builds a local docker container that can be accessed based on the environment
 variables locally.
+
+## Build Your Own Components
+
+To build your own components, check out the [documentation for mjml](https://mjml.io/documentation/)
