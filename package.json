@@ -5,13 +5,14 @@
   "main": "index.js",
   "repository": "git@github.com:joshferrell/hapi-maily.git",
   "author": {
-      "name": "Josh Ferrell",
-      "url": "https://gitter.im/hapi-maily/Lobby"
+    "name": "Josh Ferrell",
+    "url": "https://gitter.im/hapi-maily/Lobby"
   },
   "license": "MIT",
   "scripts": {
     "test:watch": "jest --watch",
     "test": "jest",
+    "test:ci": "jest --coverage && cat ./coverage/lcov.info | coveralls",
     "start": "SERVER_DEVELOPMENT=true nodemon src/server.js --exec babel-node | bunyan",
     "lint": "eslint ./src/**/*.js",
     "coverage": "jest --coverage",
@@ -23,6 +24,7 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
+    "coveralls": "^2.13.1",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^15.0.2",
     "eslint-plugin-import": "^2.7.0",
