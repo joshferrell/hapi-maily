@@ -1,4 +1,4 @@
-# ![Hapi Maily](http://i.imgur.com/1oqDuSH.png?1) Hapi Maily
+# ![Hapi Maily](http://i.imgur.com/Ko5GT7a.png?1) Hapi Maily
 
 [![Join the chat at https://gitter.im/hapi-maily/Lobby](https://img.shields.io/gitter/room/nwjs/nw.js.svg?style=flat-square)](https://gitter.im/hapi-maily/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://img.shields.io/travis/joshferrell/swagger-portal-server/master.svg?style=flat-square)](https://travis-ci.org/joshferrell/swagger-portal-server)
