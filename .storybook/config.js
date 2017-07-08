@@ -12,3 +12,17 @@ function loadStories() {
 }
 
 configure(loadStories, module);
+
+
+// TODO: This is a temp fix for addon-info, a pending pull request will fix this soon
+/* eslint-disable import/first */
+import PropVal from '@storybook/addon-info/dist/components/PropVal';
+import PropTypes from 'prop-types';
+/* eslint-enable import/first */
+
+PropVal.propTypes = {
+    ...PropVal.propTypes,
+    maxPropObjectKeys: PropTypes.number,
+    maxPropArrayLength: PropTypes.number,
+    maxPropStringLength: PropTypes.number
+};

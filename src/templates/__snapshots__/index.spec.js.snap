@@ -1,0 +1,2505 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Views Demo Template 1`] = `
+<span>
+  <div>
+    <div
+      style={
+        Object {
+          "position": "relative",
+          "zIndex": 0,
+        }
+      }
+    >
+      <div
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<!doctype html><html xmlns=\\"http://www.w3.org/1999/xhtml\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" xmlns:o=\\"urn:schemas-microsoft-com:office:office\\"><head>
+            <title></title>
+            <!--[if !mso]><!-- -->
+            <meta http-equiv=\\"X-UA-Compatible\\" content=\\"IE=edge\\">
+            <!--<![endif]-->
+          <meta http-equiv=\\"Content-Type\\" content=\\"text/html; charset=UTF-8\\">
+          <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1.0\\">
+          <style type=\\"text/css\\">
+            #outlook a { padding: 0; }
+            .ReadMsgBody { width: 100%; }
+            .ExternalClass { width: 100%; }
+            .ExternalClass * { line-height:100%; }
+            body { margin: 0; padding: 0; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+            table, td { border-collapse:collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+            img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; }
+            p { display: block; margin: 13px 0; }
+          </style>
+          <!--[if !mso]><!-->
+          <style type=\\"text/css\\">
+            @media only screen and (max-width:480px) {
+              @-ms-viewport { width:320px; }
+              @viewport { width:320px; }
+            }
+          </style>
+          <!--<![endif]-->
+          <!--[if mso]>
+          <xml>
+            <o:OfficeDocumentSettings>
+              <o:AllowPNG/>
+              <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+          </xml>
+          <![endif]-->
+          <!--[if lte mso 11]>
+          <style type=\\"text/css\\">
+            .outlook-group-fix {
+              width:100% !important;
+            }
+          </style>
+          <![endif]-->
+          <style type=\\"text/css\\">
+                           .display-none {
+                               display: none !important;
+                           }
+                       </style><style type=\\"text/css\\">
+            @media only screen and (min-width:480px) {
+              .mj-column-per-100 { width:100%!important; }
+          .mj-column-per-50 { width:50%!important; }
+            }
+          </style>
+          </head>
+          <body>
+            
+            <div class=\\"mj-container\\"><!--[if mso | IE]>
+                <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"600\\" align=\\"center\\" style=\\"width:600px;\\">
+                  <tr>
+                    <td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\">
+                <![endif]--><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"font-size:0px;width:100%;\\" border=\\"0\\"><tbody><tr><td><div style=\\"margin:0px auto;max-width:600px;\\"><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"font-size:0px;width:100%;\\" align=\\"center\\" border=\\"0\\"><tbody><tr><td style=\\"text-align:left;vertical-align:top;direction:ltr;font-size:0px;padding:20px 0px;\\"><!--[if mso | IE]>
+                <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
+                  <tr>
+                    <td style=\\"width:600px;\\">
+                <![endif]--><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"font-size:0px;width:100%;\\" border=\\"0\\"><tbody><tr><td><div style=\\"margin:0px auto;max-width:600px;\\"><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"font-size:0px;width:100%;\\" align=\\"center\\" border=\\"0\\"><tbody><tr><td style=\\"text-align:center;vertical-align:top;direction:ltr;font-size:0px;padding:0px;\\"><!--[if mso | IE]>
+                <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
+                  <tr>
+                    <td style=\\"vertical-align:top;width:600px;\\">
+                <![endif]--><div class=\\"mj-column-per-100 outlook-group-fix\\" style=\\"vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;\\"><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\" border=\\"0\\"><tbody><tr><td style=\\"word-wrap:break-word;font-size:0px;padding:0px;\\" align=\\"center\\"><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"border-collapse:collapse;border-spacing:0px;\\" align=\\"center\\" border=\\"0\\"><tbody><tr><td style=\\"width:600px;\\"><img alt=\\"Bill Murray\\" title=\\"\\" height=\\"auto\\" src=\\"http://www.fillmurray.com/800/218\\" style=\\"border:none;border-radius:0px;display:block;font-size:13px;outline:none;text-decoration:none;width:100%;height:auto;\\" width=\\"600\\"></td></tr></tbody></table></td></tr></tbody></table></div><!--[if mso | IE]>
+                </td><td style=\\"vertical-align:top;width:600px;\\">
+                <![endif]--><div class=\\"mj-column-per-100 outlook-group-fix\\" style=\\"vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;\\"><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"background:#ECECEC;\\" width=\\"100%\\" border=\\"0\\"><tbody><tr><td style=\\"word-wrap:break-word;font-size:0px;padding:20px 30px;\\" align=\\"left\\"><div style=\\"cursor:auto;color:#2B2B2B;font-family:Helvetica, Arial, sans-serif;font-size:24px;font-weight:bold;line-height:22px;text-align:left;\\">Hey I'm a demo</div></td></tr></tbody></table></div><!--[if mso | IE]>
+                </td></tr></table>
+                <![endif]--></td></tr></tbody></table></div></td></tr></tbody></table><!--[if mso | IE]>
+                  </td>
+                </tr>
+                <tr>
+                  <td style=\\"width:600px;\\">
+                <![endif]--><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"font-size:0px;width:100%;\\" border=\\"0\\"><tbody><tr><td><div style=\\"margin:0px auto;max-width:600px;\\"><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"font-size:0px;width:100%;\\" align=\\"center\\" border=\\"0\\"><tbody><tr><td style=\\"text-align:center;vertical-align:top;direction:ltr;font-size:0px;padding:10px 25px;\\"><!--[if mso | IE]>
+                <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
+                  <tr>
+                    <td style=\\"vertical-align:top;width:300px;\\">
+                <![endif]--><div class=\\"mj-column-per-50 outlook-group-fix\\" style=\\"vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;\\"><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"vertical-align:top;\\" width=\\"100%\\" border=\\"0\\"><tbody><tr><td style=\\"word-wrap:break-word;font-size:0px;padding:0px;\\" align=\\"left\\"><div style=\\"cursor:auto;color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;text-align:left;\\"><h2 style=\\"font-size:20px;margin:0px;padding-top:10px;\\">I can do this</h2></div></td></tr></tbody></table></div><!--[if mso | IE]>
+                </td><td style=\\"vertical-align:top;width:300px;\\">
+                <![endif]--><div class=\\"mj-column-per-50 outlook-group-fix\\" style=\\"vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;\\"><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"vertical-align:top;\\" width=\\"100%\\" border=\\"0\\"><tbody><tr><td style=\\"word-wrap:break-word;font-size:0px;padding:0px;\\" align=\\"left\\"><div style=\\"cursor:auto;color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:20px;line-height:22px;text-align:left;\\"><p style=\\"margin:0px;padding-top:10px;\\">This is kinda neat</p></div></td></tr></tbody></table></div><!--[if mso | IE]>
+                </td></tr></table>
+                <![endif]--></td></tr></tbody></table></div></td></tr></tbody></table><!--[if mso | IE]>
+                  </td>
+                </tr>
+                <tr>
+                  <td style=\\"width:600px;\\">
+                <![endif]--><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"font-size:0px;width:100%;\\" border=\\"0\\"><tbody><tr><td><div style=\\"margin:0px auto;max-width:600px;\\"><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"font-size:0px;width:100%;\\" align=\\"center\\" border=\\"0\\"><tbody><tr><td style=\\"text-align:center;vertical-align:top;direction:ltr;font-size:0px;padding:25px 0px 35px;\\"><!--[if mso | IE]>
+                <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
+                  <tr>
+                    <td style=\\"vertical-align:top;width:600px;\\">
+                <![endif]--><div class=\\"mj-column-per-100 outlook-group-fix\\" style=\\"vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;\\"><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\" border=\\"0\\"><tbody><tr><td style=\\"word-wrap:break-word;font-size:0px;padding:10px 25px;\\" align=\\"center\\"><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"border-collapse:separate;\\" align=\\"center\\" border=\\"0\\"><tbody><tr><td style=\\"border:none;border-radius:25px;color:#FFFFFF;cursor:auto;padding:15px 30px;\\" align=\\"center\\" valign=\\"middle\\" bgcolor=\\"#9b59b6\\"><a href=\\"#\\" rel=\\"noreferrer\\" style=\\"text-decoration:none;background:#9b59b6;color:#FFFFFF;font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:bold;line-height:120%;text-transform:uppercase;margin:0px;\\" target=\\"_blank\\">Yes You Can</a></td></tr></tbody></table></td></tr></tbody></table></div><!--[if mso | IE]>
+                </td></tr></table>
+                <![endif]--></td></tr></tbody></table></div></td></tr></tbody></table><!--[if mso | IE]>
+                  </td>
+                </tr>
+                <tr>
+                  <td style=\\"width:600px;\\">
+                <![endif]--><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"background:#9b59b6;font-size:0px;width:100%;\\" border=\\"0\\"><tbody><tr><td><div style=\\"margin:0px auto;max-width:600px;\\"><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"font-size:0px;width:100%;\\" align=\\"center\\" border=\\"0\\"><tbody><tr><td style=\\"text-align:center;vertical-align:top;direction:ltr;font-size:0px;padding:15px;\\"><!--[if mso | IE]>
+                <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
+                  <tr>
+                    <td style=\\"vertical-align:top;width:600px;\\">
+                <![endif]--><div class=\\"mj-column-per-100 outlook-group-fix\\" style=\\"vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;\\"><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\" border=\\"0\\"><tbody><tr><td style=\\"word-wrap:break-word;font-size:0px;padding:10px 25px;\\" align=\\"left\\"><div style=\\"cursor:auto;color:#FFFFFF;font-family:Helvetica, Arial, sans-serif;font-size:16px;line-height:22px;text-align:left;\\"><p style=\\"text-align:center;font-weight:bold;\\">Copyright @2017 Widget Factory. All Rights Reserved.</p></div></td></tr></tbody></table></div><!--[if mso | IE]>
+                </td></tr></table>
+                <![endif]--></td></tr></tbody></table></div></td></tr></tbody></table><!--[if mso | IE]>
+                    </td>
+                  </tr>
+                </table>
+                <![endif]--></td></tr></tbody></table></div></td></tr></tbody></table><!--[if mso | IE]>
+                </td></tr></table>
+                <![endif]--></div>
+          
+          </body></html>",
+          }
+        }
+      />
+    </div>
+    <a
+      onClick={[Function]}
+      role="button"
+      style={
+        Object {
+          "background": "#28c",
+          "borderRadius": "0 0 0 5px",
+          "color": "#fff",
+          "cursor": "pointer",
+          "display": "block",
+          "fontFamily": "sans-serif",
+          "fontSize": "12px",
+          "padding": "5px 15px",
+          "position": "fixed",
+          "right": 0,
+          "textDecoration": "none",
+          "top": 0,
+        }
+      }
+      tabIndex="0"
+    >
+      Show Info
+    </a>
+    <div
+      style={
+        Object {
+          "background": "white",
+          "bottom": 0,
+          "display": "none",
+          "left": 0,
+          "overflow": "auto",
+          "padding": "0 40px",
+          "position": "fixed",
+          "right": 0,
+          "top": 0,
+          "zIndex": 99999,
+        }
+      }
+    >
+      <a
+        onClick={[Function]}
+        role="button"
+        style={
+          Object {
+            "background": "#28c",
+            "borderRadius": "0 0 0 5px",
+            "color": "#fff",
+            "cursor": "pointer",
+            "display": "block",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "padding": "5px 15px",
+            "position": "fixed",
+            "right": 0,
+            "textDecoration": "none",
+            "top": 0,
+          }
+        }
+        tabIndex="0"
+      >
+        ×
+      </a>
+      <div
+        style={undefined}
+      >
+        <div
+          style={
+            Object {
+              "WebkitFontSmoothing": "antialiased",
+              "backgroundColor": "#fff",
+              "border": "1px solid #eee",
+              "borderRadius": "2px",
+              "boxShadow": "0px 2px 3px rgba(0, 0, 0, 0.05)",
+              "color": "#444",
+              "fontFamily": "
+                -apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", \\"Roboto\\",
+                \\"Segoe UI\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", sans-serif
+              ",
+              "fontSize": "15px",
+              "fontWeight": 300,
+              "lineHeight": 1.45,
+              "marginTop": "50px",
+              "padding": "20px 40px 40px",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "borderBottom": "1px solid #eee",
+                "marginBottom": 10,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <h1
+              style={
+                Object {
+                  "fontSize": "35px",
+                  "margin": 0,
+                  "padding": 0,
+                }
+              }
+            >
+              Views
+            </h1>
+            <h2
+              style={
+                Object {
+                  "fontSize": "22px",
+                  "fontWeight": 400,
+                  "margin": "0 0 10px 0",
+                  "padding": 0,
+                }
+              }
+            >
+              Demo Template
+            </h2>
+          </div>
+          <div
+            style={
+              Object {
+                "marginBottom": 0,
+              }
+            }
+          >
+            <p
+              style={
+                Object {
+                  "WebkitFontSmoothing": "antialiased",
+                  "color": "#444",
+                  "fontFamily": "
+                    -apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", \\"Roboto\\",
+                    \\"Segoe UI\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", sans-serif
+                  ",
+                  "fontSize": "15px",
+                }
+              }
+            >
+              An example of what a composed email template looks like
+            </p>
+          </div>
+          <div>
+            <h1
+              style={
+                Object {
+                  "borderBottom": "1px solid #EEE",
+                  "fontSize": "25px",
+                  "margin": "20px 0 0 0",
+                  "padding": "0 0 5px 0",
+                }
+              }
+            >
+              Story Source
+            </h1>
+            <pre
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                  "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+                  "fontSize": ".88em",
+                  "lineHeight": 1.5,
+                  "overflowX": "scroll",
+                  "padding": ".5rem",
+                }
+              }
+            >
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
+              >
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }
+                >
+                  &lt;
+                  div
+                </span>
+                <span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}
+                    >
+                      dangerouslySetInnerHTML
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        <span>
+                          <span
+                            style={
+                              Object {
+                                "color": "#666",
+                              }
+                            }
+                          >
+                            {
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              __html
+                            </span>
+                            : 
+                            <span
+                              style={
+                                Object {
+                                  "color": "#22a",
+                                  "wordBreak": "break-word",
+                                }
+                              }
+                            >
+                              "
+                              &lt;!doctype html&gt;&lt;html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"&gt;&lt;head&gt;
+                                &lt;title&gt;&lt;/title&gt;
+                                &lt;!--[if !mso]&gt;&lt;!-- --&gt;
+                                &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+                                &lt;!--&lt;![endif]--&gt;
+                              &lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8"&gt;
+                              &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                              &lt;style type="text/css"&gt;
+                                #outlook a { padding: 0; }
+                                .ReadMsgBody { width: 100%; }
+                                .ExternalClass { width: 100%; }
+                                .ExternalClass * { line-height:100%; }
+                                body { margin: 0; padding: 0; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+                                table, td { border-collapse:collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+                                img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; }
+                                p { display: block; margin: 13px 0; }
+                              &lt;/style&gt;
+                              &lt;!--[if !mso]&gt;&lt;!--&gt;
+                              &lt;style type="text/css"&gt;
+                                @media only screen and (max-width:480px) {
+                                  @-ms-viewport { width:320px; }
+                                  @viewport { width:320px; }
+                                }
+                              &lt;/style&gt;
+                              &lt;!--&lt;![endif]--&gt;
+                              &lt;!--[if mso]&gt;
+                              &lt;xml&gt;
+                                &lt;o:OfficeDocumentSettings&gt;
+                                  &lt;o:AllowPNG/&gt;
+                                  &lt;o:PixelsPerInch&gt;96&lt;/o:PixelsPerInch&gt;
+                                &lt;/o:OfficeDocumentSettings&gt;
+                              &lt;/xml&gt;
+                              &lt;![endif]--&gt;
+                              &lt;!--[if lte mso 11]&gt;
+                              &lt;style type="text/css"&gt;
+                                .outlook-group-fix {
+                                  width:100% !important;
+                                }
+                              &lt;/style&gt;
+                              &lt;![endif]--&gt;
+                              &lt;style type="text/css"&gt;
+                                               .display-none {
+                                                   display: none !important;
+                                               }
+                                           &lt;/style&gt;&lt;style type="text/css"&gt;
+                                @media only screen and (min-width:480px) {
+                                  .mj-column-per-100 { width:100%!important; }
+                              .mj-column-per-50 { width:50%!important; }
+                                }
+                              &lt;/style&gt;
+                              &lt;/head&gt;
+                              &lt;body&gt;
+                                
+                                &lt;div class="mj-container"&gt;&lt;!--[if mso | IE]&gt;
+                                    &lt;table role="presentation" border="0" cellpadding="0" cellspacing="0" width="600" align="center" style="width:600px;"&gt;
+                                      &lt;tr&gt;
+                                        &lt;td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"&gt;
+                                    &lt;![endif]--&gt;&lt;table role="presentation" cellpadding="0" cellspacing="0" style="font-size:0px;width:100%;" border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;div style="margin:0px auto;max-width:600px;"&gt;&lt;table role="presentation" cellpadding="0" cellspacing="0" style="font-size:0px;width:100%;" align="center" border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="text-align:left;vertical-align:top;direction:ltr;font-size:0px;padding:20px 0px;"&gt;&lt;!--[if mso | IE]&gt;
+                                    &lt;table role="presentation" border="0" cellpadding="0" cellspacing="0"&gt;
+                                      &lt;tr&gt;
+                                        &lt;td style="width:600px;"&gt;
+                                    &lt;![endif]--&gt;&lt;table role="presentation" cellpadding="0" cellspacing="0" style="font-size:0px;width:100%;" border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;div style="margin:0px auto;max-width:600px;"&gt;&lt;table role="presentation" cellpadding="0" cellspacing="0" style="font-size:0px;width:100%;" align="center" border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="text-align:center;vertical-align:top;direction:ltr;font-size:0px;padding:0px;"&gt;&lt;!--[if mso | IE]&gt;
+                                    &lt;table role="presentation" border="0" cellpadding="0" cellspacing="0"&gt;
+                                      &lt;tr&gt;
+                                        &lt;td style="vertical-align:top;width:600px;"&gt;
+                                    &lt;![endif]--&gt;&lt;div class="mj-column-per-100 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;"&gt;&lt;table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="word-wrap:break-word;font-size:0px;padding:0px;" align="center"&gt;&lt;table role="presentation" cellpadding="0" cellspacing="0" style="border-collapse:collapse;border-spacing:0px;" align="center" border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="width:600px;"&gt;&lt;img alt="Bill Murray" title="" height="auto" src="http://www.fillmurray.com/800/218" style="border:none;border-radius:0px;display:block;font-size:13px;outline:none;text-decoration:none;width:100%;height:auto;" width="600"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;!--[if mso | IE]&gt;
+                                    &lt;/td&gt;&lt;td style="vertical-align:top;width:600px;"&gt;
+                                    &lt;![endif]--&gt;&lt;div class="mj-column-per-100 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;"&gt;&lt;table role="presentation" cellpadding="0" cellspacing="0" style="background:#ECECEC;" width="100%" border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="word-wrap:break-word;font-size:0px;padding:20px 30px;" align="left"&gt;&lt;div style="cursor:auto;color:#2B2B2B;font-family:Helvetica, Arial, sans-serif;font-size:24px;font-weight:bold;line-height:22px;text-align:left;"&gt;Hey I'm a demo&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;!--[if mso | IE]&gt;
+                                    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+                                    &lt;![endif]--&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;!--[if mso | IE]&gt;
+                                      &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                      &lt;td style="width:600px;"&gt;
+                                    &lt;![endif]--&gt;&lt;table role="presentation" cellpadding="0" cellspacing="0" style="font-size:0px;width:100%;" border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;div style="margin:0px auto;max-width:600px;"&gt;&lt;table role="presentation" cellpadding="0" cellspacing="0" style="font-size:0px;width:100%;" align="center" border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="text-align:center;vertical-align:top;direction:ltr;font-size:0px;padding:10px 25px;"&gt;&lt;!--[if mso | IE]&gt;
+                                    &lt;table role="presentation" border="0" cellpadding="0" cellspacing="0"&gt;
+                                      &lt;tr&gt;
+                                        &lt;td style="vertical-align:top;width:300px;"&gt;
+                                    &lt;![endif]--&gt;&lt;div class="mj-column-per-50 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;"&gt;&lt;table role="presentation" cellpadding="0" cellspacing="0" style="vertical-align:top;" width="100%" border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="word-wrap:break-word;font-size:0px;padding:0px;" align="left"&gt;&lt;div style="cursor:auto;color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;text-align:left;"&gt;&lt;h2 style="font-size:20px;margin:0px;padding-top:10px;"&gt;I can do this&lt;/h2&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;!--[if mso | IE]&gt;
+                                    &lt;/td&gt;&lt;td style="vertical-align:top;width:300px;"&gt;
+                                    &lt;![endif]--&gt;&lt;div class="mj-column-per-50 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;"&gt;&lt;table role="presentation" cellpadding="0" cellspacing="0" style="vertical-align:top;" width="100%" border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="word-wrap:break-word;font-size:0px;padding:0px;" align="left"&gt;&lt;div style="cursor:auto;color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:20px;line-height:22px;text-align:left;"&gt;&lt;p style="margin:0px;padding-top:10px;"&gt;This is kinda neat&lt;/p&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;!--[if mso | IE]&gt;
+                                    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+                                    &lt;![endif]--&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;!--[if mso | IE]&gt;
+                                      &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                      &lt;td style="width:600px;"&gt;
+                                    &lt;![endif]--&gt;&lt;table role="presentation" cellpadding="0" cellspacing="0" style="font-size:0px;width:100%;" border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;div style="margin:0px auto;max-width:600px;"&gt;&lt;table role="presentation" cellpadding="0" cellspacing="0" style="font-size:0px;width:100%;" align="center" border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="text-align:center;vertical-align:top;direction:ltr;font-size:0px;padding:25px 0px 35px;"&gt;&lt;!--[if mso | IE]&gt;
+                                    &lt;table role="presentation" border="0" cellpadding="0" cellspacing="0"&gt;
+                                      &lt;tr&gt;
+                                        &lt;td style="vertical-align:top;width:600px;"&gt;
+                                    &lt;![endif]--&gt;&lt;div class="mj-column-per-100 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;"&gt;&lt;table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="word-wrap:break-word;font-size:0px;padding:10px 25px;" align="center"&gt;&lt;table role="presentation" cellpadding="0" cellspacing="0" style="border-collapse:separate;" align="center" border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="border:none;border-radius:25px;color:#FFFFFF;cursor:auto;padding:15px 30px;" align="center" valign="middle" bgcolor="#9b59b6"&gt;&lt;a href="#" rel="noreferrer" style="text-decoration:none;background:#9b59b6;color:#FFFFFF;font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:bold;line-height:120%;text-transform:uppercase;margin:0px;" target="_blank"&gt;Yes You Can&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;!--[if mso | IE]&gt;
+                                    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+                                    &lt;![endif]--&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;!--[if mso | IE]&gt;
+                                      &lt;/td&gt;
+                                    &lt;/tr&gt;
+                                    &lt;tr&gt;
+                                      &lt;td style="width:600px;"&gt;
+                                    &lt;![endif]--&gt;&lt;table role="presentation" cellpadding="0" cellspacing="0" style="background:#9b59b6;font-size:0px;width:100%;" border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;div style="margin:0px auto;max-width:600px;"&gt;&lt;table role="presentation" cellpadding="0" cellspacing="0" style="font-size:0px;width:100%;" align="center" border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="text-align:center;vertical-align:top;direction:ltr;font-size:0px;padding:15px;"&gt;&lt;!--[if mso | IE]&gt;
+                                    &lt;table role="presentation" border="0" cellpadding="0" cellspacing="0"&gt;
+                                      &lt;tr&gt;
+                                        &lt;td style="vertical-align:top;width:600px;"&gt;
+                                    &lt;![endif]--&gt;&lt;div class="mj-column-per-100 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;"&gt;&lt;table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="word-wrap:break-word;font-size:0px;padding:10px 25px;" align="left"&gt;&lt;div style="cursor:auto;color:#FFFFFF;font-family:Helvetica, Arial, sans-serif;font-size:16px;line-height:22px;text-align:left;"&gt;&lt;p style="text-align:center;font-weight:bold;"&gt;Copyright @2017 Widget Factory. All Rights Reserved.&lt;/p&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;!--[if mso | IE]&gt;
+                                    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+                                    &lt;![endif]--&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;!--[if mso | IE]&gt;
+                                        &lt;/td&gt;
+                                      &lt;/tr&gt;
+                                    &lt;/table&gt;
+                                    &lt;![endif]--&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;!--[if mso | IE]&gt;
+                                    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+                                    &lt;![endif]--&gt;&lt;/div&gt;
+                              
+                              &lt;/body&gt;&lt;/html&gt;
+                              "
+                            </span>
+                            }
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                     
+                  </span>
+                </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }
+                >
+                  /&gt;
+                </span>
+              </div>
+            </pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</span>
+`;
+
+exports[`Storyshots Widgets Button, with rounded border 1`] = `
+<span>
+  <div>
+    <div
+      style={
+        Object {
+          "position": "relative",
+          "zIndex": 0,
+        }
+      }
+    >
+      <div
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<!doctype html><html xmlns=\\"http://www.w3.org/1999/xhtml\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" xmlns:o=\\"urn:schemas-microsoft-com:office:office\\"><head>
+            <title></title>
+            <!--[if !mso]><!-- -->
+            <meta http-equiv=\\"X-UA-Compatible\\" content=\\"IE=edge\\">
+            <!--<![endif]-->
+          <meta http-equiv=\\"Content-Type\\" content=\\"text/html; charset=UTF-8\\">
+          <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1.0\\">
+          <style type=\\"text/css\\">
+            #outlook a { padding: 0; }
+            .ReadMsgBody { width: 100%; }
+            .ExternalClass { width: 100%; }
+            .ExternalClass * { line-height:100%; }
+            body { margin: 0; padding: 0; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+            table, td { border-collapse:collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+            img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; }
+            p { display: block; margin: 13px 0; }
+          </style>
+          <!--[if !mso]><!-->
+          <style type=\\"text/css\\">
+            @media only screen and (max-width:480px) {
+              @-ms-viewport { width:320px; }
+              @viewport { width:320px; }
+            }
+          </style>
+          <!--<![endif]-->
+          <!--[if mso]>
+          <xml>
+            <o:OfficeDocumentSettings>
+              <o:AllowPNG/>
+              <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+          </xml>
+          <![endif]-->
+          <!--[if lte mso 11]>
+          <style type=\\"text/css\\">
+            .outlook-group-fix {
+              width:100% !important;
+            }
+          </style>
+          <![endif]-->
+          <style type=\\"text/css\\">
+                           .display-none {
+                               display: none !important;
+                           }
+                       </style></head>
+          <body>
+            
+            <div class=\\"mj-container\\"><!--[if mso | IE]>
+                <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"600\\" align=\\"center\\" style=\\"width:600px;\\">
+                  <tr>
+                    <td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\">
+                <![endif]--><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"border-collapse:separate;\\" align=\\"center\\" border=\\"0\\"><tbody><tr><td style=\\"border:none;border-radius:25px;color:#FFFFFF;cursor:auto;padding:15px 30px;\\" align=\\"center\\" valign=\\"middle\\" bgcolor=\\"#9b59b6\\"><a href=\\"#\\" rel=\\"noreferrer\\" style=\\"text-decoration:none;background:#9b59b6;color:#FFFFFF;font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:bold;line-height:120%;text-transform:uppercase;margin:0px;\\" target=\\"_blank\\">I'm a button :)</a></td></tr></tbody></table><!--[if mso | IE]>
+                </td></tr></table>
+                <![endif]--></div>
+          
+          </body></html>",
+          }
+        }
+      />
+    </div>
+    <a
+      onClick={[Function]}
+      role="button"
+      style={
+        Object {
+          "background": "#28c",
+          "borderRadius": "0 0 0 5px",
+          "color": "#fff",
+          "cursor": "pointer",
+          "display": "block",
+          "fontFamily": "sans-serif",
+          "fontSize": "12px",
+          "padding": "5px 15px",
+          "position": "fixed",
+          "right": 0,
+          "textDecoration": "none",
+          "top": 0,
+        }
+      }
+      tabIndex="0"
+    >
+      Show Info
+    </a>
+    <div
+      style={
+        Object {
+          "background": "white",
+          "bottom": 0,
+          "display": "none",
+          "left": 0,
+          "overflow": "auto",
+          "padding": "0 40px",
+          "position": "fixed",
+          "right": 0,
+          "top": 0,
+          "zIndex": 99999,
+        }
+      }
+    >
+      <a
+        onClick={[Function]}
+        role="button"
+        style={
+          Object {
+            "background": "#28c",
+            "borderRadius": "0 0 0 5px",
+            "color": "#fff",
+            "cursor": "pointer",
+            "display": "block",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "padding": "5px 15px",
+            "position": "fixed",
+            "right": 0,
+            "textDecoration": "none",
+            "top": 0,
+          }
+        }
+        tabIndex="0"
+      >
+        ×
+      </a>
+      <div
+        style={undefined}
+      >
+        <div
+          style={
+            Object {
+              "WebkitFontSmoothing": "antialiased",
+              "backgroundColor": "#fff",
+              "border": "1px solid #eee",
+              "borderRadius": "2px",
+              "boxShadow": "0px 2px 3px rgba(0, 0, 0, 0.05)",
+              "color": "#444",
+              "fontFamily": "
+                -apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", \\"Roboto\\",
+                \\"Segoe UI\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", sans-serif
+              ",
+              "fontSize": "15px",
+              "fontWeight": 300,
+              "lineHeight": 1.45,
+              "marginTop": "50px",
+              "padding": "20px 40px 40px",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "borderBottom": "1px solid #eee",
+                "marginBottom": 10,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <h1
+              style={
+                Object {
+                  "fontSize": "35px",
+                  "margin": 0,
+                  "padding": 0,
+                }
+              }
+            >
+              Widgets
+            </h1>
+            <h2
+              style={
+                Object {
+                  "fontSize": "22px",
+                  "fontWeight": 400,
+                  "margin": "0 0 10px 0",
+                  "padding": 0,
+                }
+              }
+            >
+              Button, with rounded border
+            </h2>
+          </div>
+          <div
+            style={
+              Object {
+                "marginBottom": 0,
+              }
+            }
+          >
+            <p
+              style={
+                Object {
+                  "WebkitFontSmoothing": "antialiased",
+                  "color": "#444",
+                  "fontFamily": "
+                    -apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", \\"Roboto\\",
+                    \\"Segoe UI\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", sans-serif
+                  ",
+                  "fontSize": "15px",
+                }
+              }
+            >
+              Add a button for executing an action url. Use the rounded button
+                      for call to actions that are primary.
+            </p>
+          </div>
+          <div>
+            <h1
+              style={
+                Object {
+                  "borderBottom": "1px solid #EEE",
+                  "fontSize": "25px",
+                  "margin": "20px 0 0 0",
+                  "padding": "0 0 5px 0",
+                }
+              }
+            >
+              Story Source
+            </h1>
+            <pre
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                  "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+                  "fontSize": ".88em",
+                  "lineHeight": 1.5,
+                  "overflowX": "scroll",
+                  "padding": ".5rem",
+                }
+              }
+            >
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
+              >
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }
+                >
+                  &lt;
+                  div
+                </span>
+                <span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}
+                    >
+                      dangerouslySetInnerHTML
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        <span>
+                          <span
+                            style={
+                              Object {
+                                "color": "#666",
+                              }
+                            }
+                          >
+                            {
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              __html
+                            </span>
+                            : 
+                            <span
+                              style={
+                                Object {
+                                  "color": "#22a",
+                                  "wordBreak": "break-word",
+                                }
+                              }
+                            >
+                              "
+                              &lt;!doctype html&gt;&lt;html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"&gt;&lt;head&gt;
+                                &lt;title&gt;&lt;/title&gt;
+                                &lt;!--[if !mso]&gt;&lt;!-- --&gt;
+                                &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+                                &lt;!--&lt;![endif]--&gt;
+                              &lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8"&gt;
+                              &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                              &lt;style type="text/css"&gt;
+                                #outlook a { padding: 0; }
+                                .ReadMsgBody { width: 100%; }
+                                .ExternalClass { width: 100%; }
+                                .ExternalClass * { line-height:100%; }
+                                body { margin: 0; padding: 0; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+                                table, td { border-collapse:collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+                                img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; }
+                                p { display: block; margin: 13px 0; }
+                              &lt;/style&gt;
+                              &lt;!--[if !mso]&gt;&lt;!--&gt;
+                              &lt;style type="text/css"&gt;
+                                @media only screen and (max-width:480px) {
+                                  @-ms-viewport { width:320px; }
+                                  @viewport { width:320px; }
+                                }
+                              &lt;/style&gt;
+                              &lt;!--&lt;![endif]--&gt;
+                              &lt;!--[if mso]&gt;
+                              &lt;xml&gt;
+                                &lt;o:OfficeDocumentSettings&gt;
+                                  &lt;o:AllowPNG/&gt;
+                                  &lt;o:PixelsPerInch&gt;96&lt;/o:PixelsPerInch&gt;
+                                &lt;/o:OfficeDocumentSettings&gt;
+                              &lt;/xml&gt;
+                              &lt;![endif]--&gt;
+                              &lt;!--[if lte mso 11]&gt;
+                              &lt;style type="text/css"&gt;
+                                .outlook-group-fix {
+                                  width:100% !important;
+                                }
+                              &lt;/style&gt;
+                              &lt;![endif]--&gt;
+                              &lt;style type="text/css"&gt;
+                                               .display-none {
+                                                   display: none !important;
+                                               }
+                                           &lt;/style&gt;&lt;/head&gt;
+                              &lt;body&gt;
+                                
+                                &lt;div class="mj-container"&gt;&lt;!--[if mso | IE]&gt;
+                                    &lt;table role="presentation" border="0" cellpadding="0" cellspacing="0" width="600" align="center" style="width:600px;"&gt;
+                                      &lt;tr&gt;
+                                        &lt;td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"&gt;
+                                    &lt;![endif]--&gt;&lt;table role="presentation" cellpadding="0" cellspacing="0" style="border-collapse:separate;" align="center" border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="border:none;border-radius:25px;color:#FFFFFF;cursor:auto;padding:15px 30px;" align="center" valign="middle" bgcolor="#9b59b6"&gt;&lt;a href="#" rel="noreferrer" style="text-decoration:none;background:#9b59b6;color:#FFFFFF;font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:bold;line-height:120%;text-transform:uppercase;margin:0px;" target="_blank"&gt;I'm a button :)&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;!--[if mso | IE]&gt;
+                                    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+                                    &lt;![endif]--&gt;&lt;/div&gt;
+                              
+                              &lt;/body&gt;&lt;/html&gt;
+                              "
+                            </span>
+                            }
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                     
+                  </span>
+                </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }
+                >
+                  /&gt;
+                </span>
+              </div>
+            </pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</span>
+`;
+
+exports[`Storyshots Widgets Button, with squared border 1`] = `
+<span>
+  <div>
+    <div
+      style={
+        Object {
+          "position": "relative",
+          "zIndex": 0,
+        }
+      }
+    >
+      <div
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<!doctype html><html xmlns=\\"http://www.w3.org/1999/xhtml\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" xmlns:o=\\"urn:schemas-microsoft-com:office:office\\"><head>
+            <title></title>
+            <!--[if !mso]><!-- -->
+            <meta http-equiv=\\"X-UA-Compatible\\" content=\\"IE=edge\\">
+            <!--<![endif]-->
+          <meta http-equiv=\\"Content-Type\\" content=\\"text/html; charset=UTF-8\\">
+          <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1.0\\">
+          <style type=\\"text/css\\">
+            #outlook a { padding: 0; }
+            .ReadMsgBody { width: 100%; }
+            .ExternalClass { width: 100%; }
+            .ExternalClass * { line-height:100%; }
+            body { margin: 0; padding: 0; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+            table, td { border-collapse:collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+            img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; }
+            p { display: block; margin: 13px 0; }
+          </style>
+          <!--[if !mso]><!-->
+          <style type=\\"text/css\\">
+            @media only screen and (max-width:480px) {
+              @-ms-viewport { width:320px; }
+              @viewport { width:320px; }
+            }
+          </style>
+          <!--<![endif]-->
+          <!--[if mso]>
+          <xml>
+            <o:OfficeDocumentSettings>
+              <o:AllowPNG/>
+              <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+          </xml>
+          <![endif]-->
+          <!--[if lte mso 11]>
+          <style type=\\"text/css\\">
+            .outlook-group-fix {
+              width:100% !important;
+            }
+          </style>
+          <![endif]-->
+          <style type=\\"text/css\\">
+                           .display-none {
+                               display: none !important;
+                           }
+                       </style></head>
+          <body>
+            
+            <div class=\\"mj-container\\"><!--[if mso | IE]>
+                <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"600\\" align=\\"center\\" style=\\"width:600px;\\">
+                  <tr>
+                    <td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\">
+                <![endif]--><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"border-collapse:separate;\\" align=\\"center\\" border=\\"0\\"><tbody><tr><td style=\\"border:none;border-radius:0px;color:#FFFFFF;cursor:auto;padding:15px 30px;\\" align=\\"center\\" valign=\\"middle\\" bgcolor=\\"#9b59b6\\"><a href=\\"#\\" rel=\\"noreferrer\\" style=\\"text-decoration:none;background:#9b59b6;color:#FFFFFF;font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:bold;line-height:120%;text-transform:uppercase;margin:0px;\\" target=\\"_blank\\">I'm a button :)</a></td></tr></tbody></table><!--[if mso | IE]>
+                </td></tr></table>
+                <![endif]--></div>
+          
+          </body></html>",
+          }
+        }
+      />
+    </div>
+    <a
+      onClick={[Function]}
+      role="button"
+      style={
+        Object {
+          "background": "#28c",
+          "borderRadius": "0 0 0 5px",
+          "color": "#fff",
+          "cursor": "pointer",
+          "display": "block",
+          "fontFamily": "sans-serif",
+          "fontSize": "12px",
+          "padding": "5px 15px",
+          "position": "fixed",
+          "right": 0,
+          "textDecoration": "none",
+          "top": 0,
+        }
+      }
+      tabIndex="0"
+    >
+      Show Info
+    </a>
+    <div
+      style={
+        Object {
+          "background": "white",
+          "bottom": 0,
+          "display": "none",
+          "left": 0,
+          "overflow": "auto",
+          "padding": "0 40px",
+          "position": "fixed",
+          "right": 0,
+          "top": 0,
+          "zIndex": 99999,
+        }
+      }
+    >
+      <a
+        onClick={[Function]}
+        role="button"
+        style={
+          Object {
+            "background": "#28c",
+            "borderRadius": "0 0 0 5px",
+            "color": "#fff",
+            "cursor": "pointer",
+            "display": "block",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "padding": "5px 15px",
+            "position": "fixed",
+            "right": 0,
+            "textDecoration": "none",
+            "top": 0,
+          }
+        }
+        tabIndex="0"
+      >
+        ×
+      </a>
+      <div
+        style={undefined}
+      >
+        <div
+          style={
+            Object {
+              "WebkitFontSmoothing": "antialiased",
+              "backgroundColor": "#fff",
+              "border": "1px solid #eee",
+              "borderRadius": "2px",
+              "boxShadow": "0px 2px 3px rgba(0, 0, 0, 0.05)",
+              "color": "#444",
+              "fontFamily": "
+                -apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", \\"Roboto\\",
+                \\"Segoe UI\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", sans-serif
+              ",
+              "fontSize": "15px",
+              "fontWeight": 300,
+              "lineHeight": 1.45,
+              "marginTop": "50px",
+              "padding": "20px 40px 40px",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "borderBottom": "1px solid #eee",
+                "marginBottom": 10,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <h1
+              style={
+                Object {
+                  "fontSize": "35px",
+                  "margin": 0,
+                  "padding": 0,
+                }
+              }
+            >
+              Widgets
+            </h1>
+            <h2
+              style={
+                Object {
+                  "fontSize": "22px",
+                  "fontWeight": 400,
+                  "margin": "0 0 10px 0",
+                  "padding": 0,
+                }
+              }
+            >
+              Button, with squared border
+            </h2>
+          </div>
+          <div
+            style={
+              Object {
+                "marginBottom": 0,
+              }
+            }
+          >
+            <p
+              style={
+                Object {
+                  "WebkitFontSmoothing": "antialiased",
+                  "color": "#444",
+                  "fontFamily": "
+                    -apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", \\"Roboto\\",
+                    \\"Segoe UI\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", sans-serif
+                  ",
+                  "fontSize": "15px",
+                }
+              }
+            >
+              Add a button for executing an action url. Use the squared button
+                      for minor action links such as read more links.
+            </p>
+          </div>
+          <div>
+            <h1
+              style={
+                Object {
+                  "borderBottom": "1px solid #EEE",
+                  "fontSize": "25px",
+                  "margin": "20px 0 0 0",
+                  "padding": "0 0 5px 0",
+                }
+              }
+            >
+              Story Source
+            </h1>
+            <pre
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                  "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+                  "fontSize": ".88em",
+                  "lineHeight": 1.5,
+                  "overflowX": "scroll",
+                  "padding": ".5rem",
+                }
+              }
+            >
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
+              >
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }
+                >
+                  &lt;
+                  div
+                </span>
+                <span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}
+                    >
+                      dangerouslySetInnerHTML
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        <span>
+                          <span
+                            style={
+                              Object {
+                                "color": "#666",
+                              }
+                            }
+                          >
+                            {
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              __html
+                            </span>
+                            : 
+                            <span
+                              style={
+                                Object {
+                                  "color": "#22a",
+                                  "wordBreak": "break-word",
+                                }
+                              }
+                            >
+                              "
+                              &lt;!doctype html&gt;&lt;html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"&gt;&lt;head&gt;
+                                &lt;title&gt;&lt;/title&gt;
+                                &lt;!--[if !mso]&gt;&lt;!-- --&gt;
+                                &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+                                &lt;!--&lt;![endif]--&gt;
+                              &lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8"&gt;
+                              &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                              &lt;style type="text/css"&gt;
+                                #outlook a { padding: 0; }
+                                .ReadMsgBody { width: 100%; }
+                                .ExternalClass { width: 100%; }
+                                .ExternalClass * { line-height:100%; }
+                                body { margin: 0; padding: 0; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+                                table, td { border-collapse:collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+                                img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; }
+                                p { display: block; margin: 13px 0; }
+                              &lt;/style&gt;
+                              &lt;!--[if !mso]&gt;&lt;!--&gt;
+                              &lt;style type="text/css"&gt;
+                                @media only screen and (max-width:480px) {
+                                  @-ms-viewport { width:320px; }
+                                  @viewport { width:320px; }
+                                }
+                              &lt;/style&gt;
+                              &lt;!--&lt;![endif]--&gt;
+                              &lt;!--[if mso]&gt;
+                              &lt;xml&gt;
+                                &lt;o:OfficeDocumentSettings&gt;
+                                  &lt;o:AllowPNG/&gt;
+                                  &lt;o:PixelsPerInch&gt;96&lt;/o:PixelsPerInch&gt;
+                                &lt;/o:OfficeDocumentSettings&gt;
+                              &lt;/xml&gt;
+                              &lt;![endif]--&gt;
+                              &lt;!--[if lte mso 11]&gt;
+                              &lt;style type="text/css"&gt;
+                                .outlook-group-fix {
+                                  width:100% !important;
+                                }
+                              &lt;/style&gt;
+                              &lt;![endif]--&gt;
+                              &lt;style type="text/css"&gt;
+                                               .display-none {
+                                                   display: none !important;
+                                               }
+                                           &lt;/style&gt;&lt;/head&gt;
+                              &lt;body&gt;
+                                
+                                &lt;div class="mj-container"&gt;&lt;!--[if mso | IE]&gt;
+                                    &lt;table role="presentation" border="0" cellpadding="0" cellspacing="0" width="600" align="center" style="width:600px;"&gt;
+                                      &lt;tr&gt;
+                                        &lt;td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"&gt;
+                                    &lt;![endif]--&gt;&lt;table role="presentation" cellpadding="0" cellspacing="0" style="border-collapse:separate;" align="center" border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="border:none;border-radius:0px;color:#FFFFFF;cursor:auto;padding:15px 30px;" align="center" valign="middle" bgcolor="#9b59b6"&gt;&lt;a href="#" rel="noreferrer" style="text-decoration:none;background:#9b59b6;color:#FFFFFF;font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:bold;line-height:120%;text-transform:uppercase;margin:0px;" target="_blank"&gt;I'm a button :)&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;!--[if mso | IE]&gt;
+                                    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+                                    &lt;![endif]--&gt;&lt;/div&gt;
+                              
+                              &lt;/body&gt;&lt;/html&gt;
+                              "
+                            </span>
+                            }
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                     
+                  </span>
+                </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }
+                >
+                  /&gt;
+                </span>
+              </div>
+            </pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</span>
+`;
+
+exports[`Storyshots Widgets Field Value, with title and value 1`] = `
+<span>
+  <div>
+    <div
+      style={
+        Object {
+          "position": "relative",
+          "zIndex": 0,
+        }
+      }
+    >
+      <div
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<!doctype html><html xmlns=\\"http://www.w3.org/1999/xhtml\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" xmlns:o=\\"urn:schemas-microsoft-com:office:office\\"><head>
+            <title></title>
+            <!--[if !mso]><!-- -->
+            <meta http-equiv=\\"X-UA-Compatible\\" content=\\"IE=edge\\">
+            <!--<![endif]-->
+          <meta http-equiv=\\"Content-Type\\" content=\\"text/html; charset=UTF-8\\">
+          <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1.0\\">
+          <style type=\\"text/css\\">
+            #outlook a { padding: 0; }
+            .ReadMsgBody { width: 100%; }
+            .ExternalClass { width: 100%; }
+            .ExternalClass * { line-height:100%; }
+            body { margin: 0; padding: 0; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+            table, td { border-collapse:collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+            img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; }
+            p { display: block; margin: 13px 0; }
+          </style>
+          <!--[if !mso]><!-->
+          <style type=\\"text/css\\">
+            @media only screen and (max-width:480px) {
+              @-ms-viewport { width:320px; }
+              @viewport { width:320px; }
+            }
+          </style>
+          <!--<![endif]-->
+          <!--[if mso]>
+          <xml>
+            <o:OfficeDocumentSettings>
+              <o:AllowPNG/>
+              <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+          </xml>
+          <![endif]-->
+          <!--[if lte mso 11]>
+          <style type=\\"text/css\\">
+            .outlook-group-fix {
+              width:100% !important;
+            }
+          </style>
+          <![endif]-->
+          <style type=\\"text/css\\">
+                           .display-none {
+                               display: none !important;
+                           }
+                       </style><style type=\\"text/css\\">
+            @media only screen and (min-width:480px) {
+              .mj-column-per-50 { width:50%!important; }
+            }
+          </style>
+          </head>
+          <body>
+            
+            <div class=\\"mj-container\\"><!--[if mso | IE]>
+                <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"600\\" align=\\"center\\" style=\\"width:600px;\\">
+                  <tr>
+                    <td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\">
+                <![endif]--><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"font-size:0px;width:100%;\\" border=\\"0\\"><tbody><tr><td><div style=\\"margin:0px auto;max-width:600px;\\"><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"font-size:0px;width:100%;\\" align=\\"center\\" border=\\"0\\"><tbody><tr><td style=\\"text-align:center;vertical-align:top;direction:ltr;font-size:0px;padding:10px 25px;\\"><!--[if mso | IE]>
+                <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
+                  <tr>
+                    <td style=\\"vertical-align:top;width:300px;\\">
+                <![endif]--><div class=\\"mj-column-per-50 outlook-group-fix\\" style=\\"vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;\\"><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"vertical-align:top;\\" width=\\"100%\\" border=\\"0\\"><tbody><tr><td style=\\"word-wrap:break-word;font-size:0px;padding:0px;\\" align=\\"left\\"><div style=\\"cursor:auto;color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;text-align:left;\\"><h2 style=\\"font-size:20px;margin:0px;padding-top:10px;\\">Example Title</h2></div></td></tr></tbody></table></div><!--[if mso | IE]>
+                </td><td style=\\"vertical-align:top;width:300px;\\">
+                <![endif]--><div class=\\"mj-column-per-50 outlook-group-fix\\" style=\\"vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;\\"><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"vertical-align:top;\\" width=\\"100%\\" border=\\"0\\"><tbody><tr><td style=\\"word-wrap:break-word;font-size:0px;padding:0px;\\" align=\\"left\\"><div style=\\"cursor:auto;color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:20px;line-height:22px;text-align:left;\\"><p style=\\"margin:0px;padding-top:10px;\\">Something Goes Here</p></div></td></tr></tbody></table></div><!--[if mso | IE]>
+                </td></tr></table>
+                <![endif]--></td></tr></tbody></table></div></td></tr></tbody></table><!--[if mso | IE]>
+                </td></tr></table>
+                <![endif]--></div>
+          
+          </body></html>",
+          }
+        }
+      />
+    </div>
+    <a
+      onClick={[Function]}
+      role="button"
+      style={
+        Object {
+          "background": "#28c",
+          "borderRadius": "0 0 0 5px",
+          "color": "#fff",
+          "cursor": "pointer",
+          "display": "block",
+          "fontFamily": "sans-serif",
+          "fontSize": "12px",
+          "padding": "5px 15px",
+          "position": "fixed",
+          "right": 0,
+          "textDecoration": "none",
+          "top": 0,
+        }
+      }
+      tabIndex="0"
+    >
+      Show Info
+    </a>
+    <div
+      style={
+        Object {
+          "background": "white",
+          "bottom": 0,
+          "display": "none",
+          "left": 0,
+          "overflow": "auto",
+          "padding": "0 40px",
+          "position": "fixed",
+          "right": 0,
+          "top": 0,
+          "zIndex": 99999,
+        }
+      }
+    >
+      <a
+        onClick={[Function]}
+        role="button"
+        style={
+          Object {
+            "background": "#28c",
+            "borderRadius": "0 0 0 5px",
+            "color": "#fff",
+            "cursor": "pointer",
+            "display": "block",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "padding": "5px 15px",
+            "position": "fixed",
+            "right": 0,
+            "textDecoration": "none",
+            "top": 0,
+          }
+        }
+        tabIndex="0"
+      >
+        ×
+      </a>
+      <div
+        style={undefined}
+      >
+        <div
+          style={
+            Object {
+              "WebkitFontSmoothing": "antialiased",
+              "backgroundColor": "#fff",
+              "border": "1px solid #eee",
+              "borderRadius": "2px",
+              "boxShadow": "0px 2px 3px rgba(0, 0, 0, 0.05)",
+              "color": "#444",
+              "fontFamily": "
+                -apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", \\"Roboto\\",
+                \\"Segoe UI\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", sans-serif
+              ",
+              "fontSize": "15px",
+              "fontWeight": 300,
+              "lineHeight": 1.45,
+              "marginTop": "50px",
+              "padding": "20px 40px 40px",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "borderBottom": "1px solid #eee",
+                "marginBottom": 10,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <h1
+              style={
+                Object {
+                  "fontSize": "35px",
+                  "margin": 0,
+                  "padding": 0,
+                }
+              }
+            >
+              Widgets
+            </h1>
+            <h2
+              style={
+                Object {
+                  "fontSize": "22px",
+                  "fontWeight": 400,
+                  "margin": "0 0 10px 0",
+                  "padding": 0,
+                }
+              }
+            >
+              Field Value, with title and value
+            </h2>
+          </div>
+          <div
+            style={
+              Object {
+                "marginBottom": 0,
+              }
+            }
+          >
+            <p
+              style={
+                Object {
+                  "WebkitFontSmoothing": "antialiased",
+                  "color": "#444",
+                  "fontFamily": "
+                    -apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", \\"Roboto\\",
+                    \\"Segoe UI\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", sans-serif
+                  ",
+                  "fontSize": "15px",
+                }
+              }
+            >
+              Adds a field value layout that is two coluns. Has to different
+                      sizes, regular and large. Use large for important sections that need
+                      to be prioritized, and regular for fields that aren’t as important
+                      to the user.
+            </p>
+          </div>
+          <div>
+            <h1
+              style={
+                Object {
+                  "borderBottom": "1px solid #EEE",
+                  "fontSize": "25px",
+                  "margin": "20px 0 0 0",
+                  "padding": "0 0 5px 0",
+                }
+              }
+            >
+              Story Source
+            </h1>
+            <pre
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                  "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+                  "fontSize": ".88em",
+                  "lineHeight": 1.5,
+                  "overflowX": "scroll",
+                  "padding": ".5rem",
+                }
+              }
+            >
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
+              >
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }
+                >
+                  &lt;
+                  div
+                </span>
+                <span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}
+                    >
+                      dangerouslySetInnerHTML
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        <span>
+                          <span
+                            style={
+                              Object {
+                                "color": "#666",
+                              }
+                            }
+                          >
+                            {
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              __html
+                            </span>
+                            : 
+                            <span
+                              style={
+                                Object {
+                                  "color": "#22a",
+                                  "wordBreak": "break-word",
+                                }
+                              }
+                            >
+                              "
+                              &lt;!doctype html&gt;&lt;html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"&gt;&lt;head&gt;
+                                &lt;title&gt;&lt;/title&gt;
+                                &lt;!--[if !mso]&gt;&lt;!-- --&gt;
+                                &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+                                &lt;!--&lt;![endif]--&gt;
+                              &lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8"&gt;
+                              &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                              &lt;style type="text/css"&gt;
+                                #outlook a { padding: 0; }
+                                .ReadMsgBody { width: 100%; }
+                                .ExternalClass { width: 100%; }
+                                .ExternalClass * { line-height:100%; }
+                                body { margin: 0; padding: 0; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+                                table, td { border-collapse:collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+                                img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; }
+                                p { display: block; margin: 13px 0; }
+                              &lt;/style&gt;
+                              &lt;!--[if !mso]&gt;&lt;!--&gt;
+                              &lt;style type="text/css"&gt;
+                                @media only screen and (max-width:480px) {
+                                  @-ms-viewport { width:320px; }
+                                  @viewport { width:320px; }
+                                }
+                              &lt;/style&gt;
+                              &lt;!--&lt;![endif]--&gt;
+                              &lt;!--[if mso]&gt;
+                              &lt;xml&gt;
+                                &lt;o:OfficeDocumentSettings&gt;
+                                  &lt;o:AllowPNG/&gt;
+                                  &lt;o:PixelsPerInch&gt;96&lt;/o:PixelsPerInch&gt;
+                                &lt;/o:OfficeDocumentSettings&gt;
+                              &lt;/xml&gt;
+                              &lt;![endif]--&gt;
+                              &lt;!--[if lte mso 11]&gt;
+                              &lt;style type="text/css"&gt;
+                                .outlook-group-fix {
+                                  width:100% !important;
+                                }
+                              &lt;/style&gt;
+                              &lt;![endif]--&gt;
+                              &lt;style type="text/css"&gt;
+                                               .display-none {
+                                                   display: none !important;
+                                               }
+                                           &lt;/style&gt;&lt;style type="text/css"&gt;
+                                @media only screen and (min-width:480px) {
+                                  .mj-column-per-50 { width:50%!important; }
+                                }
+                              &lt;/style&gt;
+                              &lt;/head&gt;
+                              &lt;body&gt;
+                                
+                                &lt;div class="mj-container"&gt;&lt;!--[if mso | IE]&gt;
+                                    &lt;table role="presentation" border="0" cellpadding="0" cellspacing="0" width="600" align="center" style="width:600px;"&gt;
+                                      &lt;tr&gt;
+                                        &lt;td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"&gt;
+                                    &lt;![endif]--&gt;&lt;table role="presentation" cellpadding="0" cellspacing="0" style="font-size:0px;width:100%;" border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;div style="margin:0px auto;max-width:600px;"&gt;&lt;table role="presentation" cellpadding="0" cellspacing="0" style="font-size:0px;width:100%;" align="center" border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="text-align:center;vertical-align:top;direction:ltr;font-size:0px;padding:10px 25px;"&gt;&lt;!--[if mso | IE]&gt;
+                                    &lt;table role="presentation" border="0" cellpadding="0" cellspacing="0"&gt;
+                                      &lt;tr&gt;
+                                        &lt;td style="vertical-align:top;width:300px;"&gt;
+                                    &lt;![endif]--&gt;&lt;div class="mj-column-per-50 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;"&gt;&lt;table role="presentation" cellpadding="0" cellspacing="0" style="vertical-align:top;" width="100%" border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="word-wrap:break-word;font-size:0px;padding:0px;" align="left"&gt;&lt;div style="cursor:auto;color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;text-align:left;"&gt;&lt;h2 style="font-size:20px;margin:0px;padding-top:10px;"&gt;Example Title&lt;/h2&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;!--[if mso | IE]&gt;
+                                    &lt;/td&gt;&lt;td style="vertical-align:top;width:300px;"&gt;
+                                    &lt;![endif]--&gt;&lt;div class="mj-column-per-50 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;"&gt;&lt;table role="presentation" cellpadding="0" cellspacing="0" style="vertical-align:top;" width="100%" border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="word-wrap:break-word;font-size:0px;padding:0px;" align="left"&gt;&lt;div style="cursor:auto;color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:20px;line-height:22px;text-align:left;"&gt;&lt;p style="margin:0px;padding-top:10px;"&gt;Something Goes Here&lt;/p&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;!--[if mso | IE]&gt;
+                                    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+                                    &lt;![endif]--&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;!--[if mso | IE]&gt;
+                                    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+                                    &lt;![endif]--&gt;&lt;/div&gt;
+                              
+                              &lt;/body&gt;&lt;/html&gt;
+                              "
+                            </span>
+                            }
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                     
+                  </span>
+                </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }
+                >
+                  /&gt;
+                </span>
+              </div>
+            </pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</span>
+`;
+
+exports[`Storyshots Widgets Footer 1`] = `
+<span>
+  <div>
+    <div
+      style={
+        Object {
+          "position": "relative",
+          "zIndex": 0,
+        }
+      }
+    >
+      <div
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<!doctype html><html xmlns=\\"http://www.w3.org/1999/xhtml\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" xmlns:o=\\"urn:schemas-microsoft-com:office:office\\"><head>
+            <title></title>
+            <!--[if !mso]><!-- -->
+            <meta http-equiv=\\"X-UA-Compatible\\" content=\\"IE=edge\\">
+            <!--<![endif]-->
+          <meta http-equiv=\\"Content-Type\\" content=\\"text/html; charset=UTF-8\\">
+          <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1.0\\">
+          <style type=\\"text/css\\">
+            #outlook a { padding: 0; }
+            .ReadMsgBody { width: 100%; }
+            .ExternalClass { width: 100%; }
+            .ExternalClass * { line-height:100%; }
+            body { margin: 0; padding: 0; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+            table, td { border-collapse:collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+            img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; }
+            p { display: block; margin: 13px 0; }
+          </style>
+          <!--[if !mso]><!-->
+          <style type=\\"text/css\\">
+            @media only screen and (max-width:480px) {
+              @-ms-viewport { width:320px; }
+              @viewport { width:320px; }
+            }
+          </style>
+          <!--<![endif]-->
+          <!--[if mso]>
+          <xml>
+            <o:OfficeDocumentSettings>
+              <o:AllowPNG/>
+              <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+          </xml>
+          <![endif]-->
+          <!--[if lte mso 11]>
+          <style type=\\"text/css\\">
+            .outlook-group-fix {
+              width:100% !important;
+            }
+          </style>
+          <![endif]-->
+          <style type=\\"text/css\\">
+                           .display-none {
+                               display: none !important;
+                           }
+                       </style><style type=\\"text/css\\">
+            @media only screen and (min-width:480px) {
+              .mj-column-per-100 { width:100%!important; }
+            }
+          </style>
+          </head>
+          <body>
+            
+            <div class=\\"mj-container\\"><!--[if mso | IE]>
+                <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"600\\" align=\\"center\\" style=\\"width:600px;\\">
+                  <tr>
+                    <td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\">
+                <![endif]--><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"background:#9b59b6;font-size:0px;width:100%;\\" border=\\"0\\"><tbody><tr><td><div style=\\"margin:0px auto;max-width:600px;\\"><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"font-size:0px;width:100%;\\" align=\\"center\\" border=\\"0\\"><tbody><tr><td style=\\"text-align:center;vertical-align:top;direction:ltr;font-size:0px;padding:15px;\\"><!--[if mso | IE]>
+                <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
+                  <tr>
+                    <td style=\\"vertical-align:top;width:600px;\\">
+                <![endif]--><div class=\\"mj-column-per-100 outlook-group-fix\\" style=\\"vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;\\"><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\" border=\\"0\\"><tbody><tr><td style=\\"word-wrap:break-word;font-size:0px;padding:10px 25px;\\" align=\\"left\\"><div style=\\"cursor:auto;color:#FFFFFF;font-family:Helvetica, Arial, sans-serif;font-size:16px;line-height:22px;text-align:left;\\"><p style=\\"text-align:center;font-weight:bold;\\">Copyright @2017 Widget Factory. All Rights Reserved.</p></div></td></tr></tbody></table></div><!--[if mso | IE]>
+                </td></tr></table>
+                <![endif]--></td></tr></tbody></table></div></td></tr></tbody></table><!--[if mso | IE]>
+                </td></tr></table>
+                <![endif]--></div>
+          
+          </body></html>",
+          }
+        }
+      />
+    </div>
+    <a
+      onClick={[Function]}
+      role="button"
+      style={
+        Object {
+          "background": "#28c",
+          "borderRadius": "0 0 0 5px",
+          "color": "#fff",
+          "cursor": "pointer",
+          "display": "block",
+          "fontFamily": "sans-serif",
+          "fontSize": "12px",
+          "padding": "5px 15px",
+          "position": "fixed",
+          "right": 0,
+          "textDecoration": "none",
+          "top": 0,
+        }
+      }
+      tabIndex="0"
+    >
+      Show Info
+    </a>
+    <div
+      style={
+        Object {
+          "background": "white",
+          "bottom": 0,
+          "display": "none",
+          "left": 0,
+          "overflow": "auto",
+          "padding": "0 40px",
+          "position": "fixed",
+          "right": 0,
+          "top": 0,
+          "zIndex": 99999,
+        }
+      }
+    >
+      <a
+        onClick={[Function]}
+        role="button"
+        style={
+          Object {
+            "background": "#28c",
+            "borderRadius": "0 0 0 5px",
+            "color": "#fff",
+            "cursor": "pointer",
+            "display": "block",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "padding": "5px 15px",
+            "position": "fixed",
+            "right": 0,
+            "textDecoration": "none",
+            "top": 0,
+          }
+        }
+        tabIndex="0"
+      >
+        ×
+      </a>
+      <div
+        style={undefined}
+      >
+        <div
+          style={
+            Object {
+              "WebkitFontSmoothing": "antialiased",
+              "backgroundColor": "#fff",
+              "border": "1px solid #eee",
+              "borderRadius": "2px",
+              "boxShadow": "0px 2px 3px rgba(0, 0, 0, 0.05)",
+              "color": "#444",
+              "fontFamily": "
+                -apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", \\"Roboto\\",
+                \\"Segoe UI\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", sans-serif
+              ",
+              "fontSize": "15px",
+              "fontWeight": 300,
+              "lineHeight": 1.45,
+              "marginTop": "50px",
+              "padding": "20px 40px 40px",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "borderBottom": "1px solid #eee",
+                "marginBottom": 10,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <h1
+              style={
+                Object {
+                  "fontSize": "35px",
+                  "margin": 0,
+                  "padding": 0,
+                }
+              }
+            >
+              Widgets
+            </h1>
+            <h2
+              style={
+                Object {
+                  "fontSize": "22px",
+                  "fontWeight": 400,
+                  "margin": "0 0 10px 0",
+                  "padding": 0,
+                }
+              }
+            >
+              Footer
+            </h2>
+          </div>
+          <div
+            style={
+              Object {
+                "marginBottom": 0,
+              }
+            }
+          >
+            <p
+              style={
+                Object {
+                  "WebkitFontSmoothing": "antialiased",
+                  "color": "#444",
+                  "fontFamily": "
+                    -apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", \\"Roboto\\",
+                    \\"Segoe UI\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", sans-serif
+                  ",
+                  "fontSize": "15px",
+                }
+              }
+            >
+              Creates a footer that displays the current year for copyright
+                      purposes.
+            </p>
+          </div>
+          <div>
+            <h1
+              style={
+                Object {
+                  "borderBottom": "1px solid #EEE",
+                  "fontSize": "25px",
+                  "margin": "20px 0 0 0",
+                  "padding": "0 0 5px 0",
+                }
+              }
+            >
+              Story Source
+            </h1>
+            <pre
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                  "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+                  "fontSize": ".88em",
+                  "lineHeight": 1.5,
+                  "overflowX": "scroll",
+                  "padding": ".5rem",
+                }
+              }
+            >
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
+              >
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }
+                >
+                  &lt;
+                  div
+                </span>
+                <span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}
+                    >
+                      dangerouslySetInnerHTML
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        <span>
+                          <span
+                            style={
+                              Object {
+                                "color": "#666",
+                              }
+                            }
+                          >
+                            {
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              __html
+                            </span>
+                            : 
+                            <span
+                              style={
+                                Object {
+                                  "color": "#22a",
+                                  "wordBreak": "break-word",
+                                }
+                              }
+                            >
+                              "
+                              &lt;!doctype html&gt;&lt;html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"&gt;&lt;head&gt;
+                                &lt;title&gt;&lt;/title&gt;
+                                &lt;!--[if !mso]&gt;&lt;!-- --&gt;
+                                &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+                                &lt;!--&lt;![endif]--&gt;
+                              &lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8"&gt;
+                              &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                              &lt;style type="text/css"&gt;
+                                #outlook a { padding: 0; }
+                                .ReadMsgBody { width: 100%; }
+                                .ExternalClass { width: 100%; }
+                                .ExternalClass * { line-height:100%; }
+                                body { margin: 0; padding: 0; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+                                table, td { border-collapse:collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+                                img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; }
+                                p { display: block; margin: 13px 0; }
+                              &lt;/style&gt;
+                              &lt;!--[if !mso]&gt;&lt;!--&gt;
+                              &lt;style type="text/css"&gt;
+                                @media only screen and (max-width:480px) {
+                                  @-ms-viewport { width:320px; }
+                                  @viewport { width:320px; }
+                                }
+                              &lt;/style&gt;
+                              &lt;!--&lt;![endif]--&gt;
+                              &lt;!--[if mso]&gt;
+                              &lt;xml&gt;
+                                &lt;o:OfficeDocumentSettings&gt;
+                                  &lt;o:AllowPNG/&gt;
+                                  &lt;o:PixelsPerInch&gt;96&lt;/o:PixelsPerInch&gt;
+                                &lt;/o:OfficeDocumentSettings&gt;
+                              &lt;/xml&gt;
+                              &lt;![endif]--&gt;
+                              &lt;!--[if lte mso 11]&gt;
+                              &lt;style type="text/css"&gt;
+                                .outlook-group-fix {
+                                  width:100% !important;
+                                }
+                              &lt;/style&gt;
+                              &lt;![endif]--&gt;
+                              &lt;style type="text/css"&gt;
+                                               .display-none {
+                                                   display: none !important;
+                                               }
+                                           &lt;/style&gt;&lt;style type="text/css"&gt;
+                                @media only screen and (min-width:480px) {
+                                  .mj-column-per-100 { width:100%!important; }
+                                }
+                              &lt;/style&gt;
+                              &lt;/head&gt;
+                              &lt;body&gt;
+                                
+                                &lt;div class="mj-container"&gt;&lt;!--[if mso | IE]&gt;
+                                    &lt;table role="presentation" border="0" cellpadding="0" cellspacing="0" width="600" align="center" style="width:600px;"&gt;
+                                      &lt;tr&gt;
+                                        &lt;td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"&gt;
+                                    &lt;![endif]--&gt;&lt;table role="presentation" cellpadding="0" cellspacing="0" style="background:#9b59b6;font-size:0px;width:100%;" border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;div style="margin:0px auto;max-width:600px;"&gt;&lt;table role="presentation" cellpadding="0" cellspacing="0" style="font-size:0px;width:100%;" align="center" border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="text-align:center;vertical-align:top;direction:ltr;font-size:0px;padding:15px;"&gt;&lt;!--[if mso | IE]&gt;
+                                    &lt;table role="presentation" border="0" cellpadding="0" cellspacing="0"&gt;
+                                      &lt;tr&gt;
+                                        &lt;td style="vertical-align:top;width:600px;"&gt;
+                                    &lt;![endif]--&gt;&lt;div class="mj-column-per-100 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;"&gt;&lt;table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="word-wrap:break-word;font-size:0px;padding:10px 25px;" align="left"&gt;&lt;div style="cursor:auto;color:#FFFFFF;font-family:Helvetica, Arial, sans-serif;font-size:16px;line-height:22px;text-align:left;"&gt;&lt;p style="text-align:center;font-weight:bold;"&gt;Copyright @2017 Widget Factory. All Rights Reserved.&lt;/p&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;!--[if mso | IE]&gt;
+                                    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+                                    &lt;![endif]--&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;!--[if mso | IE]&gt;
+                                    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+                                    &lt;![endif]--&gt;&lt;/div&gt;
+                              
+                              &lt;/body&gt;&lt;/html&gt;
+                              "
+                            </span>
+                            }
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                     
+                  </span>
+                </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }
+                >
+                  /&gt;
+                </span>
+              </div>
+            </pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</span>
+`;
+
+exports[`Storyshots Widgets Header 1`] = `
+<span>
+  <div>
+    <div
+      style={
+        Object {
+          "position": "relative",
+          "zIndex": 0,
+        }
+      }
+    >
+      <div
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<!doctype html><html xmlns=\\"http://www.w3.org/1999/xhtml\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" xmlns:o=\\"urn:schemas-microsoft-com:office:office\\"><head>
+            <title></title>
+            <!--[if !mso]><!-- -->
+            <meta http-equiv=\\"X-UA-Compatible\\" content=\\"IE=edge\\">
+            <!--<![endif]-->
+          <meta http-equiv=\\"Content-Type\\" content=\\"text/html; charset=UTF-8\\">
+          <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1.0\\">
+          <style type=\\"text/css\\">
+            #outlook a { padding: 0; }
+            .ReadMsgBody { width: 100%; }
+            .ExternalClass { width: 100%; }
+            .ExternalClass * { line-height:100%; }
+            body { margin: 0; padding: 0; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+            table, td { border-collapse:collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+            img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; }
+            p { display: block; margin: 13px 0; }
+          </style>
+          <!--[if !mso]><!-->
+          <style type=\\"text/css\\">
+            @media only screen and (max-width:480px) {
+              @-ms-viewport { width:320px; }
+              @viewport { width:320px; }
+            }
+          </style>
+          <!--<![endif]-->
+          <!--[if mso]>
+          <xml>
+            <o:OfficeDocumentSettings>
+              <o:AllowPNG/>
+              <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+          </xml>
+          <![endif]-->
+          <!--[if lte mso 11]>
+          <style type=\\"text/css\\">
+            .outlook-group-fix {
+              width:100% !important;
+            }
+          </style>
+          <![endif]-->
+          <style type=\\"text/css\\">
+                           .display-none {
+                               display: none !important;
+                           }
+                       </style><style type=\\"text/css\\">
+            @media only screen and (min-width:480px) {
+              .mj-column-per-100 { width:100%!important; }
+            }
+          </style>
+          </head>
+          <body>
+            
+            <div class=\\"mj-container\\"><!--[if mso | IE]>
+                <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"600\\" align=\\"center\\" style=\\"width:600px;\\">
+                  <tr>
+                    <td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\">
+                <![endif]--><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"font-size:0px;width:100%;\\" border=\\"0\\"><tbody><tr><td><div style=\\"margin:0px auto;max-width:600px;\\"><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"font-size:0px;width:100%;\\" align=\\"center\\" border=\\"0\\"><tbody><tr><td style=\\"text-align:center;vertical-align:top;direction:ltr;font-size:0px;padding:0px;\\"><!--[if mso | IE]>
+                <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
+                  <tr>
+                    <td style=\\"vertical-align:top;width:600px;\\">
+                <![endif]--><div class=\\"mj-column-per-100 outlook-group-fix\\" style=\\"vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;\\"><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\" border=\\"0\\"><tbody><tr><td style=\\"word-wrap:break-word;font-size:0px;padding:0px;\\" align=\\"center\\"><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"border-collapse:collapse;border-spacing:0px;\\" align=\\"center\\" border=\\"0\\"><tbody><tr><td style=\\"width:600px;\\"><img alt=\\"Bill Murray\\" title=\\"\\" height=\\"auto\\" src=\\"http://www.fillmurray.com/800/218\\" style=\\"border:none;border-radius:0px;display:block;font-size:13px;outline:none;text-decoration:none;width:100%;height:auto;\\" width=\\"600\\"></td></tr></tbody></table></td></tr></tbody></table></div><!--[if mso | IE]>
+                </td><td style=\\"vertical-align:top;width:600px;\\">
+                <![endif]--><div class=\\"mj-column-per-100 outlook-group-fix\\" style=\\"vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;\\"><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"background:#ECECEC;\\" width=\\"100%\\" border=\\"0\\"><tbody><tr><td style=\\"word-wrap:break-word;font-size:0px;padding:20px 30px;\\" align=\\"left\\"><div style=\\"cursor:auto;color:#2B2B2B;font-family:Helvetica, Arial, sans-serif;font-size:24px;font-weight:bold;line-height:22px;text-align:left;\\">Example Title</div></td></tr></tbody></table></div><!--[if mso | IE]>
+                </td></tr></table>
+                <![endif]--></td></tr></tbody></table></div></td></tr></tbody></table><!--[if mso | IE]>
+                </td></tr></table>
+                <![endif]--></div>
+          
+          </body></html>",
+          }
+        }
+      />
+    </div>
+    <a
+      onClick={[Function]}
+      role="button"
+      style={
+        Object {
+          "background": "#28c",
+          "borderRadius": "0 0 0 5px",
+          "color": "#fff",
+          "cursor": "pointer",
+          "display": "block",
+          "fontFamily": "sans-serif",
+          "fontSize": "12px",
+          "padding": "5px 15px",
+          "position": "fixed",
+          "right": 0,
+          "textDecoration": "none",
+          "top": 0,
+        }
+      }
+      tabIndex="0"
+    >
+      Show Info
+    </a>
+    <div
+      style={
+        Object {
+          "background": "white",
+          "bottom": 0,
+          "display": "none",
+          "left": 0,
+          "overflow": "auto",
+          "padding": "0 40px",
+          "position": "fixed",
+          "right": 0,
+          "top": 0,
+          "zIndex": 99999,
+        }
+      }
+    >
+      <a
+        onClick={[Function]}
+        role="button"
+        style={
+          Object {
+            "background": "#28c",
+            "borderRadius": "0 0 0 5px",
+            "color": "#fff",
+            "cursor": "pointer",
+            "display": "block",
+            "fontFamily": "sans-serif",
+            "fontSize": "12px",
+            "padding": "5px 15px",
+            "position": "fixed",
+            "right": 0,
+            "textDecoration": "none",
+            "top": 0,
+          }
+        }
+        tabIndex="0"
+      >
+        ×
+      </a>
+      <div
+        style={undefined}
+      >
+        <div
+          style={
+            Object {
+              "WebkitFontSmoothing": "antialiased",
+              "backgroundColor": "#fff",
+              "border": "1px solid #eee",
+              "borderRadius": "2px",
+              "boxShadow": "0px 2px 3px rgba(0, 0, 0, 0.05)",
+              "color": "#444",
+              "fontFamily": "
+                -apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", \\"Roboto\\",
+                \\"Segoe UI\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", sans-serif
+              ",
+              "fontSize": "15px",
+              "fontWeight": 300,
+              "lineHeight": 1.45,
+              "marginTop": "50px",
+              "padding": "20px 40px 40px",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "borderBottom": "1px solid #eee",
+                "marginBottom": 10,
+                "paddingTop": 10,
+              }
+            }
+          >
+            <h1
+              style={
+                Object {
+                  "fontSize": "35px",
+                  "margin": 0,
+                  "padding": 0,
+                }
+              }
+            >
+              Widgets
+            </h1>
+            <h2
+              style={
+                Object {
+                  "fontSize": "22px",
+                  "fontWeight": 400,
+                  "margin": "0 0 10px 0",
+                  "padding": 0,
+                }
+              }
+            >
+              Header
+            </h2>
+          </div>
+          <div
+            style={
+              Object {
+                "marginBottom": 0,
+              }
+            }
+          >
+            <p
+              style={
+                Object {
+                  "WebkitFontSmoothing": "antialiased",
+                  "color": "#444",
+                  "fontFamily": "
+                    -apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", \\"Roboto\\",
+                    \\"Segoe UI\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", sans-serif
+                  ",
+                  "fontSize": "15px",
+                }
+              }
+            >
+              Creates a header that displays a logo and a given title
+            </p>
+          </div>
+          <div>
+            <h1
+              style={
+                Object {
+                  "borderBottom": "1px solid #EEE",
+                  "fontSize": "25px",
+                  "margin": "20px 0 0 0",
+                  "padding": "0 0 5px 0",
+                }
+              }
+            >
+              Story Source
+            </h1>
+            <pre
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                  "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+                  "fontSize": ".88em",
+                  "lineHeight": 1.5,
+                  "overflowX": "scroll",
+                  "padding": ".5rem",
+                }
+              }
+            >
+              <div
+                style={
+                  Object {
+                    "paddingLeft": 18,
+                    "paddingRight": 3,
+                  }
+                }
+              >
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }
+                >
+                  &lt;
+                  div
+                </span>
+                <span>
+                  <span>
+                     
+                    <span
+                      style={Object {}}
+                    >
+                      dangerouslySetInnerHTML
+                    </span>
+                    <span>
+                      =
+                      <span
+                        style={Object {}}
+                      >
+                        <span>
+                          <span
+                            style={
+                              Object {
+                                "color": "#666",
+                              }
+                            }
+                          >
+                            {
+                            <span
+                              style={
+                                Object {
+                                  "color": "#666",
+                                }
+                              }
+                            >
+                              __html
+                            </span>
+                            : 
+                            <span
+                              style={
+                                Object {
+                                  "color": "#22a",
+                                  "wordBreak": "break-word",
+                                }
+                              }
+                            >
+                              "
+                              &lt;!doctype html&gt;&lt;html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"&gt;&lt;head&gt;
+                                &lt;title&gt;&lt;/title&gt;
+                                &lt;!--[if !mso]&gt;&lt;!-- --&gt;
+                                &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+                                &lt;!--&lt;![endif]--&gt;
+                              &lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8"&gt;
+                              &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                              &lt;style type="text/css"&gt;
+                                #outlook a { padding: 0; }
+                                .ReadMsgBody { width: 100%; }
+                                .ExternalClass { width: 100%; }
+                                .ExternalClass * { line-height:100%; }
+                                body { margin: 0; padding: 0; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+                                table, td { border-collapse:collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+                                img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; }
+                                p { display: block; margin: 13px 0; }
+                              &lt;/style&gt;
+                              &lt;!--[if !mso]&gt;&lt;!--&gt;
+                              &lt;style type="text/css"&gt;
+                                @media only screen and (max-width:480px) {
+                                  @-ms-viewport { width:320px; }
+                                  @viewport { width:320px; }
+                                }
+                              &lt;/style&gt;
+                              &lt;!--&lt;![endif]--&gt;
+                              &lt;!--[if mso]&gt;
+                              &lt;xml&gt;
+                                &lt;o:OfficeDocumentSettings&gt;
+                                  &lt;o:AllowPNG/&gt;
+                                  &lt;o:PixelsPerInch&gt;96&lt;/o:PixelsPerInch&gt;
+                                &lt;/o:OfficeDocumentSettings&gt;
+                              &lt;/xml&gt;
+                              &lt;![endif]--&gt;
+                              &lt;!--[if lte mso 11]&gt;
+                              &lt;style type="text/css"&gt;
+                                .outlook-group-fix {
+                                  width:100% !important;
+                                }
+                              &lt;/style&gt;
+                              &lt;![endif]--&gt;
+                              &lt;style type="text/css"&gt;
+                                               .display-none {
+                                                   display: none !important;
+                                               }
+                                           &lt;/style&gt;&lt;style type="text/css"&gt;
+                                @media only screen and (min-width:480px) {
+                                  .mj-column-per-100 { width:100%!important; }
+                                }
+                              &lt;/style&gt;
+                              &lt;/head&gt;
+                              &lt;body&gt;
+                                
+                                &lt;div class="mj-container"&gt;&lt;!--[if mso | IE]&gt;
+                                    &lt;table role="presentation" border="0" cellpadding="0" cellspacing="0" width="600" align="center" style="width:600px;"&gt;
+                                      &lt;tr&gt;
+                                        &lt;td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"&gt;
+                                    &lt;![endif]--&gt;&lt;table role="presentation" cellpadding="0" cellspacing="0" style="font-size:0px;width:100%;" border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;div style="margin:0px auto;max-width:600px;"&gt;&lt;table role="presentation" cellpadding="0" cellspacing="0" style="font-size:0px;width:100%;" align="center" border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="text-align:center;vertical-align:top;direction:ltr;font-size:0px;padding:0px;"&gt;&lt;!--[if mso | IE]&gt;
+                                    &lt;table role="presentation" border="0" cellpadding="0" cellspacing="0"&gt;
+                                      &lt;tr&gt;
+                                        &lt;td style="vertical-align:top;width:600px;"&gt;
+                                    &lt;![endif]--&gt;&lt;div class="mj-column-per-100 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;"&gt;&lt;table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="word-wrap:break-word;font-size:0px;padding:0px;" align="center"&gt;&lt;table role="presentation" cellpadding="0" cellspacing="0" style="border-collapse:collapse;border-spacing:0px;" align="center" border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="width:600px;"&gt;&lt;img alt="Bill Murray" title="" height="auto" src="http://www.fillmurray.com/800/218" style="border:none;border-radius:0px;display:block;font-size:13px;outline:none;text-decoration:none;width:100%;height:auto;" width="600"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;!--[if mso | IE]&gt;
+                                    &lt;/td&gt;&lt;td style="vertical-align:top;width:600px;"&gt;
+                                    &lt;![endif]--&gt;&lt;div class="mj-column-per-100 outlook-group-fix" style="vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;"&gt;&lt;table role="presentation" cellpadding="0" cellspacing="0" style="background:#ECECEC;" width="100%" border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="word-wrap:break-word;font-size:0px;padding:20px 30px;" align="left"&gt;&lt;div style="cursor:auto;color:#2B2B2B;font-family:Helvetica, Arial, sans-serif;font-size:24px;font-weight:bold;line-height:22px;text-align:left;"&gt;Example Title&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;!--[if mso | IE]&gt;
+                                    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+                                    &lt;![endif]--&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;!--[if mso | IE]&gt;
+                                    &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+                                    &lt;![endif]--&gt;&lt;/div&gt;
+                              
+                              &lt;/body&gt;&lt;/html&gt;
+                              "
+                            </span>
+                            }
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                     
+                  </span>
+                </span>
+                <span
+                  style={
+                    Object {
+                      "color": "#777",
+                    }
+                  }
+                >
+                  /&gt;
+                </span>
+              </div>
+            </pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</span>
+`;
