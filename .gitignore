@@ -55,13 +55,7 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
-
-# package lock file (use yarn instead)
-package-lock.json
-
-# wallaby config
-wallaby.conf.js
+*.env
 
 # built babel directory
-lib
+build

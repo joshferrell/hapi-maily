@@ -1,66 +1,29 @@
 {
-  "name": "hapi-maily",
-  "version": "1.0.0",
-  "description": "An email service that generates html email templates using mjml, then sends the emails to the requested user",
-  "main": "index.js",
-  "repository": "git@github.com:joshferrell/hapi-maily.git",
-  "author": {
-    "name": "Josh Ferrell",
-    "url": "https://gitter.im/hapi-maily/Lobby"
-  },
-  "license": "MIT",
-  "scripts": {
-    "test:watch": "jest --watch",
-    "test": "jest",
-    "test:ci": "jest --coverage && cat ./coverage/lcov.info | coveralls",
-    "start": "SERVER_DEVELOPMENT=true nodemon src/server.js --exec babel-node | bunyan",
-    "lint": "eslint ./src/**/*.js",
-    "coverage": "jest --coverage",
-    "build": "babel src -d lib --copy-files",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
-    "deploy:local": "docker-compose up",
-    "deploy:remote": "docker build -t email-server . && docker tag email-server jferrell/hapi-maily && docker push jferrell/hapi-maily"
-  },
-  "devDependencies": {
-    "@storybook/addon-info": "^3.1.6",
-    "@storybook/addon-knobs": "^3.1.8",
-    "@storybook/addon-storyshots": "^3.1.8",
-    "@storybook/react": "^3.1.8",
-    "babel-cli": "^6.24.1",
-    "babel-eslint": "^7.2.3",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-2": "^6.24.1",
-    "coveralls": "^2.13.1",
-    "eslint": "^4.3.0",
-    "eslint-config-airbnb": "^15.1.0",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-jsx-a11y": "^5.1.1",
-    "eslint-plugin-react": "^7.1.0",
-    "jest": "^20.0.4",
-    "nodemon": "^1.11.0",
-    "react-test-renderer": "^15.6.1",
-    "storybook-addon-a11y": "^3.0.0"
-  },
-  "dependencies": {
-    "boom": "^5.1.0",
-    "bunyan": "^1.8.10",
-    "dotenv-safe": "^4.0.4",
-    "good": "^7.2.0",
-    "good-bunyan": "^1.3.0",
-    "hapi": "^16.4.3",
-    "hapi-swagger": "^7.7.0",
-    "inert": "^4.2.0",
-    "joi": "^10.6.0",
-    "jsonwebtoken": "^7.4.1",
-    "mjml": "^3.3.3",
-    "moment": "^2.18.1",
-    "nodemailer": "^4.0.1",
-    "pkginfo": "^0.4.0",
-    "prop-types": "^15.5.10",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "vision": "^4.1.1"
-  }
+    "name": "hapi-maily",
+    "version": "2.0.0",
+    "description": "An email service that generates html email templates using mjml, then sends the email to the requested user",
+    "main": "index.js",
+    "repository": "git@github.com:joshferrell/hapi-maily.git",
+    "author": {
+        "name": "Josh Ferrell",
+        "url": "https://gitter.im/hapi-maily/Lobby"
+    },
+    "license": "MIT",
+    "private": true,
+    "jest": {
+        "collectCoverageFrom": [
+            "src/**/**.js",
+            "!src/**/index.js"
+        ]
+    },
+    "scripts": {
+        "start": "cross-env NODE_ENV=local nodemon src/server.js --exec babel-node | bunyan",
+        "lint": "eslint ./src/**/**.js",
+        "build": "babel src -d build --copy-files",
+        "coverage": "jest --coverage",
+        "test": "jest --watchAll",
+        "test:ci": "jest --coverage && cat ./coverage/lcov.info | coveralls",
+        "deploy:local": "docker-compose up -d --build",
+        "deploy:clean": "docker-compose down --rmi local"
+    }
 }
