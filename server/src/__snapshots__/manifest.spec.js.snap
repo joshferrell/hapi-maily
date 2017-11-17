@@ -146,7 +146,7 @@ Object {
       "plugin": Object {
         "options": Object {
           "grouping": "tags",
-          "host": undefined,
+          "host": "localhost:3000",
           "info": Object {
             "contact": Object {
               "name": "Josh Ferrell",
@@ -157,7 +157,7 @@ Object {
             "version": "2.0.0",
           },
           "schemes": Array [
-            undefined,
+            "http",
           ],
           "swaggerUI": true,
         },
@@ -244,7 +244,7 @@ Object {
       "plugin": Object {
         "options": Object {
           "grouping": "tags",
-          "host": undefined,
+          "host": "localhost:3000",
           "info": Object {
             "contact": Object {
               "name": "Josh Ferrell",
@@ -255,7 +255,7 @@ Object {
             "version": "2.0.0",
           },
           "schemes": Array [
-            undefined,
+            "http",
           ],
           "swaggerUI": true,
         },

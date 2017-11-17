@@ -2,7 +2,7 @@ import { createDevPlugins, createProdPlugins } from './plugins';
 
 const createManifest = (serverInfo, logger) => {
     const developmentPlugins = ['development', 'local'].includes(serverInfo.env)
-        ? createDevPlugins(serverInfo.env)
+        ? createDevPlugins(serverInfo)
         : [];
     const productionPlugins = createProdPlugins(logger);
 
