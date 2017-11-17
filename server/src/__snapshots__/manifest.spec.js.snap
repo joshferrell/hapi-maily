@@ -1,0 +1,267 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`create manifest should include only prod for prod environment 1`] = `
+Object {
+  "connections": Array [
+    Object {
+      "labels": Array [
+        "server",
+      ],
+      "port": 3000,
+      "router": Object {
+        "stripTrailingSlash": true,
+      },
+    },
+  ],
+  "registrations": Array [
+    Object {
+      "plugin": Object {
+        "options": Object {
+          "includes": Object {
+            "request": Array [
+              "headers",
+              "payload",
+            ],
+            "response": Array [
+              "payload",
+            ],
+          },
+          "ops": Object {
+            "interval": 2160000,
+          },
+          "reporters": Object {
+            "bunyan": Array [
+              Object {
+                "args": Array [
+                  Object {
+                    "error": "*",
+                    "log": "*",
+                    "request": "*",
+                    "response": "*",
+                  },
+                ],
+                "module": "good-squeeze",
+                "name": "Squeeze",
+              },
+              Object {
+                "args": Array [
+                  Object {
+                    "error": "*",
+                    "log": "*",
+                    "request": "*",
+                    "response": "*",
+                  },
+                  Object {
+                    "formatters": Object {
+                      "request": [Function],
+                    },
+                    "logger": [Function],
+                  },
+                ],
+                "module": "good-bunyan",
+              },
+            ],
+          },
+        },
+        "register": "good",
+      },
+    },
+  ],
+}
+`;
+
+exports[`create manifest should include prod and dev for dev environment 1`] = `
+Object {
+  "connections": Array [
+    Object {
+      "labels": Array [
+        "server",
+      ],
+      "port": 3000,
+      "router": Object {
+        "stripTrailingSlash": true,
+      },
+    },
+  ],
+  "registrations": Array [
+    Object {
+      "plugin": Object {
+        "options": Object {
+          "includes": Object {
+            "request": Array [
+              "headers",
+              "payload",
+            ],
+            "response": Array [
+              "payload",
+            ],
+          },
+          "ops": Object {
+            "interval": 2160000,
+          },
+          "reporters": Object {
+            "bunyan": Array [
+              Object {
+                "args": Array [
+                  Object {
+                    "error": "*",
+                    "log": "*",
+                    "request": "*",
+                    "response": "*",
+                  },
+                ],
+                "module": "good-squeeze",
+                "name": "Squeeze",
+              },
+              Object {
+                "args": Array [
+                  Object {
+                    "error": "*",
+                    "log": "*",
+                    "request": "*",
+                    "response": "*",
+                  },
+                  Object {
+                    "formatters": Object {
+                      "request": [Function],
+                    },
+                    "logger": [Function],
+                  },
+                ],
+                "module": "good-bunyan",
+              },
+            ],
+          },
+        },
+        "register": "good",
+      },
+    },
+    Object {
+      "plugin": "inert",
+    },
+    Object {
+      "plugin": "vision",
+    },
+    Object {
+      "plugin": Object {
+        "options": Object {
+          "grouping": "tags",
+          "host": undefined,
+          "info": Object {
+            "contact": Object {
+              "name": "Josh Ferrell",
+              "url": "https://gitter.im/hapi-maily/Lobby",
+            },
+            "description": "Mail service that allows people to request a server for emails to be sent using a react template library",
+            "title": "Hapi Maily Documentation",
+            "version": "2.0.0",
+          },
+          "schemes": Array [
+            undefined,
+          ],
+          "swaggerUI": true,
+        },
+        "register": "hapi-swagger",
+      },
+    },
+  ],
+}
+`;
+
+exports[`create manifest should include prod and dev for local environment 1`] = `
+Object {
+  "connections": Array [
+    Object {
+      "labels": Array [
+        "server",
+      ],
+      "port": 3000,
+      "router": Object {
+        "stripTrailingSlash": true,
+      },
+    },
+  ],
+  "registrations": Array [
+    Object {
+      "plugin": Object {
+        "options": Object {
+          "includes": Object {
+            "request": Array [
+              "headers",
+              "payload",
+            ],
+            "response": Array [
+              "payload",
+            ],
+          },
+          "ops": Object {
+            "interval": 2160000,
+          },
+          "reporters": Object {
+            "bunyan": Array [
+              Object {
+                "args": Array [
+                  Object {
+                    "error": "*",
+                    "log": "*",
+                    "request": "*",
+                    "response": "*",
+                  },
+                ],
+                "module": "good-squeeze",
+                "name": "Squeeze",
+              },
+              Object {
+                "args": Array [
+                  Object {
+                    "error": "*",
+                    "log": "*",
+                    "request": "*",
+                    "response": "*",
+                  },
+                  Object {
+                    "formatters": Object {
+                      "request": [Function],
+                    },
+                    "logger": [Function],
+                  },
+                ],
+                "module": "good-bunyan",
+              },
+            ],
+          },
+        },
+        "register": "good",
+      },
+    },
+    Object {
+      "plugin": "inert",
+    },
+    Object {
+      "plugin": "vision",
+    },
+    Object {
+      "plugin": Object {
+        "options": Object {
+          "grouping": "tags",
+          "host": undefined,
+          "info": Object {
+            "contact": Object {
+              "name": "Josh Ferrell",
+              "url": "https://gitter.im/hapi-maily/Lobby",
+            },
+            "description": "Mail service that allows people to request a server for emails to be sent using a react template library",
+            "title": "Hapi Maily Documentation",
+            "version": "2.0.0",
+          },
+          "schemes": Array [
+            undefined,
+          ],
+          "swaggerUI": true,
+        },
+        "register": "hapi-swagger",
+      },
+    },
+  ],
+}
+`;

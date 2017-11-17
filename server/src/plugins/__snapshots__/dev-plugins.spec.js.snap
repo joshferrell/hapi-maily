@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`development plugins create development plugins should return plugin registrations given server information 1`] = `
+Array [
+  Object {
+    "plugin": "inert",
+  },
+  Object {
+    "plugin": "vision",
+  },
+  Object {
+    "plugin": Object {
+      "options": Object {
+        "grouping": "tags",
+        "host": "localhost:3000",
+        "info": Object {
+          "contact": Object {
+            "name": "Josh Ferrell",
+            "url": "https://gitter.im/hapi-maily/Lobby",
+          },
+          "description": "Mail service that allows people to request a server for emails to be sent using a react template library",
+          "title": "Hapi Maily Documentation",
+          "version": "2.0.0",
+        },
+        "schemes": Array [
+          "http",
+        ],
+        "swaggerUI": true,
+      },
+      "register": "hapi-swagger",
+    },
+  },
+]
+`;
+
+exports[`development plugins swagger options should return a configuration object for hapi swagger 1`] = `
+Object {
+  "grouping": "tags",
+  "host": "localhost:3000",
+  "info": Object {
+    "contact": Object {
+      "name": "Josh Ferrell",
+      "url": "https://gitter.im/hapi-maily/Lobby",
+    },
+    "description": "Mail service that allows people to request a server for emails to be sent using a react template library",
+    "title": "Hapi Maily Documentation",
+    "version": "2.0.0",
+  },
+  "schemes": Array [
+    "http",
+  ],
+  "swaggerUI": true,
+}
+`;

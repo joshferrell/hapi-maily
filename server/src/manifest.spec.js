@@ -16,7 +16,7 @@ describe('create manifest', () => {
 
     it('should include prod and dev for local environment', () => {
         const localServer = { ...serverInfo, env: 'local' };
-        const manifest = createManifest(serverInfo, logger);
+        const manifest = createManifest(localServer, logger);
         expect(manifest).toMatchSnapshot();
 
         const { registrations } = manifest;
@@ -28,7 +28,7 @@ describe('create manifest', () => {
 
     it('should include prod and dev for dev environment', () => {
         const devServer = { ...serverInfo, env: 'development' };
-        const manifest = createManifest(serverInfo, logger);
+        const manifest = createManifest(devServer, logger);
         expect(manifest).toMatchSnapshot();
 
         const { registrations } = manifest;
@@ -40,7 +40,7 @@ describe('create manifest', () => {
 
     it('should include only prod for prod environment', () => {
         const prodServer = { ...serverInfo, env: 'production' };
-        const manifest = createManifest(serverInfo, logger);
+        const manifest = createManifest(prodServer, logger);
         expect(manifest).toMatchSnapshot();
 
         const { registrations } = manifest;

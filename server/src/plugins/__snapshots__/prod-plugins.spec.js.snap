@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`production plugins create good configuration should return a configuration object 1`] = `
+Object {
+  "includes": Object {
+    "request": Array [
+      "headers",
+      "payload",
+    ],
+    "response": Array [
+      "payload",
+    ],
+  },
+  "ops": Object {
+    "interval": 2160000,
+  },
+  "reporters": Object {
+    "bunyan": Array [
+      Object {
+        "args": Array [
+          Object {
+            "error": "*",
+            "log": "*",
+            "request": "*",
+            "response": "*",
+          },
+        ],
+        "module": "good-squeeze",
+        "name": "Squeeze",
+      },
+      Object {
+        "args": Array [
+          Object {
+            "error": "*",
+            "log": "*",
+            "request": "*",
+            "response": "*",
+          },
+          Object {
+            "formatters": Object {
+              "request": [Function],
+            },
+            "logger": [Function],
+          },
+        ],
+        "module": "good-bunyan",
+      },
+    ],
+  },
+}
+`;
+
+exports[`production plugins create production plugins should return a configuration object 1`] = `
+Array [
+  Object {
+    "plugin": Object {
+      "options": Object {
+        "includes": Object {
+          "request": Array [
+            "headers",
+            "payload",
+          ],
+          "response": Array [
+            "payload",
+          ],
+        },
+        "ops": Object {
+          "interval": 2160000,
+        },
+        "reporters": Object {
+          "bunyan": Array [
+            Object {
+              "args": Array [
+                Object {
+                  "error": "*",
+                  "log": "*",
+                  "request": "*",
+                  "response": "*",
+                },
+              ],
+              "module": "good-squeeze",
+              "name": "Squeeze",
+            },
+            Object {
+              "args": Array [
+                Object {
+                  "error": "*",
+                  "log": "*",
+                  "request": "*",
+                  "response": "*",
+                },
+                Object {
+                  "formatters": Object {
+                    "request": [Function],
+                  },
+                  "logger": [Function],
+                },
+              ],
+              "module": "good-bunyan",
+            },
+          ],
+        },
+      },
+      "register": "good",
+    },
+  },
+]
+`;
