@@ -8,8 +8,6 @@
 
 [![Ready for use](https://img.shields.io/badge/ready%20for%20use-no-red.svg?style=flat-square)](https://github.com/joshferrell/hapi-maily/milestone/1)
 
-[widgets](/widgets)
-
 An email service that generates html email templates using [mjml](https://mjml.io/), then sends the emails to the requested user.
 
 ## Getting Started

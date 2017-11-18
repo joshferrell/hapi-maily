@@ -11,7 +11,7 @@
     },
     "scripts": {
         "start": "start-storybook -p 9009 -s public",
-        "build": "build-storybook -o storybook-static",
+        "deploy-docs": "storybook-to-ghpages",
         "lint": "eslint src/"
     },
     "dependencies": {
@@ -26,6 +26,7 @@
         "@storybook/addon-knobs": "^3.2.16",
         "@storybook/addon-links": "^3.2.16",
         "@storybook/react": "^3.2.16",
+        "@storybook/storybook-deployer": "^2.0.0",
         "eslint": "^4.11.0",
         "eslint-config-airbnb": "^16.1.0",
         "eslint-plugin-import": "^2.8.0",
