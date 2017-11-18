@@ -1,0 +1,36 @@
+{
+    "name": "hapi-maily-widgets",
+    "version": "1.0.0",
+    "private": false,
+    "description": "Email MJML widgets used by hapi-maily and other email services",
+    "main": "src/index.js",
+    "repository": "git@github.com:joshferrell/hapi-maily.git",
+    "author": {
+        "name": "Josh Ferrell",
+        "url": "https://gitter.im/hapi-maily/Lobby"
+    },
+    "scripts": {
+        "start": "start-storybook -p 9009 -s public",
+        "build": "build-storybook -o storybook-static",
+        "lint": "eslint src/"
+    },
+    "dependencies": {
+        "mjml": "^3.3.5",
+        "prop-types": "^15.6.0",
+        "react": "^16.1.1",
+        "react-dom": "^16.1.1",
+        "react-scripts": "1.0.17"
+    },
+    "devDependencies": {
+        "@storybook/addon-actions": "^3.2.16",
+        "@storybook/addon-knobs": "^3.2.16",
+        "@storybook/addon-links": "^3.2.16",
+        "@storybook/react": "^3.2.16",
+        "eslint": "^4.11.0",
+        "eslint-config-airbnb": "^16.1.0",
+        "eslint-plugin-import": "^2.8.0",
+        "eslint-plugin-jest": "^21.3.2",
+        "eslint-plugin-jsx-a11y": "^6.0.2",
+        "eslint-plugin-react": "^7.4.0"
+    }
+}
