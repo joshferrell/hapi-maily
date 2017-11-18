@@ -13,10 +13,10 @@ services:
 
 jobs:
     include:
-        - stage: spec tests
+        - stage: Spec Tests
           script: ./scripts/spec-test-server.sh
         - script: ./scripts/spec-test-widgets.sh
-        - stage: deploy widget documentation
+        - stage: Deploy Widgets
           script: ./scripts/deploy-widgets.sh
         - deploy:
               provider: npm
