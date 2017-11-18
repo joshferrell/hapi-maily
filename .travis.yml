@@ -18,6 +18,10 @@ jobs:
         - script: ./scripts/spec-test-widgets.sh
         - stage: deploy widget documentation
           script: ./scripts/deploy-widgets.sh
+        - deploy:
+              provider: npm
+              email: $NPM_EMAIL_ADDRESS
+              api_key: $NPM_API_KEY
 notifications:
   webhooks:
     urls:
