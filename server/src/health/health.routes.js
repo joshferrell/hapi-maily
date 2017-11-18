@@ -1,9 +1,14 @@
-import boom from 'boom';
+import getDate from 'moment';
 import { format } from '../utility';
-import { handleCheckServer } from '.';
+import {
+    handleCheckServer,
+    makeCheckSmtpStatus,
+    makeHandleCheckDependency
+} from '.';
 
-const createHealthRoutes = () => {
-    const notImplemented = (request, reply) => reply(boom.notImplemented());
+const createHealthRoutes = (emailInterface, logger) => {
+    const checkSmtpStatus = makeCheckSmtpStatus(emailInterface, getDate, logger);
+    const handleCheckDependency = makeHandleCheckDependency([checkSmtpStatus]);
 
     const checkServer = {
         method: 'GET',
@@ -31,7 +36,7 @@ const createHealthRoutes = () => {
     const checkDependencies = {
         method: 'GET',
         path: '/healthCheck/all',
-        handler: notImplemented,
+        handler: handleCheckDependency,
         config: {
             auth: false,
             tags: ['api', 'Server Utilities'],

@@ -16,7 +16,10 @@ const createManifest = (serverInfo, logger) => {
                 }
             }
         ],
-        registrations: [...productionPlugins, ...developmentPlugins]
+        registrations: [
+            ...productionPlugins,
+            ...developmentPlugins
+        ]
     };
 };
 

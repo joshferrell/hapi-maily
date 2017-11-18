@@ -16,11 +16,12 @@
         "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
         "comma-dangle": ["error", "never"],
         "jsx-a11y/no-redundant-roles": 2,
-        "react/jsx-indent-props": [1, 2],
+        "react/jsx-indent-props": [2, 4],
         "no-confusing-arrow": ["error", {"allowParens": true}],
         "import/no-duplicates": 0,
         "import/prefer-default-export": 1,
         "linebreak-style": 0,
-        "no-warning-comments": ["warn"]
+        "no-warning-comments": ["warn"],
+        "no-underscore-dangle": [2, { "allow": ["__"] }],
     }
 }
