@@ -23,19 +23,11 @@ services:
 
 jobs:
     include:
-        - stage: server spec tests
-          script:
-              - cd /server
-              - yarn lint
-              - yarn test:ci
-        - stage: widget spec tests
-          script:
-              - cd /widgets
-              - yarn lint
+        - stage: spec tests
+          script: ./scripts/spec-test-server.sh
+        - script: ./scripts/spec-test-widgets.sh
         - stage: deploy widget documentation
-          script:
-              - cd /widgets
-              - yarn deploy-docs
+          script: ./scripts/deploy-widgets.sh
 notifications:
   webhooks:
     urls:
