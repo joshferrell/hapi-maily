@@ -2,6 +2,12 @@ language: node_js
 node_js:
   - "8"
 
+before_install:
+    - yarn init -y
+    - yarn global add greenkeeper-lockfile@1
+before_script: ./scripts/greenkeeper-update.sh
+after_script: ./scripts/greenkeeper-upload.sh
+
 services:
     - docker
 
