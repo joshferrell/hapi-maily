@@ -5,12 +5,12 @@ A collection of email widgets for use with [MJML](https://mjml.io)
 ## Basic Usage
 
 ***Install Widgets***
-```
+```sh
 yarn add hapi-maily-widgets
 ```
 
 ***Usage***
-```
+```js
 import React from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
 import { Footer, renderMJML } from 'header';
@@ -28,6 +28,55 @@ needs to be served through `renderMJML` in order to convert
 mjml into valid HTML markup.
 
 [View Storybook of Components](https://joshferrell.github.io/hapi-maily/)
+
+## Theming
+
+You are able to customize the look of the mail components by passing a
+theme property to the `renderMJML` method.
+
+The structure of the theme should be as follows
+
+```js
+const theme = {
+    colors: {
+        primary: '#E91E63'
+        // you can use additional colors
+        // below, so long as it is
+        // string: 'HEX'
+    }
+}
+```
+
+Then you can simply call the renderMJML method with your components.
+
+```js
+import React from 'react';
+import { renderToStaticMarkup } from 'react-dom/server';
+import { Button, renderMJML } from 'header';
+
+const theme = {
+    colors: {
+        primary: '#03A9F4',
+        secondary: '#009688',
+        paul: '#8BC34A'
+    }
+};
+
+const buttonComponent = (
+    <Button
+        url="http://google.com"
+        buttonType="paul"
+    >
+        Hi Im Paul!
+    </Button>
+)
+
+const emailComponent = renderMJML(buttonComponent, theme);
+const staticEmail = renderToStaticMarkup(emailComponent);
+
+console.log(staticEmail); // Static Themed HTML email
+```
+
 
 ## Contributing
 

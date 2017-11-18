@@ -14,10 +14,9 @@ services:
 jobs:
     include:
         - stage: Spec Tests
-          script: ./scripts/spec-test-server.sh
+        - script: ./scripts/spec-test-server.sh
         - script: ./scripts/spec-test-widgets.sh
         - stage: Deploy Widgets
-          script: ./scripts/deploy-widgets.sh
         - deploy:
               provider: npm
               email: $NPM_EMAIL_ADDRESS

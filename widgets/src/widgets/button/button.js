@@ -6,10 +6,9 @@ const Button = ({
     children,
     url,
     buttonType,
-    squared,
-    ...attributes
+    squared
 }) => {
-    const { colors } = styles;
+    const { colors } = this.context.styles;
     const buttonProps = {
         'background-color': colors[buttonType],
         color: '#FFFFFF',
@@ -19,8 +18,7 @@ const Button = ({
         'text-transform': 'uppercase',
         'inner-padding': '15 30',
         href: url,
-        rel: 'noreferrer',
-        ...attributes
+        rel: 'noreferrer'
     };
 
     return <mj-button {...buttonProps}>{children}</mj-button>;
@@ -36,6 +34,12 @@ Button.propTypes = {
 Button.defaultProps = {
     buttonType: 'primary',
     squared: false
+};
+
+Button.contextTypes = {
+    styles: PropTypes.shape({
+        colors: PropTypes.object
+    }).isRequired
 };
 
 export default Button;
