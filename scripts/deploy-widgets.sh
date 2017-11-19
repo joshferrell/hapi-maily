@@ -8,4 +8,4 @@ yarn build
 # pubish to npm
 npm install -g npm-cli-login
 npm-cli-login
-npm publish lib
+npm publish

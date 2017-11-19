@@ -7,8 +7,7 @@ before_install:
     - yarn global add greenkeeper-lockfile@1
 before_script: ./scripts/greenkeeper-update.sh
 after_script: ./scripts/greenkeeper-upload.sh
-services:
-    - docker
+
 jobs:
     include:
         - stage: Spec Tests
