@@ -16,9 +16,7 @@ const createHealthRoutes = (emailInterface, logger) => {
         handler: handleCheckServer,
         config: {
             auth: false,
-            tags: [
-                'api', 'Server Utilities'
-            ],
+            tags: ['api', 'Server Utilities'],
             description: 'Get up status of server',
             notes: [
                 'Returns success status if the server is online'
