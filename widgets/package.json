@@ -12,7 +12,7 @@
     "scripts": {
         "start": "start-storybook -p 9009 -s public",
         "build": "babel src -d lib --copy-files",
-        "deploy-docs": "storybook-to-ghpages",
+        "build:docs": "build-storybook -c .storybook -o ../docs",
         "lint": "eslint src/"
     },
     "dependencies": {

@@ -1,24 +1,29 @@
 language: node_js
 node_js:
-    - '8'
-
+- '8'
 before_install:
-    - yarn init -y
-    - yarn global add greenkeeper-lockfile@1
-before_script: ./scripts/greenkeeper-update.sh
-after_script: ./scripts/greenkeeper-upload.sh
-
+- yarn init -y
+- yarn global add greenkeeper-lockfile@1
+before_script: "./scripts/greenkeeper-update.sh"
+after_script: "./scripts/greenkeeper-upload.sh"
 jobs:
-    include:
-        - stage: Spec Tests
-          script: ./scripts/spec-test-server.sh
-        - script: ./scripts/spec-test-widgets.sh
-        - stage: Deploy Widgets
-          script: ./scripts/deploy-widgets.sh
+  include:
+  - stage: Spec Tests
+    script: "./scripts/spec-test-server.sh"
+  - script: "./scripts/spec-test-widgets.sh"
+  - stage: Deploy Widgets
+    script: "./scripts/deploy-widgets.sh"
+    deploy:
+        provider: npm
+        email: $NPM_EMAIL
+        api_key: $NPM_API_KEY
+        skip_cleanup: true
+        on:
+            branch: master
 notifications:
   webhooks:
     urls:
-        - https://webhooks.gitter.im/e/c8d311cf741ea64d3faf
+    - https://webhooks.gitter.im/e/c8d311cf741ea64d3faf
     on_success: change
     on_failure: always
     on_start: never
