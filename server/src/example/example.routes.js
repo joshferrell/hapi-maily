@@ -1,14 +1,14 @@
-import boom from 'boom';
 import joi from 'joi';
+import { makeHandleSimpleEmail } from '.';
 import { format } from '../utility';
 
-const createExampleRoutes = () => {
-    const notImplemented = (request, reply) => reply(boom.notImplemented());
+const createExampleRoutes = (emailInterface) => {
+    const handleSimpleEmail = makeHandleSimpleEmail(emailInterface);
 
     const sendSimpleEmail = {
         method: 'POST',
         path: '/example/simple',
-        handler: notImplemented,
+        handler: handleSimpleEmail,
         config: {
             tags: ['api', 'Example Email'],
             description: 'Sends a simple html email',
