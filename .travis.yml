@@ -15,14 +15,7 @@ jobs:
           script: ./scripts/spec-test-server.sh
         - script: ./scripts/spec-test-widgets.sh
         - stage: Deploy Widgets
-          before_deploy: cd ./widgets
-          deploy:
-            provider: npm
-            email: $NPM_EMAIL_ADDRESS
-            api_key: $NPM_API_KEY
-            on:
-                branch: master
-                repo: joshferrell/hapi-maily
+          script: ./scripts/deploy-widgets.sh
 notifications:
   webhooks:
     urls:
