@@ -1,9 +1,9 @@
 {
     "name": "hapi-maily-widgets",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "private": false,
     "description": "Email MJML widgets used by hapi-maily and other email services",
-    "main": "src/index.js",
+    "main": "lib/index.js",
     "repository": "git@github.com:joshferrell/hapi-maily.git",
     "author": {
         "name": "Josh Ferrell",
@@ -11,6 +11,7 @@
     },
     "scripts": {
         "start": "start-storybook -p 9009 -s public",
+        "build": "babel src -d lib --copy-files",
         "deploy-docs": "storybook-to-ghpages",
         "lint": "eslint src/"
     },
@@ -27,6 +28,11 @@
         "@storybook/addon-links": "^3.2.16",
         "@storybook/react": "^3.2.16",
         "@storybook/storybook-deployer": "^2.0.0",
+        "babel-cli": "^6.26.0",
+        "babel-preset-env": "^1.6.1",
+        "babel-preset-react": "^6.24.1",
+        "babel-preset-stage-2": "^6.24.1",
+        "babel-preset-stage-3": "^6.24.1",
         "eslint": "^4.11.0",
         "eslint-config-airbnb": "^16.1.0",
         "eslint-plugin-import": "^2.8.0",
