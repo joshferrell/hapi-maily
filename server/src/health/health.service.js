@@ -6,7 +6,7 @@ export const makeCheckSmtpStatus = (emailInterface, getDate, log) => async () =>
     const startTime = getTime();
 
     try {
-        await emailInterface.transporter.verify();
+        await emailInterface.authenticate();
         const duration = getTime(startTime);
         return {
             name: 'smtp',

@@ -5,6 +5,7 @@ import createManifest from './manifest';
 
 import { createEmailInterface } from './connection';
 import createHealthRoutes from './health';
+import createExampleRoutes from './example';
 
 dotenv.load();
 
@@ -16,7 +17,8 @@ const serverInfo = {
 
 const emailSettings = {
     fromAddress: process.env.EMAIL_FROM_ADDRESS,
-    apiKey: process.env.MANDRILL_API_KEY
+    user: process.env.MANDRILL_EMAIL,
+    pass: process.env.MANDRILL_API_KEY
 };
 
 const logger = createLogger({
@@ -27,10 +29,12 @@ const logger = createLogger({
     level: 'trace'
 });
 
-const createStartServer = log => (server) => {
+const createStartServer = log => async (server) => {
     const emailInterface = createEmailInterface(emailSettings);
     const healthRoutes = createHealthRoutes(emailInterface, log);
+    const exampleRoutes = createExampleRoutes(emailInterface);
     server.route(healthRoutes);
+    server.route(exampleRoutes);
 
     server.start();
     server.log('info', `Server running at ${server.info.uri}`);

@@ -56,6 +56,11 @@ Theme.propTypes = {
         colors: _propTypes2.default.object
     })
 };
+Theme.childContextTypes = {
+    styles: _propTypes2.default.shape({
+        colors: _propTypes2.default.object
+    })
+};
 Theme.defaultProps = {
     styles: _utility.styles
 };

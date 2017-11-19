@@ -17,14 +17,15 @@ const SimpleEmail = ({ firstName, lastName }) => (
         <mj-section full-width="full-width" padding="25 0 35">
             <mj-column>
                 <Button
-                    text="Go To Google"
                     buttonType="primary"
                     url="http://www.google.com"
                     align="center"
-                />
+                >
+                    Go To Google
+                </Button>
             </mj-column>
         </mj-section>
-        <Footer />
+        <Footer title="Hapi Maily" />
     </mj-wrapper>
 );
 

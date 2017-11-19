@@ -1,5 +1,6 @@
 
-const makeSendEmail = (transporter, fromAddress) => emailInfo =>
-    transporter.sendMail({ ...emailInfo, fromAddress });
+const makeSendEmail = (transporter, from) => emailInfo =>
+    transporter.sendMail({ ...emailInfo, from });
+
 
 export default makeSendEmail;

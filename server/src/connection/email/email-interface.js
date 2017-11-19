@@ -1,6 +1,7 @@
 import makeSendEmail from './send-email';
 import renderTemplate from './render-template';
 import createTransport from './create-transport';
+import makeVerifyConnection from './verify-connection';
 
 /**
  * creates a new interface for sending emailSettings
@@ -8,12 +9,14 @@ import createTransport from './create-transport';
  * @return {Object}                Returns an interface
  */
 const createEmailInterface = (emailSettings) => {
-    const transporter = createTransport(emailSettings.apiKey);
-    const sendEmail = makeSendEmail(transporter, emailSettings.fromAddress);
+    const transport = createTransport(emailSettings);
+    const sendEmail = makeSendEmail(transport, emailSettings.fromAddress);
+    const verifyConnection = makeVerifyConnection(transport);
 
     return ({
         sendEmail,
-        transporter,
+        transport,
+        authenticate: verifyConnection,
         renderHTML: renderTemplate
     });
 };

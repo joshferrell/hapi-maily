@@ -10,6 +10,12 @@ class Theme extends Component {
         })
     };
 
+    static childContextTypes = {
+        styles: PropTypes.shape({
+            colors: PropTypes.object
+        })
+    };
+
     static defaultProps = {
         styles
     };
