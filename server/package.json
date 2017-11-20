@@ -51,7 +51,8 @@
     "eslint-plugin-react": "^7.4.0",
     "jest": "21.2.1",
     "nodemailer-stub-transport": "^1.1.0",
-    "nodemon": "^1.12.1"
+    "nodemon": "^1.12.1",
+    "react-test-renderer": "^16.1.1"
   },
   "dependencies": {
     "boom": "^7.1.1",
