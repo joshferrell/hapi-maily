@@ -1,14 +1,15 @@
 import joi from 'joi';
-import { makeHandleSimpleEmail } from '.';
+// import { makeHandleEmail } from './example.handler';
+import { SimpleEmail } from '../templates';
 import { format } from '../utility';
 
-const createExampleRoutes = (emailInterface) => {
-    const handleSimpleEmail = makeHandleSimpleEmail(emailInterface);
+const createExampleRoutes = ({ makeHandleEmail }) => {
+    const handleEmail = makeHandleEmail(SimpleEmail, 'message title');
 
     const sendSimpleEmail = {
         method: 'POST',
         path: '/example/simple',
-        handler: handleSimpleEmail,
+        handler: handleEmail,
         config: {
             tags: ['api', 'Example Email'],
             description: 'Sends a simple html email',

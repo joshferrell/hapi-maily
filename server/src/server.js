@@ -5,7 +5,7 @@ import dotenv from 'dotenv-safe';
 
 import createManifest from './manifest';
 
-import { createEmailInterface } from './connection';
+import createEmailInterface from './email';
 import createHealthRoutes from './health';
 import createExampleRoutes from './example';
 

@@ -1,31 +1,24 @@
 import React from 'react';
 import boom from 'boom';
-import { SimpleEmail } from '../templates';
 
 /* eslint-disable import/prefer-default-export */
-export const makeHandleSimpleEmail = emailInterface => async (request, reply) => {
-    const { firstName, lastName, email } = request.payload;
+export const makeHandleEmail = (Component, subject, emailInterface) => async (request, reply) => {
+    const { email, ...props } = request.payload;
     const { renderHTML, sendEmail } = emailInterface;
-    const component = (
-        <SimpleEmail
-            firstName={firstName}
-            lastName={lastName}
-        />
-    );
 
     try {
-        const html = renderHTML(component);
-        const emailInfo = {
+        const html = renderHTML(<Component {...props} />);
+        const data = await sendEmail({
             to: email,
-            subject: 'Message title',
+            subject,
             html
-        };
-
-        const data = await sendEmail(emailInfo);
-        request.log('info', {
-            data,
-            msg: 'Logged email information'
         });
+
+        request.log('info', {
+            msg: 'Logged email information',
+            data
+        });
+
         return reply({ success: true });
     } catch (err) {
         request.log('error', { err, msg: 'unable to send simple email' });

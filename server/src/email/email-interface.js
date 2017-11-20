@@ -2,7 +2,8 @@ import {
     makeSendEmail,
     renderTemplate,
     makeCreateTransport,
-    makeVerifyConnection
+    makeVerifyConnection,
+    makeHandleEmail
 } from '.';
 
 /**
@@ -17,12 +18,14 @@ const createEmailInterface = (emailSettings, nodemailer) => {
 
     const sendEmail = makeSendEmail(transport, emailSettings.fromAddress);
     const verifyConnection = makeVerifyConnection(transport);
+    const handleEmail = makeHandleEmail(renderTemplate, sendEmail);
 
     return ({
         sendEmail,
         transport,
         authenticate: verifyConnection,
-        renderHTML: renderTemplate
+        renderHTML: renderTemplate,
+        makeHandleEmail: handleEmail
     });
 };
 
