@@ -1,5 +1,4 @@
 import joi from 'joi';
-// import { makeHandleEmail } from './example.handler';
 import { SimpleEmail } from '../templates';
 import { format } from '../utility';
 
