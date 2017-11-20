@@ -1,28 +1,28 @@
 
 export const makeGetTime = getDate => (startTime = 0) => getDate().valueOf() - startTime;
 
-export const makeCheckSmtpStatus = (emailInterface, getDate, log) => async () => {
+export const makeCheckStatus = (promiseFunction, name, getDate, log) => async () => {
     const getTime = makeGetTime(getDate);
     const startTime = getTime();
 
     try {
-        await emailInterface.authenticate();
+        await promiseFunction();
         const duration = getTime(startTime);
         return {
-            name: 'smtp',
+            name,
             up: true,
             duration,
-            msg: `smtp is up. time to ping ${duration}ms`
+            msg: `${name} is up. time to ping ${duration}ms`
         };
     } catch (err) {
-        log.error({ err }, 'unable to connect to smtp');
+        log.error({ err }, `unable to connect to ${name}`);
         const duration = getTime(startTime);
 
         return {
-            name: 'smtp',
+            name,
             up: false,
             duration,
-            msg: `smtp is down. time to error ${duration}ms`
+            msg: `${name} is down. time to error ${duration}ms`
         };
     }
 };
