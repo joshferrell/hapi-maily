@@ -1,8 +1,7 @@
-import nodemailer from 'nodemailer';
+const makeCreateTransport = nodemailer =>
+    ({ user, pass }) => nodemailer.createTransport({
+        service: 'Mandrill',
+        auth: { user, pass }
+    });
 
-const createTransport = ({ user, pass }) => nodemailer.createTransport({
-    service: 'Mandrill',
-    auth: { user, pass }
-});
-
-export default createTransport;
+export default makeCreateTransport;

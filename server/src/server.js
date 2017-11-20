@@ -1,6 +1,8 @@
 import { compose } from 'glue';
+import nodemailer from 'nodemailer';
 import { createLogger, stdSerializers } from 'bunyan';
 import dotenv from 'dotenv-safe';
+
 import createManifest from './manifest';
 
 import { createEmailInterface } from './connection';
@@ -30,7 +32,7 @@ const logger = createLogger({
 });
 
 const createStartServer = log => async (server) => {
-    const emailInterface = createEmailInterface(emailSettings);
+    const emailInterface = createEmailInterface(emailSettings, nodemailer);
     const healthRoutes = createHealthRoutes(emailInterface, log);
     const exampleRoutes = createExampleRoutes(emailInterface);
     server.route(healthRoutes);

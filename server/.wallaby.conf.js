@@ -1,7 +1,6 @@
 /* eslint-disable */
 
 module.exports = function (wallaby) {
-    console.log(wallaby);
     return {
         files: [
             'src/**/**.js',
@@ -17,7 +16,7 @@ module.exports = function (wallaby) {
 
         env: {
             type: 'node',
-            runner: '/Users/jferrell/.nvm/versions/node/v8.4.0/bin/node'
+            runner: '/Users/jferrell/.nvm/versions/node/v8.9.1/bin/node'
         },
 
         compilers: {
