@@ -1,7 +1,7 @@
 import React from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
 import { mjml2html } from 'mjml';
-import { Theme } from '../widgets';
+import { Theme } from '../theme';
 import { styles } from '.';
 
 export const renderComponent = (component, theme) => {

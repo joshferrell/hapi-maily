@@ -5,7 +5,7 @@ import { storiesOf } from '@storybook/react';
 import { withKnobs, text } from '@storybook/addon-knobs';
 /* eslint-enable import/no-extraneous-dependencies */
 
-import { renderMJML } from '../../utility';
+import { renderMJML } from '../utility';
 import Verification from './verification';
 
 storiesOf('Widget/Verification', module)

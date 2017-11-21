@@ -5,7 +5,7 @@ import { storiesOf } from '@storybook/react';
 import { withKnobs, text, select, boolean } from '@storybook/addon-knobs';
 /* eslint-enable import/no-extraneous-dependencies */
 
-import { renderMJML } from '../../utility';
+import { renderMJML } from '../utility';
 import Button from './button';
 
 const buttonTypes = [

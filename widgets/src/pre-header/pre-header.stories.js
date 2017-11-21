@@ -5,7 +5,7 @@ import { storiesOf } from '@storybook/react';
 import { withKnobs, text } from '@storybook/addon-knobs';
 /* eslint-enable import/no-extraneous-dependencies */
 
-import { renderMJML } from '../../utility';
+import { renderMJML } from '../utility';
 import PreHeader from './pre-header';
 
 storiesOf('Widget/Pre-Header', module)

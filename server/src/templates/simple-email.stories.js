@@ -8,7 +8,7 @@ import { withKnobs, text } from '@storybook/addon-knobs';
 
 import SimpleEmail from './simple-email';
 
-storiesOf('Templates/Simple Email', module)
+storiesOf('Simple Email', module)
     .addDecorator(withKnobs)
     .add('with first name and last name', () => {
         const component = (
