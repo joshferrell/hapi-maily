@@ -8,7 +8,7 @@ import { withKnobs, text } from '@storybook/addon-knobs';
 import { renderMJML } from '../utility';
 import Verification from './verification';
 
-storiesOf('Widget/Verification', module)
+storiesOf('Verification', module)
     .addDecorator(withKnobs)
     .add('with title and value', () => {
         const component = (

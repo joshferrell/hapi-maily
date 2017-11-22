@@ -1,6 +1,6 @@
 {
   "name": "hapi-maily",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "An email service that generates html email templates using mjml, then sends the email to the requested user",
   "main": "index.js",
   "repository": "git@github.com:joshferrell/hapi-maily.git",

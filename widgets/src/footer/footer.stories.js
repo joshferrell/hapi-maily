@@ -8,7 +8,7 @@ import { withKnobs, text } from '@storybook/addon-knobs';
 import { renderMJML } from '../utility';
 import Footer from './footer';
 
-storiesOf('Widget/Footer', module)
+storiesOf('Footer', module)
     .addDecorator(withKnobs)
     .add('with no nested components', () => {
         const component = (

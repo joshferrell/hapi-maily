@@ -8,11 +8,16 @@ import { withKnobs, text } from '@storybook/addon-knobs';
 import { renderMJML } from '../utility';
 import PreHeader from './pre-header';
 
-storiesOf('Widget/Pre-Header', module)
+storiesOf('Pre-Header', module)
     .addDecorator(withKnobs)
     .add('with email pre-header text', () => {
         const component = (
-            <PreHeader value={text('email pre-text', 'Simple Text')} />
+            <mj-section>
+                <PreHeader value={text('email pre-text', 'Simple Text')} />
+                <mj-text>
+                    <p>Pre header is hidden, inspect in order to see output</p>
+                </mj-text>
+            </mj-section>
         );
         return renderMJML(component);
     });

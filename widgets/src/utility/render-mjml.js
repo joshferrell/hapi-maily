@@ -1,8 +1,8 @@
 import React from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
 import { mjml2html } from 'mjml';
-import { Theme } from '../theme';
-import { styles } from '.';
+import Theme from '../theme';
+import styles from './styles';
 
 export const renderComponent = (component, theme) => {
     if (!theme.colors && !theme.colors.primary) {

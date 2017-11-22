@@ -8,7 +8,7 @@ import { withKnobs, text } from '@storybook/addon-knobs';
 import { renderMJML } from '../utility';
 import Header from './header';
 
-storiesOf('Widget/Header', module)
+storiesOf('Header', module)
     .addDecorator(withKnobs)
     .add('with custom image and subject', () => {
         const image = {

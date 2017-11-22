@@ -8,7 +8,7 @@ import { withKnobs, text } from '@storybook/addon-knobs';
 import { renderMJML } from '../utility';
 import FieldValue from './field-value';
 
-storiesOf('Widget/Field Component', module)
+storiesOf('Field Component', module)
     .addDecorator(withKnobs)
     .add('with regular size', () => {
         const component = (

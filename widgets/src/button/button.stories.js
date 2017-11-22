@@ -16,7 +16,7 @@ const buttonTypes = [
     'warning'
 ];
 
-storiesOf('Widget/Button', module)
+storiesOf('Button', module)
     .addDecorator(withKnobs)
     .add('with text', () => {
         const component = (
