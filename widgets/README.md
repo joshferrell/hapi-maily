@@ -103,3 +103,4 @@ This application follows the airbnb linting styleguide with minor changes.
     * example: if headerImage is present, but colors is not, use default colors
     * if colors is present but header image is not, use no headerimage styles
     * include check that if colors is present, then make sure structure is valid
+[] Create add with info checks for storybook so that markdown can be included
