@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`handle email requests should render the html, and send an email to the requested user 1`] = `
+Object {
+  "html": <p>
+    this is a test
+  </p>,
+  "subject": "This is a test",
+  "to": "example@gmail.com",
+}
+`;
+
+exports[`handle email requests should render the html, and send an email to the requested user 2`] = `undefined`;
