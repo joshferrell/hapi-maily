@@ -1,22 +1,15 @@
+import { curry } from 'ramda';
 import {
     makeSendEmail,
     renderTemplate,
-    makeCreateTransport,
     makeVerifyConnection,
     makeHandleEmail
 } from '.';
 
-/**
- * creates a new interface for sending emailSettings
- * @param  {object}  emailSettings {apiKey, fromAddress}
- * @param  {funct}   nodemailer    injection of nodemailer for mocks
- * @return {Object}                Returns an interface
- */
-const createEmailInterface = (emailSettings, nodemailer) => {
-    const createTransport = makeCreateTransport(nodemailer);
-    const transport = createTransport(emailSettings);
+const createEmailInterface = (env, log, nodemailer, fromAddress, transportSettings) => {
+    const transport = nodemailer.createTransport(transportSettings);
 
-    const sendEmail = makeSendEmail(transport, emailSettings.fromAddress);
+    const sendEmail = makeSendEmail(env, log, transport, fromAddress);
     const verifyConnection = makeVerifyConnection(transport);
     const handleEmail = makeHandleEmail(renderTemplate, sendEmail);
 
@@ -29,4 +22,4 @@ const createEmailInterface = (emailSettings, nodemailer) => {
     });
 };
 
-export default createEmailInterface;
+export default curry(createEmailInterface);

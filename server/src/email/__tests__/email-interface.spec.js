@@ -1,4 +1,4 @@
-import createEmailInterface from './email-interface';
+import createEmailInterface from '../email-interface';
 
 describe('email interface', () => {
     const nodemailer = {

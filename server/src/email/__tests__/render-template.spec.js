@@ -1,5 +1,5 @@
 import React from 'react';
-import renderTemplate from './render-template';
+import renderTemplate from '../render-template';
 
 describe('render email template', () => {
     it('should render an email template from react to mjml', () => {

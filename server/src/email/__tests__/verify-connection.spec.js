@@ -1,4 +1,4 @@
-import makeVerifyConnection from './verify-connection';
+import makeVerifyConnection from '../verify-connection';
 
 describe('verify email connection', () => {
     const validTransport = {

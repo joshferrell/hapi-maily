@@ -1,5 +1,157 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Simple Email with first name and last name 1`] = `
+<div
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": "<!doctype html><html xmlns=\\"http://www.w3.org/1999/xhtml\\" xmlns:v=\\"urn:schemas-microsoft-com:vml\\" xmlns:o=\\"urn:schemas-microsoft-com:office:office\\"><head>
+  <title></title>
+  <!--[if !mso]><!-- -->
+  <meta http-equiv=\\"X-UA-Compatible\\" content=\\"IE=edge\\">
+  <!--<![endif]-->
+<meta http-equiv=\\"Content-Type\\" content=\\"text/html; charset=UTF-8\\">
+<meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1.0\\">
+<style type=\\"text/css\\">
+  #outlook a { padding: 0; }
+  .ReadMsgBody { width: 100%; }
+  .ExternalClass { width: 100%; }
+  .ExternalClass * { line-height:100%; }
+  body { margin: 0; padding: 0; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+  table, td { border-collapse:collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+  img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; }
+  p { display: block; margin: 13px 0; }
+</style>
+<!--[if !mso]><!-->
+<style type=\\"text/css\\">
+  @media only screen and (max-width:480px) {
+    @-ms-viewport { width:320px; }
+    @viewport { width:320px; }
+  }
+</style>
+<!--<![endif]-->
+<!--[if mso]>
+<xml>
+  <o:OfficeDocumentSettings>
+    <o:AllowPNG/>
+    <o:PixelsPerInch>96</o:PixelsPerInch>
+  </o:OfficeDocumentSettings>
+</xml>
+<![endif]-->
+<!--[if lte mso 11]>
+<style type=\\"text/css\\">
+  .outlook-group-fix {
+    width:100% !important;
+  }
+</style>
+<![endif]-->
+<style type=\\"text/css\\">
+                     .display-none {
+                         display: none !important;
+                     }
+                 </style><style type=\\"text/css\\">
+  @media only screen and (min-width:480px) {
+    .mj-column-per-100 { width:100%!important; }
+.mj-column-per-50 { width:50%!important; }
+  }
+</style>
+</head>
+<body>
+  
+  <div class=\\"mj-container\\"><!--[if mso | IE]>
+      <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"600\\" align=\\"center\\" style=\\"width:600px;\\">
+        <tr>
+          <td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\">
+      <![endif]--><div class=\\"mj-container\\"><!--[if mso | IE]>
+      <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"600\\" align=\\"center\\" style=\\"width:600px;\\">
+        <tr>
+          <td style=\\"line-height:0px;font-size:0px;mso-line-height-rule:exactly;\\">
+      <![endif]--><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"font-size:0px;width:100%;\\" border=\\"0\\"><tbody><tr><td><div style=\\"margin:0px auto;max-width:600px;\\"><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"font-size:0px;width:100%;\\" align=\\"center\\" border=\\"0\\"><tbody><tr><td style=\\"text-align:left;vertical-align:top;direction:ltr;font-size:0px;padding:20px 0px;\\"><!--[if mso | IE]>
+      <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
+        <tr>
+          <td style=\\"width:600px;\\" class=\\"display-none-outlook\\">
+      <![endif]--><div style=\\"margin:0px auto;max-width:600px;\\" class=\\"display-none\\"><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"font-size:0px;width:100%;\\" align=\\"center\\" border=\\"0\\"><tbody><tr><td style=\\"text-align:center;vertical-align:top;direction:ltr;font-size:0px;padding:20px 0px;\\"><!--[if mso | IE]>
+      <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
+        <tr>
+          <td style=\\"vertical-align:top;width:600px;\\">
+      <![endif]--><div class=\\"mj-column-per-100 outlook-group-fix\\" style=\\"vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;\\"><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\" border=\\"0\\"><tbody><tr><td style=\\"word-wrap:break-word;font-size:0px;padding:10px 25px;\\" align=\\"left\\"><div style=\\"cursor:auto;color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;text-align:left;\\"><span>Example Email</span></div></td></tr></tbody></table></div><!--[if mso | IE]>
+      </td></tr></table>
+      <![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+        </td>
+      </tr>
+      <tr>
+        <td style=\\"width:600px;\\">
+      <![endif]--><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"font-size:0px;width:100%;\\" border=\\"0\\"><tbody><tr><td><div style=\\"margin:0px auto;max-width:600px;\\"><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"font-size:0px;width:100%;\\" align=\\"center\\" border=\\"0\\"><tbody><tr><td style=\\"text-align:center;vertical-align:top;direction:ltr;font-size:0px;padding:0px;\\"><!--[if mso | IE]>
+      <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
+        <tr>
+          <td style=\\"vertical-align:top;width:600px;\\">
+      <![endif]--><div class=\\"mj-column-per-100 outlook-group-fix\\" style=\\"vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;\\"><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\" border=\\"0\\"><tbody><tr><td style=\\"word-wrap:break-word;font-size:0px;padding:0px;\\" align=\\"center\\"><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"border-collapse:collapse;border-spacing:0px;\\" align=\\"center\\" border=\\"0\\"><tbody><tr><td style=\\"width:600px;\\"><img alt=\\"Fill Murray\\" height=\\"auto\\" src=\\"http://www.fillmurray.com/800/218\\" style=\\"border:none;border-radius:0px;display:block;font-size:13px;outline:none;text-decoration:none;width:100%;height:auto;\\" width=\\"600\\"></td></tr></tbody></table></td></tr></tbody></table></div><!--[if mso | IE]>
+      </td><td style=\\"vertical-align:top;width:600px;\\">
+      <![endif]--><div class=\\"mj-column-per-100 outlook-group-fix\\" style=\\"vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;\\"><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"background:#ECECEC;\\" width=\\"100%\\" border=\\"0\\"><tbody><tr><td style=\\"word-wrap:break-word;font-size:0px;padding:20px 30px;\\" align=\\"left\\"><div style=\\"cursor:auto;color:#2B2B2B;font-family:Helvetica, Arial, sans-serif;font-size:24px;font-weight:bold;line-height:22px;text-align:left;\\">Hey I'm a demo</div></td></tr></tbody></table></div><!--[if mso | IE]>
+      </td></tr></table>
+      <![endif]--></td></tr></tbody></table></div></td></tr></tbody></table><!--[if mso | IE]>
+        </td>
+      </tr>
+      <tr>
+        <td style=\\"width:600px;\\">
+      <![endif]--><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"font-size:0px;width:100%;\\" border=\\"0\\"><tbody><tr><td><div style=\\"margin:0px auto;max-width:600px;\\"><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"font-size:0px;width:100%;\\" align=\\"center\\" border=\\"0\\"><tbody><tr><td style=\\"text-align:center;vertical-align:top;direction:ltr;font-size:0px;padding:10px 25px;\\"><!--[if mso | IE]>
+      <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
+        <tr>
+          <td style=\\"vertical-align:top;width:300px;\\">
+      <![endif]--><div class=\\"mj-column-per-50 outlook-group-fix\\" style=\\"vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;\\"><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"vertical-align:top;\\" width=\\"100%\\" border=\\"0\\"><tbody><tr><td style=\\"word-wrap:break-word;font-size:0px;padding:0px;\\" align=\\"left\\"><div style=\\"cursor:auto;color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;text-align:left;\\"><h3 style=\\"font-size:20px;margin:0px;padding-top:10px\\">First Name</h3></div></td></tr></tbody></table></div><!--[if mso | IE]>
+      </td><td style=\\"vertical-align:top;width:300px;\\">
+      <![endif]--><div class=\\"mj-column-per-50 outlook-group-fix\\" style=\\"vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;\\"><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\" border=\\"0\\"><tbody><tr><td style=\\"word-wrap:break-word;font-size:0px;padding:0px;\\" align=\\"left\\"><div style=\\"cursor:auto;color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;text-align:left;\\"><p style=\\"font-size:20px;margin:0px;padding-top:10px\\">John</p></div></td></tr></tbody></table></div><!--[if mso | IE]>
+      </td></tr></table>
+      <![endif]--></td></tr></tbody></table></div></td></tr></tbody></table><!--[if mso | IE]>
+        </td>
+      </tr>
+      <tr>
+        <td style=\\"width:600px;\\">
+      <![endif]--><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"font-size:0px;width:100%;\\" border=\\"0\\"><tbody><tr><td><div style=\\"margin:0px auto;max-width:600px;\\"><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"font-size:0px;width:100%;\\" align=\\"center\\" border=\\"0\\"><tbody><tr><td style=\\"text-align:center;vertical-align:top;direction:ltr;font-size:0px;padding:10px 25px;\\"><!--[if mso | IE]>
+      <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
+        <tr>
+          <td style=\\"vertical-align:top;width:300px;\\">
+      <![endif]--><div class=\\"mj-column-per-50 outlook-group-fix\\" style=\\"vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;\\"><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"vertical-align:top;\\" width=\\"100%\\" border=\\"0\\"><tbody><tr><td style=\\"word-wrap:break-word;font-size:0px;padding:0px;\\" align=\\"left\\"><div style=\\"cursor:auto;color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;text-align:left;\\"><h3 style=\\"font-size:20px;margin:0px;padding-top:10px\\">Last Name</h3></div></td></tr></tbody></table></div><!--[if mso | IE]>
+      </td><td style=\\"vertical-align:top;width:300px;\\">
+      <![endif]--><div class=\\"mj-column-per-50 outlook-group-fix\\" style=\\"vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;\\"><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\" border=\\"0\\"><tbody><tr><td style=\\"word-wrap:break-word;font-size:0px;padding:0px;\\" align=\\"left\\"><div style=\\"cursor:auto;color:#000000;font-family:Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;text-align:left;\\"><p style=\\"font-size:20px;margin:0px;padding-top:10px\\">Doe</p></div></td></tr></tbody></table></div><!--[if mso | IE]>
+      </td></tr></table>
+      <![endif]--></td></tr></tbody></table></div></td></tr></tbody></table><!--[if mso | IE]>
+        </td>
+      </tr>
+      <tr>
+        <td style=\\"width:600px;\\">
+      <![endif]--><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"font-size:0px;width:100%;\\" border=\\"0\\"><tbody><tr><td><div style=\\"margin:0px auto;max-width:600px;\\"><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"font-size:0px;width:100%;\\" align=\\"center\\" border=\\"0\\"><tbody><tr><td style=\\"text-align:center;vertical-align:top;direction:ltr;font-size:0px;padding:25px 0px 35px;\\"><!--[if mso | IE]>
+      <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
+        <tr>
+          <td style=\\"vertical-align:top;width:600px;\\">
+      <![endif]--><div class=\\"mj-column-per-100 outlook-group-fix\\" style=\\"vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;\\"><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\" border=\\"0\\"><tbody><tr><td style=\\"word-wrap:break-word;font-size:0px;padding:10px 25px;\\" align=\\"center\\"><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"border-collapse:separate;\\" align=\\"center\\" border=\\"0\\"><tbody><tr><td style=\\"border:none;border-radius:25px;color:#FFFFFF;cursor:auto;padding:15px 30px;\\" align=\\"center\\" valign=\\"middle\\" bgcolor=\\"#9b59b6\\"><a href=\\"http://www.google.com\\" rel=\\"noreferrer\\" style=\\"text-decoration:none;background:#9b59b6;color:#FFFFFF;font-family:Helvetica, Arial, sans-serif;font-size:18px;font-weight:bold;line-height:120%;text-transform:uppercase;margin:0px;\\" target=\\"_blank\\">Go To Google</a></td></tr></tbody></table></td></tr></tbody></table></div><!--[if mso | IE]>
+      </td></tr></table>
+      <![endif]--></td></tr></tbody></table></div></td></tr></tbody></table><!--[if mso | IE]>
+        </td>
+      </tr>
+      <tr>
+        <td style=\\"width:600px;\\">
+      <![endif]--><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"background:#9b59b6;font-size:0px;width:100%;\\" border=\\"0\\"><tbody><tr><td><div style=\\"margin:0px auto;max-width:600px;\\"><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"font-size:0px;width:100%;\\" align=\\"center\\" border=\\"0\\"><tbody><tr><td style=\\"text-align:center;vertical-align:top;direction:ltr;font-size:0px;padding:15px;\\"><!--[if mso | IE]>
+      <table role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
+        <tr>
+          <td style=\\"vertical-align:top;width:600px;\\">
+      <![endif]--><div class=\\"mj-column-per-100 outlook-group-fix\\" style=\\"vertical-align:top;display:inline-block;direction:ltr;font-size:13px;text-align:left;width:100%;\\"><table role=\\"presentation\\" cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\" border=\\"0\\"><tbody><tr><td style=\\"word-wrap:break-word;font-size:0px;padding:10px 25px;\\" align=\\"left\\"><div style=\\"cursor:auto;color:#FFFFFF;font-family:Helvetica, Arial, sans-serif;font-size:16px;line-height:22px;text-align:left;\\"><p style=\\"text-align:center;font-weight:bold\\">Copyright ©2017 Hapi Maily All Rights Reserved.</p></div></td></tr></tbody></table></div><!--[if mso | IE]>
+      </td></tr></table>
+      <![endif]--></td></tr></tbody></table></div></td></tr></tbody></table><!--[if mso | IE]>
+          </td>
+        </tr>
+      </table>
+      <![endif]--></td></tr></tbody></table></div></td></tr></tbody></table><!--[if mso | IE]>
+      </td></tr></table>
+      <![endif]--></div><!--[if mso | IE]>
+      </td></tr></table>
+      <![endif]--></div>
+
+</body></html>",
+    }
+  }
+/>
+`;
+
 exports[`Storyshots Templates/Simple Email with first name and last name 1`] = `
 <div
   dangerouslySetInnerHTML={

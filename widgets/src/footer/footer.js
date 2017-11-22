@@ -22,19 +22,21 @@ class Footer extends Component {
         const { title, children } = this.props;
 
         return (
-            <mj-section
-                full-width="full-width"
-                padding="15"
-                background-color={colors.primary}
-            >
-                <mj-column>
-                    {children && children}
+            <mj-section full-width="full-width" padding-top="0">
+                <mj-section full-width="full-width" background-color="#ECECEC">
+                    {
+                        children && (
+                            <mj-column width="100%">{children}</mj-column>
+                        )
+                    }
+                </mj-section>
+                <mj-section full-width="full-width" padding="15" background-color={colors.primary}>
                     <mj-text color="#FFFFFF" font-size="16">
                         <p style={{ textAlign: 'center', fontWeight: 'bold' }}>
                             Copyright &copy;{new Date().getFullYear()} {title} All Rights Reserved.
                         </p>
                     </mj-text>
-                </mj-column>
+                </mj-section>
             </mj-section>
         );
     }

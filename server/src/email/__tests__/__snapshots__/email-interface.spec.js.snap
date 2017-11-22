@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`email interface should create an interface of functions to do email stuff with 1`] = `[Function]`;

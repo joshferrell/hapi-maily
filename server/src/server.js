@@ -19,8 +19,13 @@ const serverInfo = {
 
 const emailSettings = {
     fromAddress: process.env.EMAIL_FROM_ADDRESS,
-    user: process.env.MANDRILL_EMAIL,
-    pass: process.env.MANDRILL_API_KEY
+    mandrillTransport: {
+        service: 'Mandrill',
+        auth: {
+            user: process.env.MANDRILL_EMAIL,
+            pass: process.env.MANDRILL_API_KEY
+        }
+    }
 };
 
 const logger = createLogger({
@@ -32,9 +37,15 @@ const logger = createLogger({
 });
 
 const createStartServer = log => async (server) => {
-    const emailInterface = createEmailInterface(emailSettings, nodemailer);
-    const healthRoutes = createHealthRoutes(emailInterface, log);
-    const exampleRoutes = createExampleRoutes(emailInterface);
+    const { fromAddress, mandrillTransport } = emailSettings;
+    const { env } = serverInfo;
+
+    const baseInterface = createEmailInterface(env, log, nodemailer);
+    const mandrillInterface = baseInterface(fromAddress, mandrillTransport);
+
+    const healthRoutes = createHealthRoutes(mandrillInterface, log);
+    const exampleRoutes = createExampleRoutes(mandrillInterface);
+
     server.route(healthRoutes);
     server.route(exampleRoutes);
 
