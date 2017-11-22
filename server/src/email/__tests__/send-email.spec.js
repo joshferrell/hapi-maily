@@ -7,7 +7,7 @@ describe('sending an email', () => {
     let successTransport;
     let errorTransport;
     const logger = {
-        debug: jest.fn()
+        warn: jest.fn()
     };
     const emailInfo = {
         to: 'noreply@gmail.com',
@@ -24,7 +24,7 @@ describe('sending an email', () => {
         errorTransport = stubTransport({
             error: 'unable to send email'
         });
-        logger.debug.mockClear();
+        logger.warn.mockClear();
     });
 
     it('should use the given email settings to send the email', () => {
@@ -41,7 +41,7 @@ describe('sending an email', () => {
         });
     });
 
-    it('should return info if the mail successfully sent', async () => {
+    it('should return info if the mail successfully sent', () => {
         const transport = nodemailer.createTransport(successTransport);
         const sendEmail = baseSendEmail(transport, 'example@gmail.com');
         return expect(sendEmail(emailInfo))
@@ -56,11 +56,42 @@ describe('sending an email', () => {
             });
     });
 
-    it('should return an error if the mail could not send', async () => {
+    it('should return an error if the mail could not send', () => {
         const transport = nodemailer.createTransport(errorTransport);
         const sendEmail = baseSendEmail(transport, 'example@gmail.com');
         return expect(sendEmail(emailInfo))
             .rejects
             .toEqual(new Error('unable to send email'));
+    });
+
+    it('should set the send email to no reply if not production', () => {
+        const sendEmail = makeSendEmail('local', logger, fakeTransport, 'fake@widget-factory.com');
+        sendEmail(emailInfo);
+
+        expect(fakeTransport.sendMail).toHaveBeenCalled();
+        expect(fakeTransport.sendMail).toHaveBeenCalledTimes(1);
+        expect(fakeTransport.sendMail).toHaveBeenCalledWith({
+            to: 'noreply@widget-factory.com',
+            from: 'fake@widget-factory.com',
+            text: 'simple text',
+            subject: 'Hi I\'m Paul!'
+        });
+    });
+
+    it('should log a warning if an outbound email is attempted in dev', () => {
+        const sendEmail = makeSendEmail('local', logger, fakeTransport, 'fake@widget-factory.com');
+        sendEmail(emailInfo);
+
+        expect(logger.warn).toHaveBeenCalled();
+        expect(logger.warn).toHaveBeenCalledTimes(1);
+        expect(logger.warn).toHaveBeenCalledWith({
+            emailData: {
+                attemptedAddress: 'noreply@gmail.com',
+                sentAddress: 'noreply@widget-factory.com',
+                text: 'simple text',
+                subject: 'Hi I\'m Paul!'
+            },
+            msg: 'attempt to send an email to an external domain when in dev mode'
+        });
     });
 });
