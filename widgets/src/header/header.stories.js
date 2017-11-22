@@ -8,6 +8,8 @@ import { withKnobs, text } from '@storybook/addon-knobs';
 import { renderMJML } from '../utility';
 import Header from './header';
 
+const headerSubject = text('Email Subject', 'Welcome to widget factory');
+
 storiesOf('Header', module)
     .addDecorator(withKnobs)
     .add('with custom image and subject', () => {
@@ -18,9 +20,33 @@ storiesOf('Header', module)
 
         const component = (
             <Header
-                title={text('Email Subject', 'Welcome to widget factory')}
+                title={headerSubject}
                 img={image}
             />
+        );
+
+        return renderMJML(component);
+    })
+    .add('with theme image source', () => {
+        const styles = {
+            colors: {
+                primary: '#363636'
+            },
+            headerImage: {
+                src: 'http://www.fillmurray.com/800/218',
+                alt: 'Fill Murray'
+            }
+        };
+
+        const compoment = (
+            <Header title={headerSubject} />
+        );
+
+        return renderMJML(compoment, styles);
+    })
+    .add('with no image', () => {
+        const component = (
+            <Header title={headerSubject} />
         );
 
         return renderMJML(component);

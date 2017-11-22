@@ -43,6 +43,10 @@ const theme = {
         // you can use additional colors
         // below, so long as it is
         // string: 'HEX'
+    },
+    headerImage: {
+        src: 'url to hosted image',
+        alt: 'alt text describing image'
     }
 }
 ```
@@ -93,3 +97,9 @@ Runs the linting command, should be done before pull requests are made.
 This application follows the airbnb linting styleguide with minor changes.
 
 [Read more about the styleguide](https://github.com/airbnb/javascript)
+
+## TODO
+[] Create styles default for when style is missing, override styles to use defaults
+    * example: if headerImage is present, but colors is not, use default colors
+    * if colors is present but header image is not, use no headerimage styles
+    * include check that if colors is present, then make sure structure is valid

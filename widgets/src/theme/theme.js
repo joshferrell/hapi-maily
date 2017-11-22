@@ -3,17 +3,21 @@ import PropTypes from 'prop-types';
 import { styles } from '../utility';
 
 class Theme extends Component {
+    static styleShape = PropTypes.shape({
+        colors: PropTypes.object,
+        headerImage: PropTypes.shape({
+            src: PropTypes.string.isRequired,
+            alt: PropTypes.string.isRequired
+        })
+    })
+
     static propTypes = {
         children: PropTypes.node.isRequired,
-        styles: PropTypes.shape({
-            colors: PropTypes.object
-        })
+        styles: Theme.styleShape
     };
 
     static childContextTypes = {
-        styles: PropTypes.shape({
-            colors: PropTypes.object
-        })
+        styles: Theme.styleShape
     };
 
     static defaultProps = {
