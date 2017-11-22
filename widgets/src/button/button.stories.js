@@ -21,7 +21,7 @@ storiesOf('Button', module)
     .add('with text', () => {
         const component = (
             <Button
-                url=""
+                url={text('Button Url', '')}
                 buttonType={select('Button Type', buttonTypes, 'primary')}
                 squared={boolean('Squared', false)}
             >
@@ -29,4 +29,25 @@ storiesOf('Button', module)
             </Button>
         );
         return renderMJML(component);
+    })
+    .add('using a custom theme', () => {
+        const theme = {
+            colors: {
+                primary: '#2196F3',
+                secondary: '#9E9E9E',
+                paul: '#616161'
+            }
+        };
+
+        const component = (
+            <Button
+                url={text('Button Url', '')}
+                buttonType={select('Button Type', Object.keys(theme.colors), 'primary')}
+                squared={boolean('Squared', false)}
+            >
+                {text('Button Text', 'Click Me!')}
+            </Button>
+        );
+
+        return renderMJML(component, theme);
     });

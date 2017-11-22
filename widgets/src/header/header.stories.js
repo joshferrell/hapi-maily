@@ -29,9 +29,6 @@ storiesOf('Header', module)
     })
     .add('with theme image source', () => {
         const styles = {
-            colors: {
-                primary: '#363636'
-            },
             headerImage: {
                 src: 'http://www.fillmurray.com/800/218',
                 alt: 'Fill Murray'

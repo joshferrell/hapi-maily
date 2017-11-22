@@ -28,4 +28,15 @@ storiesOf('Footer', module)
             </Footer>
         );
         return renderMJML(component);
+    })
+    .add('with custom theme', () => {
+        const theme = {
+            colors: { primary: '#2196F3' }
+        };
+
+        const component = (
+            <Footer title={text('Company Name', 'Widget Factory')} />
+        );
+
+        return renderMJML(component, theme);
     });

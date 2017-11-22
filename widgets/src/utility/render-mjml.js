@@ -4,11 +4,31 @@ import { mjml2html } from 'mjml';
 import Theme from '../theme';
 import styles from './styles';
 
-export const renderComponent = (component, theme) => {
-    if (!theme.colors && !theme.colors.primary) {
-        throw new Error('invalid structure of theme, theme requires colors and colors.primary');
+export const handleTheme = (theme) => {
+    const { colors, headerImage } = theme;
+    let newTheme = theme;
+
+    // If theme does not include colors, use defaults
+    if (!colors) {
+        newTheme = Object.assign({}, newTheme, {
+            colors: styles.colors
+        });
     }
 
+    // header image must include a source and an alt string
+    if (headerImage && (!headerImage.src || !headerImage.alt)) {
+        throw new Error('invalid structure of theme, header image requires a image src and an alt string');
+    }
+
+    // theme colors must include a primary color
+    if (!newTheme.colors.primary) {
+        throw new Error('invalid structure of theme, colors requires a primary color to be included');
+    }
+
+    return newTheme;
+};
+
+export const renderComponent = (component, theme) => {
     const children = (
         <Theme styles={theme}>
             {component}
@@ -44,7 +64,7 @@ export const renderComponent = (component, theme) => {
 
 /* eslint-disable react/no-danger */
 const renderMJML = (component, theme = styles) => (
-    <div dangerouslySetInnerHTML={renderComponent(component, theme)} />
+    <div dangerouslySetInnerHTML={renderComponent(component, handleTheme(theme))} />
 );
 
 export default renderMJML;
