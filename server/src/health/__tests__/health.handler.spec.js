@@ -2,7 +2,7 @@ import boom from 'boom';
 import {
     handleCheckServer,
     makeHandleCheckDependency
-} from './health.handler';
+} from '../health.handler';
 
 describe('health check handlers', () => {
     let request;

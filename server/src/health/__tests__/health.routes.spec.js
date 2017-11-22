@@ -1,4 +1,4 @@
-import createHealthRoutes from './health.routes';
+import createHealthRoutes from '../health.routes';
 
 describe('health routes', () => {
     it('should create health check routes', () => {

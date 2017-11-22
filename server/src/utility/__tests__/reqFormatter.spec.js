@@ -1,4 +1,4 @@
-import reqFormatter from './reqFormatter';
+import reqFormatter from '../reqFormatter';
 
 const aString = 'This an error';
 const anError = new Error('This an  error object');

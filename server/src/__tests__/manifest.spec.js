@@ -1,8 +1,8 @@
 import {
     createDevPlugins,
     createProdPlugins
-} from './plugins';
-import createManifest from './manifest';
+} from '../plugins';
+import createManifest from '../manifest';
 
 describe('create manifest', () => {
     const serverInfo = {

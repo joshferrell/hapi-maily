@@ -1,7 +1,7 @@
 import {
     createSwaggerOptions,
     createDevPlugins
-} from './dev-plugins';
+} from '../dev-plugins';
 
 describe('development plugins', () => {
     const serverInfo = {

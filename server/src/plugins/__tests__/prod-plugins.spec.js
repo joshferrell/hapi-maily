@@ -1,7 +1,7 @@
 import {
     createGoodOptions,
     createProdPlugins
-} from './prod-plugins';
+} from '../prod-plugins';
 
 describe('production plugins', () => {
     const logger = () => {};

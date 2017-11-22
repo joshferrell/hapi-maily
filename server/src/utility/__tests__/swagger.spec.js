@@ -1,4 +1,4 @@
-import * as swaggerFormat from './swagger';
+import * as swaggerFormat from '../swagger';
 
 describe('swagger formatting', () => {
     it('should have a format for success', () => {

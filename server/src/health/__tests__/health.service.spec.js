@@ -1,5 +1,5 @@
 import moment from 'moment';
-import { makeGetTime, makeCheckStatus } from './health.service';
+import { makeGetTime, makeCheckStatus } from '../health.service';
 
 describe('health services', () => {
     let getDate;
