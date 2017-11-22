@@ -99,8 +99,4 @@ This application follows the airbnb linting styleguide with minor changes.
 [Read more about the styleguide](https://github.com/airbnb/javascript)
 
 ## TODO
-[] Create styles default for when style is missing, override styles to use defaults
-    * example: if headerImage is present, but colors is not, use default colors
-    * if colors is present but header image is not, use no headerimage styles
-    * include check that if colors is present, then make sure structure is valid
-[] Create add with info checks for storybook so that markdown can be included
+Create add with info checks for storybook so that markdown can be included
