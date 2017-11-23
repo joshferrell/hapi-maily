@@ -20,7 +20,7 @@ Array [
           },
           "description": "Mail service that allows people to request a server for emails to be sent using a react template library",
           "title": "Hapi Maily Documentation",
-          "version": "2.0.0",
+          "version": "2.0.1",
         },
         "schemes": Array [
           "http",
@@ -44,7 +44,7 @@ Object {
     },
     "description": "Mail service that allows people to request a server for emails to be sent using a react template library",
     "title": "Hapi Maily Documentation",
-    "version": "2.0.0",
+    "version": "2.0.1",
   },
   "schemes": Array [
     "http",

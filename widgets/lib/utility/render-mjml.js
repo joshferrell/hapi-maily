@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-exports.renderComponent = undefined;
+exports.renderComponent = exports.handleTheme = undefined;
 
 var _react = require('react');
 
@@ -13,19 +13,45 @@ var _server = require('react-dom/server');
 
 var _mjml = require('mjml');
 
-var _widgets = require('../widgets');
+var _theme = require('../theme');
 
-var _ = require('.');
+var _theme2 = _interopRequireDefault(_theme);
+
+var _styles = require('./styles');
+
+var _styles2 = _interopRequireDefault(_styles);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var renderComponent = exports.renderComponent = function renderComponent(component, theme) {
-    if (!theme.colors && !theme.colors.primary) {
-        throw new Error('invalid structure of theme, theme requires colors and colors.primary');
+var handleTheme = exports.handleTheme = function handleTheme(theme) {
+    var colors = theme.colors,
+        headerImage = theme.headerImage;
+
+    var newTheme = theme;
+
+    // If theme does not include colors, use defaults
+    if (!colors) {
+        newTheme = Object.assign({}, newTheme, {
+            colors: _styles2.default.colors
+        });
     }
 
+    // header image must include a source and an alt string
+    if (headerImage && (!headerImage.src || !headerImage.alt)) {
+        throw new Error('invalid structure of theme, header image requires a image src and an alt string');
+    }
+
+    // theme colors must include a primary color
+    if (!newTheme.colors.primary) {
+        throw new Error('invalid structure of theme, colors requires a primary color to be included');
+    }
+
+    return newTheme;
+};
+
+var renderComponent = exports.renderComponent = function renderComponent(component, theme) {
     var children = _react2.default.createElement(
-        _widgets.Theme,
+        _theme2.default,
         { styles: theme },
         component
     );
@@ -41,8 +67,8 @@ var renderComponent = exports.renderComponent = function renderComponent(compone
 
 /* eslint-disable react/no-danger */
 var renderMJML = function renderMJML(component) {
-    var theme = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : _.styles;
-    return _react2.default.createElement('div', { dangerouslySetInnerHTML: renderComponent(component, theme) });
+    var theme = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : _styles2.default;
+    return _react2.default.createElement('div', { dangerouslySetInnerHTML: renderComponent(component, handleTheme(theme)) });
 };
 
 exports.default = renderMJML;
