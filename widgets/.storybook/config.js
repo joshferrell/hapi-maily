@@ -4,7 +4,8 @@ import infoAddon, { setDefaults } from '@storybook/addon-info';
 const req = require.context('../src', true, /\.stories\.js$/);
 
 setDefaults({
-  inline: false,
+    header: false,
+  inline: true,
   source: false
 });
 

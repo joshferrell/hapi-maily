@@ -3,6 +3,7 @@ import React from 'react';
 /* eslint-disable import/no-extraneous-dependencies */
 import { storiesOf } from '@storybook/react';
 import { withKnobs, text, select } from '@storybook/addon-knobs';
+import { withInfo } from '@storybook/addon-info';
 /* eslint-enable import/no-extraneous-dependencies */
 
 import { renderMJML } from '../utility';
@@ -17,12 +18,30 @@ const contactTypes = [
 
 storiesOf('Footer', module)
     .addDecorator(withKnobs)
-    .add('with no nested components', () => {
+    .add('with no nested components', withInfo({
+        text: `
+            # Footer
+            #### No nested components
+
+            A simple footer for usage on the bottom of the email, includes a
+            company title and a copyright date set for the current date of the
+            email generation.
+
+            #### Usage
+
+            const component = <Footer title="Widget Factory" />
+
+            ~~~js
+            renderMJML(component); //static HTML
+            ~~~
+        `,
+        propTables: [Footer]
+    })(() => {
         const component = (
             <Footer title={text('Company Name', 'Widget Factory')} />
         );
         return renderMJML(component);
-    })
+    }))
     .add('with custom nest component', () => {
         const component = (
             <Footer title={text('Company Name', 'Widget Factory')}>
