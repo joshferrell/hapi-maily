@@ -34,27 +34,96 @@ var Footer = function (_Component) {
             args[_key] = arguments[_key];
         }
 
-        return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Footer.__proto__ || Object.getPrototypeOf(Footer)).call.apply(_ref, [this].concat(args))), _this), _this.render = function () {
-            var colors = _this.context.styles.colors;
-            var _this$props = _this.props,
-                title = _this$props.title,
-                children = _this$props.children;
-
-
-            var PreFooter = children && _react2.default.createElement(
+        return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Footer.__proto__ || Object.getPrototypeOf(Footer)).call.apply(_ref, [this].concat(args))), _this), _this.renderAddress = function (address) {
+            return _react2.default.createElement(
                 'mj-section',
-                { 'full-width': 'full-width', 'background-color': '#ECECEC' },
+                Footer.sectionObject,
+                _react2.default.createElement(
+                    'mj-column',
+                    null,
+                    _react2.default.createElement(
+                        'mj-text',
+                        { 'padding-bottom': '25' },
+                        _react2.default.createElement(
+                            'address',
+                            null,
+                            _react2.default.createElement(
+                                'strong',
+                                null,
+                                address.name
+                            ),
+                            _react2.default.createElement('br', null),
+                            address.addressLine1,
+                            _react2.default.createElement('br', null),
+                            address.city,
+                            ', ',
+                            address.state,
+                            ' ',
+                            address.zip,
+                            _react2.default.createElement('br', null),
+                            address.country
+                        )
+                    )
+                )
+            );
+        }, _this.renderContact = function (contact) {
+            return _react2.default.createElement(
+                'mj-section',
+                Footer.sectionObject,
+                contact.map(function (_ref2) {
+                    var name = _ref2.name,
+                        value = _ref2.value,
+                        href = _ref2.href;
+                    return _react2.default.createElement(
+                        'mj-column',
+                        null,
+                        _react2.default.createElement(
+                            'mj-text',
+                            null,
+                            name && _react2.default.createElement(
+                                'h4',
+                                { style: { margin: 0 } },
+                                name
+                            ),
+                            href ? _react2.default.createElement(
+                                'a',
+                                { href: href, rel: 'external noreferrer' },
+                                value
+                            ) : _react2.default.createElement(
+                                'p',
+                                null,
+                                value
+                            )
+                        )
+                    );
+                })
+            );
+        }, _this.renderPreFooter = function (children) {
+            return _react2.default.createElement(
+                'mj-section',
+                Footer.sectionObject,
                 _react2.default.createElement(
                     'mj-column',
                     { width: '100%' },
                     children
                 )
             );
+        }, _this.render = function () {
+            var _this$context$styles = _this.context.styles,
+                colors = _this$context$styles.colors,
+                address = _this$context$styles.address,
+                contact = _this$context$styles.contact;
+            var _this$props = _this.props,
+                title = _this$props.title,
+                children = _this$props.children;
+
 
             return _react2.default.createElement(
                 'mj-section',
                 { 'full-width': 'full-width', 'padding-top': '0' },
-                children && PreFooter,
+                children && _this.renderPreFooter(children),
+                address && _this.renderAddress(address),
+                contact && _this.renderContact(contact),
                 _react2.default.createElement(
                     'mj-section',
                     { 'full-width': 'full-width', padding: '15', 'background-color': colors.primary },
@@ -86,9 +155,29 @@ Footer.propTypes = {
 Footer.defaultProps = {
     children: null
 };
+Footer.sectionObject = {
+    'full-width': 'full-width',
+    'background-color': '#ECECEC',
+    'padding-bottom': '0'
+};
 Footer.contextTypes = {
     styles: _propTypes2.default.shape({
-        colors: _propTypes2.default.object
+        colors: _propTypes2.default.object,
+        address: _propTypes2.default.shape({
+            name: _propTypes2.default.string.isRequired,
+            addressLine1: _propTypes2.default.string.isRequired,
+            addressLine2: _propTypes2.default.string,
+            city: _propTypes2.default.string.isRequired,
+            state: _propTypes2.default.string.isRequired,
+            zip: _propTypes2.default.string.isRequired,
+            country: _propTypes2.default.string.isRequired
+        }),
+        contact: _propTypes2.default.arrayOf(_propTypes2.default.shape({
+            name: _propTypes2.default.string,
+            value: _propTypes2.default.string.isRequired,
+            href: _propTypes2.default.string,
+            type: _propTypes2.default.oneOf(['phone', 'email', 'website', 'fax']).isRequired
+        }))
     })
 };
 exports.default = Footer;

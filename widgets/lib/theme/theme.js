@@ -55,7 +55,22 @@ Theme.styleShape = _propTypes2.default.shape({
     headerImage: _propTypes2.default.shape({
         src: _propTypes2.default.string.isRequired,
         alt: _propTypes2.default.string.isRequired
-    })
+    }),
+    address: _propTypes2.default.shape({
+        name: _propTypes2.default.string.isRequired,
+        addressLine1: _propTypes2.default.string.isRequired,
+        addressLine2: _propTypes2.default.string,
+        city: _propTypes2.default.string.isRequired,
+        state: _propTypes2.default.string.isRequired,
+        zip: _propTypes2.default.string.isRequired,
+        country: _propTypes2.default.string.isRequired
+    }),
+    contact: _propTypes2.default.arrayOf(_propTypes2.default.shape({
+        name: _propTypes2.default.string,
+        value: _propTypes2.default.string.isRequired,
+        href: _propTypes2.default.string,
+        type: _propTypes2.default.oneOf(['phone', 'email', 'website', 'fax']).isRequired
+    }))
 });
 Theme.propTypes = {
     children: _propTypes2.default.node.isRequired,
