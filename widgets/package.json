@@ -8,7 +8,7 @@
     "repository": "git@github.com:joshferrell/hapi-maily.git",
     "author": {
         "name": "Josh Ferrell",
-        "url": "https://gitter.im/hapi-maily/Lobby"
+        "url": "https://gitter.im/hapi-smiles/hapi-maily"
     },
     "scripts": {
         "start": "start-storybook -p 9009",

@@ -1,4 +1,4 @@
-FROM node:8
+FROM node:8.9.1
 
 MAINTAINER Josh Ferrell "josh@joshferrell.me"
 
@@ -8,7 +8,7 @@ COPY .babelrc /usr/src/app
 COPY .env.example /usr/src/app
 COPY package.json /usr/src/app
 COPY yarn.lock /usr/src/app
-COPY src /usr/src/app
+COPY src /usr/src/app/src
 
 WORKDIR /usr/src/app
 
@@ -19,4 +19,4 @@ RUN yarn build
 # Expose docker port
 EXPOSE 3000
 
-CMD [ "node", "lib/server.js"]
+CMD [ "node", "build/server.js"]

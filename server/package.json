@@ -2,11 +2,11 @@
   "name": "hapi-maily",
   "version": "2.0.1",
   "description": "An email service that generates html email templates using mjml, then sends the email to the requested user",
-  "main": "index.js",
+  "main": "build/server.js",
   "repository": "git@github.com:joshferrell/hapi-maily.git",
   "author": {
     "name": "Josh Ferrell",
-    "url": "https://gitter.im/hapi-maily/Lobby"
+    "url": "https://gitter.im/hapi-smiles/hapi-maily"
   },
   "license": "MIT",
   "private": true,
