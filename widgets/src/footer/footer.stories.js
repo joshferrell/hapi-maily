@@ -2,11 +2,18 @@ import React from 'react';
 
 /* eslint-disable import/no-extraneous-dependencies */
 import { storiesOf } from '@storybook/react';
-import { withKnobs, text } from '@storybook/addon-knobs';
+import { withKnobs, text, select } from '@storybook/addon-knobs';
 /* eslint-enable import/no-extraneous-dependencies */
 
 import { renderMJML } from '../utility';
 import Footer from './footer';
+
+const contactTypes = [
+    'phone',
+    'email',
+    'website',
+    'fax'
+];
 
 storiesOf('Footer', module)
     .addDecorator(withKnobs)
@@ -32,6 +39,69 @@ storiesOf('Footer', module)
     .add('with custom theme', () => {
         const theme = {
             colors: { primary: '#2196F3' }
+        };
+
+        const component = (
+            <Footer title={text('Company Name', 'Widget Factory')} />
+        );
+
+        return renderMJML(component, theme);
+    })
+    .add('with address information', () => {
+        const theme = {
+            address: {
+                name: 'Widget Factory',
+                addressLine1: '1234 Example Drive',
+                city: 'Greatest City',
+                state: 'CA',
+                zip: '12345',
+                country: 'USA'
+            }
+        };
+
+        const component = (
+            <Footer title={text('Company Name', 'Widget Factory')} />
+        );
+
+        return renderMJML(component, theme);
+    })
+    .add('with contact information', () => {
+        const theme = {
+            contact: [
+                {
+                    name: text('Contact Name', 'Phone'),
+                    href: text('Url Link', 'tel:123-555-1234'),
+                    value: text('Url Value', '123-555-1234'),
+                    type: select('Contact Types', contactTypes, 'phone')
+                }
+            ]
+        };
+
+        const component = (
+            <Footer title={text('Company Name', 'Widget Factory')} />
+        );
+
+        return renderMJML(component, theme);
+    })
+    .add('with contact and address information', () => {
+        const theme = {
+            address: {
+                name: text('Address Name', 'Widget Factory'),
+                addressLine1: text('Address Line 1', '1234 Example Drive'),
+                addressLine2: text('Address Line 2', ''),
+                city: text('City', 'Greatest City'),
+                state: text('State', 'CA'),
+                zip: text('Zip', '12345'),
+                country: text('Country', 'USA')
+            },
+            contact: [
+                {
+                    name: text('Contact Name', 'Phone'),
+                    href: text('Url Link', 'tel:123-555-1234'),
+                    value: text('Url Value', '123-555-1234'),
+                    type: select('Contact Types', contactTypes, 'phone')
+                }
+            ]
         };
 
         const component = (
