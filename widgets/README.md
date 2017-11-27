@@ -99,4 +99,4 @@ This application follows the airbnb linting styleguide with minor changes.
 [Read more about the styleguide](https://github.com/airbnb/javascript)
 
 ## TODO
-Create add with info checks for storybook so that markdown can be included
+Create add with info checks for storybook for footer component

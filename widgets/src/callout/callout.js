@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Verification = ({ title, text }) => (
+const Callout = ({ title, text }) => (
     <mj-section full-width="full-width" padding-top="0" padding-bottom="0">
         <mj-column>
             <mj-text font-size="15" padding-bottom="0">
@@ -14,9 +14,9 @@ const Verification = ({ title, text }) => (
     </mj-section>
 );
 
-Verification.propTypes = {
+Callout.propTypes = {
     title: PropTypes.string.isRequired,
     text: PropTypes.string.isRequired
 };
 
-export default Verification;
+export default Callout;
