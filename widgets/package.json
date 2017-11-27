@@ -14,6 +14,7 @@
         "start": "start-storybook -p 9009",
         "build": "babel src -d lib --copy-files",
         "build:docs": "build-storybook -c .storybook -o ../docs",
+        "deploy:docs": "storybook-to-ghpages",
         "lint": "eslint src/"
     },
     "dependencies": {
