@@ -8,7 +8,6 @@ import { withInfo } from '@storybook/addon-info';
 
 import { renderMJML } from '../utility';
 import Footer from './footer';
-import PreFooter from './pre-footer';
 
 const contactTypes = [
     'phone',
