@@ -97,6 +97,3 @@ Runs the linting command, should be done before pull requests are made.
 This application follows the airbnb linting styleguide with minor changes.
 
 [Read more about the styleguide](https://github.com/airbnb/javascript)
-
-## TODO
-Create add with info checks for storybook for footer component
