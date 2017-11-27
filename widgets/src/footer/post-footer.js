@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const PostFooter = ({ children }) => (
-    <mj-section full-width="full-width" background-color="#ECECEC" padding-bottom="0">
+    <mj-section full-width="full-width" background-color="#ECECEC">
         {children}
     </mj-section>
 );

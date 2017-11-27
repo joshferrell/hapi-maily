@@ -79,17 +79,11 @@ class Footer extends Component {
     );
 
     renderFooterType = (children, type) => Children
-        .map(children, child => {
-            if (typeof child.type === typeof type) return child;
-            else return null;
-        });
+        .map(children, child => child.type === type && child);
 
     render = () => {
         const { colors, address, contact } = this.context.styles;
         const { title, children } = this.props;
-
-        console.log(children);
-        console.log(Children.count(children));
 
         const preFooter = this.renderFooterType(children, PreFooter);
         const postFooter = this.renderFooterType(children, PostFooter);

@@ -17,7 +17,7 @@ const contactTypes = [
     'fax'
 ];
 
-storiesOf('Footer', module)
+storiesOf('Footer/No Children', module)
     .addDecorator(withKnobs)
     .add('with no nested components', withInfo({
         text: `
@@ -44,53 +44,6 @@ storiesOf('Footer', module)
     })(() => {
         const component = (
             <Footer title={text('Company Name', 'Widget Factory')} />
-        );
-        return renderMJML(component);
-    }))
-    .add('with pre footer component', withInfo({
-        text: `
-            # Footer
-            #### With custom child component
-
-            A simple footer that includes a nested component for additional information,
-            useful for pre header text
-
-            #### Usage
-            ~~~js
-            import React from 'react';
-            import { Footer, renderMJML } from 'hapi-maily-widgets';
-            ~~~
-
-            const component = (
-                <Footer title={text('Company Name', 'Widget Factory')}>
-                    <PreFooter>
-                        <mj-image
-                            src="http://fillmurray.com/200/300"
-                            width="300"
-                            height="200"
-                            alt="murray!"
-                        />
-                    </PreFooter>
-                </Footer>
-            );
-
-            ~~~js
-            renderMJML(component); // static HTML
-            ~~~
-        `,
-        propTables: [Footer]
-    })(() => {
-        const component = (
-            <Footer title={text('Company Name', 'Widget Factory')}>
-                <PreFooter>
-                    <mj-image
-                        src="http://fillmurray.com/200/300"
-                        width="300"
-                        height="200"
-                        alt="murray!"
-                    />
-                </PreFooter>
-            </Footer>
         );
         return renderMJML(component);
     }))
