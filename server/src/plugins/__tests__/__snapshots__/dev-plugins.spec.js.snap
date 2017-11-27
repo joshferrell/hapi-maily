@@ -16,7 +16,7 @@ Array [
         "info": Object {
           "contact": Object {
             "name": "Josh Ferrell",
-            "url": "https://gitter.im/hapi-maily/Lobby",
+            "url": "https://gitter.im/hapi-smiles/hapi-maily",
           },
           "description": "Mail service that allows people to request a server for emails to be sent using a react template library",
           "title": "Hapi Maily Documentation",
@@ -40,7 +40,7 @@ Object {
   "info": Object {
     "contact": Object {
       "name": "Josh Ferrell",
-      "url": "https://gitter.im/hapi-maily/Lobby",
+      "url": "https://gitter.im/hapi-smiles/hapi-maily",
     },
     "description": "Mail service that allows people to request a server for emails to be sent using a react template library",
     "title": "Hapi Maily Documentation",
