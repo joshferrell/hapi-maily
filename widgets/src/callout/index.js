@@ -1,3 +1,3 @@
-import Verification from './verification';
+import Callout from './callout';
 
-export default Verification;
+export default Callout;
