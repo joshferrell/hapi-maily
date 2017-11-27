@@ -22,10 +22,12 @@ storiesOf('Field Value', module)
             notified for.
 
             #### Usage
+            ~~~js
+            import React from 'react';
+            import { Button, FieldValue } from 'hapi-maily-widgets';
+            ~~~
 
-            const component = (
-                <FieldValue title="Phone" value="555-5555" size="regular" />
-            );
+            const component = <FieldValue title="Phone" value="555-5555" size="regular" />;
 
             ~~~js
             renderMJML(component); // static HTML
@@ -49,17 +51,21 @@ storiesOf('Field Value', module)
 
             Creates a field component for listing out lists of information,
             the large size should be used as a focus of the
-            listing of items. For example, if listing out the billing information
+            listing of items.
+
+            For example, if listing out the billing information
             for a invoice to a customer, a large field value should be used for the
             amount while the username of the user is regular sized. This way
             the user can easily recognize the amount that they owe which is the
             focus of the email.
 
             #### Usage
+            ~~~js
+            import React from 'react';
+            import { FieldValue, renderMJML } from 'hapi-maily-widgets';
+            ~~~
 
-            const component = (
-                <FieldValue title="Phone" value="555-5555" size="regular" />
-            );
+            const component = <FieldValue title="Phone" value="555-5555" size="regular" />;
 
             ~~~js
             renderMJML(component); //static HTML

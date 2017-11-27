@@ -25,14 +25,15 @@ storiesOf('Header', module)
             #### Usage
 
             ~~~js
+            import React from 'react';
+            import { Header, renderMJML } from 'hapi-maily-widgets';
+
             const image = {
                 src: 'http://www.fillmurray.com/800/218',
                 alt: 'Fill Murray'
             };
             ~~~
-            const component = (
-                <Header title="Welcome to widget factory" image={image} />
-            );
+            const component = <Header title="Welcome to widget factory" image={image} />;
             ~~~js
             renderMJML(component); // static HTML
             ~~~
@@ -68,6 +69,9 @@ storiesOf('Header', module)
             #### Usage
 
             ~~~js
+            import React from 'react';
+            import { Header, renderMJML } from 'hapi-maily-widgets';
+
             const theme = {
                 headerImage: {
                     src: 'http://www.fillmurray.com/800/218',
@@ -75,9 +79,7 @@ storiesOf('Header', module)
                 }
             };
             ~~~
-            const component = (
-                <Header title="Welcome to widget factory" image={image} />
-            );
+            const component = <Header title="Welcome to widget factory" image={image} />;
             ~~~js
             renderMJML(component, theme); // static HTML
             ~~~
@@ -108,9 +110,11 @@ storiesOf('Header', module)
             at least be similar to the subject message.
 
             #### Usage
-            const component = (
-                <Header title="Welcome to widget factory" />
-            );
+            ~~~js
+            import React from 'react';
+            import { Header, renderMJML } from 'hapi-maily-widgets';
+            ~~~
+            const component = <Header title="Welcome to widget factory" />;
             ~~~js
             renderMJML(component); // static HTML
             ~~~

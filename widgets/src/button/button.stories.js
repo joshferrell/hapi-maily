@@ -30,6 +30,10 @@ storiesOf('Button', module)
             and warning. The button opens a url in the current tab.
 
             #### Usage
+            ~~~js
+            import React from 'react';
+            import { Button, renderMJML } from 'hapi-maily-widgets';
+            ~~~
 
             const component = (
                 <Button url="http://google.com" buttonType="primary">
@@ -65,6 +69,10 @@ storiesOf('Button', module)
             a button type and a string color in Hex.
 
             #### Usage
+            ~~~js
+            import React from 'react';
+            import { Button, renderMJML } from 'hapi-maily-widgets';
+            ~~~
 
             const component = (
                 <Button url="http://google.com" buttonType="primary">

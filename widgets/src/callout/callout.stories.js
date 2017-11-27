@@ -21,6 +21,10 @@ storiesOf('Callout', module)
             codes or status messages such as success or failure.
 
             #### Usage
+            ~~~js
+            import React from 'react';
+            import { Callout, renderMJML } from 'hapi-maily-widgets';
+            ~~~
 
             const component = <Callout title="Verification Code" text="ABC123" />;
 

@@ -22,6 +22,10 @@ storiesOf('Pre-Header', module)
             display anything as it's display hidden.
 
             #### Usage
+            ~~~js
+            import React from 'react';
+            import { PreHeader, renderMJML } from 'hapi-maily-widgets';
+            ~~~
 
             const component = <PreHeader value="Simple Text" />;
 

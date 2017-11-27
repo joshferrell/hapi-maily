@@ -1,10 +1,11 @@
-import React, { Component } from 'react';
+import React, { Component, Children } from 'react';
 import PropTypes from 'prop-types';
+import { PreFooter, PostFooter } from '.';
 
 class Footer extends Component {
     static propTypes = {
         title: PropTypes.string.isRequired,
-        children: PropTypes.node
+        children: PropTypes.element
     };
 
     static defaultProps = {
@@ -77,21 +78,28 @@ class Footer extends Component {
         </mj-section>
     );
 
-    renderPreFooter = children => (
-        <mj-section {...Footer.sectionObject}>
-            <mj-column width="100%">{children}</mj-column>
-        </mj-section>
-    )
+    renderFooterType = (children, type) => Children
+        .map(children, child => {
+            if (typeof child.type === typeof type) return child;
+            else return null;
+        });
 
     render = () => {
         const { colors, address, contact } = this.context.styles;
         const { title, children } = this.props;
 
+        console.log(children);
+        console.log(Children.count(children));
+
+        const preFooter = this.renderFooterType(children, PreFooter);
+        const postFooter = this.renderFooterType(children, PostFooter);
+
         return (
             <mj-section full-width="full-width" padding-top="0">
-                { children && this.renderPreFooter(children) }
+                { preFooter && preFooter }
                 { address && this.renderAddress(address) }
                 { contact && this.renderContact(contact) }
+                { postFooter && postFooter }
                 <mj-section full-width="full-width" padding="15" background-color={colors.primary}>
                     <mj-text color="#FFFFFF" font-size="16">
                         <p style={{ textAlign: 'center', fontWeight: 'bold' }}>
