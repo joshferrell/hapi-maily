@@ -26,6 +26,7 @@
         "hapi-maily-widgets": "^1.1.9",
         "joi": "^13.0.2",
         "mjml": "^3.3.5",
+        "nodemailer": "^4.4.0",
         "prop-types": "^15.6.0",
         "ramda": "^0.25.0",
         "react": "^16.1.1",

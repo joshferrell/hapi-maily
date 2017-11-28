@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`hapi-maily plugin should register plugin attributes 1`] = `
+Object {
+  "connections": false,
+  "once": true,
+  "pkg": Object {
+    "author": Object {
+      "name": "Josh Ferrell",
+      "url": "https://gitter.im/hapi-smiles/hapi-maily",
+    },
+    "dependencies": Object {
+      "boom": "^7.1.1",
+      "hapi-maily-widgets": "^1.1.9",
+      "html-minifier": "^3.5.7",
+      "joi": "^13.0.2",
+      "mjml": "^3.3.5",
+      "ramda": "^0.25.0",
+      "react": "^16.1.1",
+      "react-dom": "^16.1.1",
+    },
+    "description": "Send emails using hapi with a custom handler function",
+    "devDependencies": Object {
+      "babel-cli": "^6.26.0",
+      "babel-eslint": "^8.0.2",
+      "babel-preset-env": "^1.6.1",
+      "babel-preset-react": "^6.24.1",
+      "babel-preset-stage-3": "^6.24.1",
+      "coveralls": "^3.0.0",
+      "eslint": "^4.12.0",
+      "eslint-config-airbnb": "^16.1.0",
+      "eslint-plugin-import": "^2.8.0",
+      "eslint-plugin-jest": "^21.3.2",
+      "eslint-plugin-jsx-a11y": "^6.0.2",
+      "eslint-plugin-react": "^7.5.1",
+      "jest": "^21.2.1",
+      "nodemailer": "^4.4.0",
+      "nodemailer-stub-transport": "^1.1.0",
+      "nodemon": "^1.12.1",
+    },
+    "jest": Object {
+      "collectCoverageFrom": Array [
+        "src/**/**.js",
+      ],
+    },
+    "license": "MIT",
+    "main": "lib/index.js",
+    "name": "hapi-maily",
+    "peerDependencies": Object {
+      "hapi": "16.*",
+    },
+    "private": false,
+    "repository": "git@github.com:joshferrell/hapi-maily.git",
+    "scripts": Object {
+      "build": "babel src -d lib --ignore src/**/**.spec.js",
+      "coverage": "jest src/ --coverage",
+      "lint": "eslint src/**",
+      "test": "jest src/ --watchAll",
+    },
+    "version": "1.0.0",
+  },
+}
+`;

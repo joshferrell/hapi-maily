@@ -1,4 +1,3 @@
-import { curry } from 'ramda';
 import { getDomain } from '../utility';
 
 const makeSendEmail = emailSettings => ({ to, ...emailInfo }) => {
@@ -16,4 +15,4 @@ const makeSendEmail = emailSettings => ({ to, ...emailInfo }) => {
 };
 
 
-export default curry(makeSendEmail);
+export default makeSendEmail;

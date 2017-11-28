@@ -1,5 +1,4 @@
 import HapiMaily from 'hapi-maily';
-import React from 'react';
 import Hapi from 'hapi';
 import nodemailer from 'nodemailer';
 import dotenv from 'dotenv-safe';
@@ -24,7 +23,9 @@ const MailPlugin = {
     }
 };
 
-const server = new Hapi.Server();
+const server = new Hapi.Server({
+    debug: { request: ['error', 'info'] }
+});
 server.connection({ port: 3000, host: 'localhost' });
 server.register([MailPlugin], (err) => {
     if (err) throw err;
@@ -49,8 +50,8 @@ server.register([MailPlugin], (err) => {
         }
     });
 
-    server.start((err) => {
-        if (err) throw err;
-        console.log(`Server running at: ${server.info.uri}`);
+    server.start((error) => {
+        if (error) throw error;
+        server.log('info', `Server running at: ${server.info.uri}`);
     });
-})
+});

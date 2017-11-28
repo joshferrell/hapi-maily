@@ -12,16 +12,14 @@
     "private": false,
     "jest": {
         "collectCoverageFrom": [
-            "src/**/**.js",
-            "!src/**/index.js",
-            "!src/server.js"
+            "src/**/**.js"
         ]
     },
     "scripts": {
         "lint": "eslint src/**",
-        "build": "babel src -d lib --copy-files",
-        "test": "jest --watchAll",
-        "coverage": "jest --coverage"
+        "build": "babel src -d lib --ignore **/**.spec.js",
+        "test": "jest src/ --watchAll",
+        "coverage": "jest src/ --coverage"
     },
     "devDependencies": {
         "babel-cli": "^6.26.0",
@@ -30,8 +28,14 @@
         "babel-preset-react": "^6.24.1",
         "babel-preset-stage-3": "^6.24.1",
         "coveralls": "^3.0.0",
+        "eslint": "^4.12.0",
+        "eslint-config-airbnb": "^16.1.0",
+        "eslint-plugin-import": "^2.8.0",
         "eslint-plugin-jest": "^21.3.2",
+        "eslint-plugin-jsx-a11y": "^6.0.2",
+        "eslint-plugin-react": "^7.5.1",
         "jest": "^21.2.1",
+        "nodemailer": "^4.4.0",
         "nodemailer-stub-transport": "^1.1.0",
         "nodemon": "^1.12.1"
     },

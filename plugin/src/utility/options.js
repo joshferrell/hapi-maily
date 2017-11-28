@@ -1,9 +1,8 @@
 import joi from 'joi';
-import R from 'ramda';
 
 const optionsFormat = joi.object({
     transport: joi
-        .func()
+        .any()
         .required()
         .description('a nodemailer transporter function'),
     fromAddress: joi
@@ -18,6 +17,4 @@ const optionsFormat = joi.object({
         .description('environment prevents outbound emails when not production')
 });
 
-const validateOptions = joi.validate(R.__, optionsFormat);
-
-export default validateOptions;
+export default optionsFormat;
