@@ -2,7 +2,7 @@ import joi from 'joi';
 import R from 'ramda';
 
 const optionsFormat = joi.object({
-    transporter: joi
+    transport: joi
         .func()
         .required()
         .description('a nodemailer transporter function'),

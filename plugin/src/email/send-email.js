@@ -2,7 +2,7 @@ import { curry } from 'ramda';
 import { getDomain } from '../utility';
 
 const makeSendEmail = emailSettings => ({ to, ...emailInfo }) => {
-    const { env, transport, from } = emailSettings;
+    const { env, transport, fromAddress: from } = emailSettings;
 
     let toAddress = to;
     const currentDomain = getDomain(to);

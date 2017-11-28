@@ -1,23 +1,14 @@
-// import pkg from '../package.json';
-// import createInterface from './email';
+import pkg from '../package.json';
+import createInterface from './email';
 
 exports.register = (server, options, next) => {
-    const handler = (request, reply) => reply('true');
-    server.decorate('handler', 'email', handler);
+    const emailInterface = createInterface(options);
+    server.handler('email', emailInterface);
+    next();
 };
 
 exports.register.attributes = {
-    pkg: require('../package.json')
-}
-// 
-// const plugin = {
-//     pkg,
-//     once: true,
-//     register(server, options, next) {
-//         // const emailInterface = createInterface(options);
-//         server.decorate('handler', 'email', (request, reply) => reply('true'));
-//         next();
-//     }
-// };
-//
-// export default plugin;
+    pkg,
+    once: true,
+    connections: false
+};
