@@ -1,10 +1,10 @@
 import React from 'react';
-import { curry } from 'ramda';
 import boom from 'boom';
 
 const makeHandleEmail = (renderHTML, sendEmail, Component, subject) =>
     async (request, reply) => {
         const { email, ...props } = request.payload;
+
         try {
             const html = renderHTML(<Component {...props} />);
             const data = await sendEmail({
@@ -25,4 +25,4 @@ const makeHandleEmail = (renderHTML, sendEmail, Component, subject) =>
         }
     };
 
-export default curry(makeHandleEmail);
+export default makeHandleEmail;

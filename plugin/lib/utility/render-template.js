@@ -1,0 +1,18 @@
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _server = require('react-dom/server');
+
+var _htmlMinifier = require('html-minifier');
+
+var _hapiMailyWidgets = require('hapi-maily-widgets');
+
+var _ramda = require('ramda');
+
+var renderTemplate = (0, _ramda.pipe)(_hapiMailyWidgets.renderMJML, _server.renderToStaticMarkup, _htmlMinifier.minify);
+
+exports.default = renderTemplate;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy91dGlsaXR5L3JlbmRlci10ZW1wbGF0ZS5qcyJdLCJuYW1lcyI6WyJyZW5kZXJUZW1wbGF0ZSJdLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQUE7O0FBQ0E7O0FBQ0E7O0FBQ0E7O0FBRUEsSUFBTUEsaUJBQWlCLGtHQUF2Qjs7a0JBTWVBLGMiLCJmaWxlIjoicmVuZGVyLXRlbXBsYXRlLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgcmVuZGVyVG9TdGF0aWNNYXJrdXAgfSBmcm9tICdyZWFjdC1kb20vc2VydmVyJztcbmltcG9ydCB7IG1pbmlmeSB9IGZyb20gJ2h0bWwtbWluaWZpZXInO1xuaW1wb3J0IHsgcmVuZGVyTUpNTCB9IGZyb20gJ2hhcGktbWFpbHktd2lkZ2V0cyc7XG5pbXBvcnQgeyBwaXBlIH0gZnJvbSAncmFtZGEnO1xuXG5jb25zdCByZW5kZXJUZW1wbGF0ZSA9IHBpcGUoXG4gICAgcmVuZGVyTUpNTCxcbiAgICByZW5kZXJUb1N0YXRpY01hcmt1cCxcbiAgICBtaW5pZnlcbik7XG5cbmV4cG9ydCBkZWZhdWx0IHJlbmRlclRlbXBsYXRlO1xuIl19
