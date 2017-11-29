@@ -52,10 +52,11 @@ Object {
     "private": false,
     "repository": "git@github.com:joshferrell/hapi-maily.git",
     "scripts": Object {
-      "build": "babel src -d lib --ignore src/**/**.spec.js",
+      "build": "babel src -d lib --ignore **/**.spec.js",
       "coverage": "jest src/ --coverage",
       "lint": "eslint src/**",
       "test": "jest src/ --watchAll",
+      "test:ci": "jest src/ --coverage && cat ./coverage/lcov.info | coveralls",
     },
     "version": "1.0.0",
   },
