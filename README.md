@@ -4,6 +4,8 @@
 [![Build Status](https://img.shields.io/travis/joshferrell/hapi-maily/master.svg?style=flat-square)](https://travis-ci.org/joshferrell/hapi-maily)
 [![Coverage Status](https://img.shields.io/coveralls/joshferrell/hapi-maily/master.svg?style=flat-square)](https://coveralls.io/github/joshferrell/hapi-maily?branch=master)
 
+![Project Status](https://img.shields.io/badge/project%20status-beta-yellowgreen.svg?style=flat-square)
+
 An email service that generates html email templates using [mjml](https://mjml.io/), then sends the
 emails to the requested user.
 
