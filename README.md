@@ -7,6 +7,13 @@
 
 An email service that generates html email templates using [mjml](https://mjml.io/), then sends the emails to the requested user.
 
+## Hapi Plugin
+
+The plugin includes a hapi plugin which you can install and use
+to send out emails by defining a route and an mjml component.
+
+[Read More](./plugin/README.md)
+
 ## Component Library
 
 The project includes a component library that allows users to
@@ -25,42 +32,3 @@ email templates since most of the data is static. This is to allow companies to 
 outbound emails to users through one Micro-Service.
 
 [Read More](./server/README.md)
-
-## Future Goals
-
-The goal of the project is to eventually become a Hapi plugin that allows the creation of
-email routes in a trivial manner. For instance, eventually you should be able to do this:
-
-```js
-import joi from 'joi';
-
-//Simple React component that will be sent to users
-const SimpleComponent = ({ firstName }) => (
-    <mjml-text>
-        <p>test</p>
-        <p>{firstName}</p>
-    <mjml-text>
-);
-
-const hapiRoute = {
-    method: 'POST',
-    path: '/example',
-    handler: {
-        email: {
-            component: SimpleComponent,
-            subject: 'Hi I\'m Paul!'
-        }
-    },
-    config: {
-        validate: {
-            payload: {
-                email: joi.string().email().required(),
-                firstName: joi.string()
-            }
-        }
-    }
-};
-```
-
-This will create a route that will send an email to the requested user with the first name as
-an optional parameter in the payload.

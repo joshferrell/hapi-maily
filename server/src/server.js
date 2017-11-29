@@ -1,65 +1,53 @@
-import { compose } from 'glue';
+import HapiMaily from 'hapi-maily';
+import Hapi from 'hapi';
 import nodemailer from 'nodemailer';
-import { createLogger, stdSerializers } from 'bunyan';
 import dotenv from 'dotenv-safe';
-
-import createManifest from './manifest';
-
-import createEmailInterface from './email';
-import createHealthRoutes from './health';
-import createExampleRoutes from './example';
+import joi from 'joi';
+import SimpleEmail from './component';
 
 dotenv.load();
 
-const serverInfo = {
-    env: process.env.NODE_ENV,
-    url: process.env.SERVER_URL,
-    scheme: process.env.SERVER_SCHEME
-};
+const transport = nodemailer.createTransport({
+    service: 'Mandrill',
+    auth: {
+        user: process.env.MANDRILL_EMAIL,
+        pass: process.env.MANDRILL_API_KEY
+    }
+});
 
-const emailSettings = {
-    fromAddress: process.env.EMAIL_FROM_ADDRESS,
-    mandrillTransport: {
-        service: 'Mandrill',
-        auth: {
-            user: process.env.MANDRILL_EMAIL,
-            pass: process.env.MANDRILL_API_KEY
-        }
+const MailPlugin = {
+    register: HapiMaily,
+    options: {
+        transport,
+        fromAddress: process.env.EMAIL_FROM_ADDRESS
     }
 };
 
-const logger = createLogger({
-    name: 'hapi-maily',
-    serializers: {
-        err: stdSerializers.err
-    },
-    level: 'trace'
-});
+const server = new Hapi.Server();
+server.connection({ port: 3000, host: 'localhost' });
+server.register([MailPlugin], (err) => {
+    if (err) throw err;
 
-const createStartServer = log => async (server) => {
-    const { fromAddress, mandrillTransport } = emailSettings;
-    const { env } = serverInfo;
-
-    const baseInterface = createEmailInterface(env, log, nodemailer);
-    const mandrillInterface = baseInterface(fromAddress, mandrillTransport);
-
-    const healthRoutes = createHealthRoutes(mandrillInterface, log);
-    const exampleRoutes = createExampleRoutes(mandrillInterface);
-
-    server.route(healthRoutes);
-    server.route(exampleRoutes);
+    server.route({
+        method: 'POST',
+        path: '/',
+        handler: {
+            email: {
+                subject: 'test',
+                component: SimpleEmail
+            }
+        },
+        config: {
+            validate: {
+                payload: {
+                    email: joi.string().email().required(),
+                    firstName: joi.string().required(),
+                    lastName: joi.string().required()
+                }
+            }
+        }
+    });
 
     server.start();
-    server.log('info', `Server running at ${server.info.uri}`);
-};
-
-const createFailServer = log => (err) => {
-    log.error(err, 'unable to start server');
-    process.exit(-1);
-};
-
-const manifest = createManifest(serverInfo, logger);
-const startServer = createStartServer(logger);
-const failServer = createFailServer(logger);
-
-compose(manifest).then(startServer, failServer);
+    server.log('info', `Server running at: ${server.info.uri}`);
+});
