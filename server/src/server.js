@@ -23,9 +23,7 @@ const MailPlugin = {
     }
 };
 
-const server = new Hapi.Server({
-    debug: { request: ['error', 'info'] }
-});
+const server = new Hapi.Server();
 server.connection({ port: 3000, host: 'localhost' });
 server.register([MailPlugin], (err) => {
     if (err) throw err;
@@ -50,8 +48,6 @@ server.register([MailPlugin], (err) => {
         }
     });
 
-    server.start((error) => {
-        if (error) throw error;
-        server.log('info', `Server running at: ${server.info.uri}`);
-    });
+    server.start();
+    server.log('info', `Server running at: ${server.info.uri}`);
 });

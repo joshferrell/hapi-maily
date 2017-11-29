@@ -8,7 +8,7 @@ const SimpleEmail = ({ firstName, lastName }) => (
         <Header
             title="Hey I'm a demo"
             img={{
-                src: 'http://www.fillmurray.com/800/218',
+                src: 'https://www.fillmurray.com/800/218',
                 alt: 'Fill Murray'
             }}
         />

@@ -9,7 +9,7 @@ after_script: "./scripts/greenkeeper-upload.sh"
 jobs:
   include:
   - stage: Spec Tests
-    script: "./scripts/spec-test-server.sh"
+    script: "./scripts/spec-test-plugin.sh"
   - script: "./scripts/spec-test-widgets.sh"
   - stage: Deploy Widgets
     script: "./scripts/deploy-widgets.sh"
@@ -23,6 +23,19 @@ jobs:
         on:
             branch: master
             node: '8'
+  - stage: Deploy Plugin
+    script: "./scripts/deploy-plugin.sh"
+    before_deploy: cd $TRAVIS_BUILD_DIR/plugin
+    deploy:
+        provider: npm
+        email: $NPM_EMAIL
+        api_key:
+            secure: $NPM_API_KEY
+        skip_cleanup: true
+        on:
+            branch: master
+            node: '8'
+
 notifications:
   webhooks:
     urls:
