@@ -3,9 +3,31 @@
 [![Join the chat at https://gitter.im/hapi-smiles/hapi-maily](https://img.shields.io/gitter/room/nwjs/nw.js.svg?style=flat-square)](https://gitter.im/hapi-smiles/hapi-maily?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://img.shields.io/travis/joshferrell/hapi-maily/master.svg?style=flat-square)](https://travis-ci.org/joshferrell/hapi-maily)
 [![Coverage Status](https://img.shields.io/coveralls/joshferrell/hapi-maily/master.svg?style=flat-square)](https://coveralls.io/github/joshferrell/hapi-maily?branch=master)
-[![Docker Pulls](https://img.shields.io/docker/pulls/jferrell/hapi-maily.svg?style=flat-square)](https://hub.docker.com/r/jferrell/hapi-maily/)
 
-An email service that generates html email templates using [mjml](https://mjml.io/), then sends the emails to the requested user.
+An email service that generates html email templates using [mjml](https://mjml.io/), then sends the
+emails to the requested user.
+
+Create and send mail templates for your Hapi server easily simply by creating an [mjml](https://mjml.io)
+template in React, and defining a route like so:
+
+```js
+    const SimpleEmail = () => (
+        <mj-text>
+            <p>This is pretty easy!</p>
+        </mj-text>
+    );
+
+    server.route({
+        method: 'POST',
+        path: '/',
+        handler: {
+            email: {
+                subject: 'test',
+                component: SimpleEmail
+            }
+        }
+    });
+```
 
 ## Hapi Plugin
 
@@ -14,7 +36,7 @@ to send out emails by defining a route and an mjml component.
 
 [Read More](./plugin/README.md)
 
-## Component Library
+## Email Component Library
 
 The project includes a component library that allows users to
 create widgets in React and then preview them in Storybook easily.

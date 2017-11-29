@@ -1,6 +1,6 @@
 {
     "name": "hapi-maily-widgets",
-    "version": "1.1.9",
+    "version": "1.1.10",
     "license": "MIT",
     "private": false,
     "description": "Email MJML widgets used by hapi-maily and other email services",
@@ -12,7 +12,7 @@
     },
     "scripts": {
         "start": "start-storybook -p 9009",
-        "build": "babel src -d lib --copy-files",
+        "build": "babel src -d lib --copy-files --ignore **/**.stories.js",
         "build:docs": "build-storybook -c .storybook -o ../docs",
         "deploy:docs": "storybook-to-ghpages",
         "lint": "eslint src/"
